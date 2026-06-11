@@ -29,7 +29,8 @@ def main() -> int:
     load_env()
     to = os.environ.get("MAIL_TO", "").strip()
     user = os.environ.get("SMTP_USER", "").strip()
-    password = os.environ.get("SMTP_PASS", "").strip()
+    # Gmail shows app passwords as "xxxx xxxx xxxx xxxx"; SMTP wants no spaces
+    password = os.environ.get("SMTP_PASS", "").strip().replace(" ", "")
     if not (to and user and password):
         print("mail not configured (MAIL_TO/SMTP_USER/SMTP_PASS) — skipping")
         return 0
