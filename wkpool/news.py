@@ -43,7 +43,13 @@ return ONLY valid JSON matching exactly this schema — no prose, no markdown:
 Rules: only facts from news of the last 48 hours or explicitly still-current
 situations. Never invent; empty arrays are fine. When unsure use status
 "doubtful" and likelihood "rumour". Never list an old injury if the player
-has since been reported fit."""
+has since been reported fit.
+If the team played a match in the last 48 hours, ALWAYS analyse the match
+reports of that game explicitly for: red cards (a red card means a
+suspension for the next match -> list under "suspensions"), suspensions
+from yellow-card accumulation, injuries or knocks picked up during the
+match (list under "injuries"), and any other notable incidents such as
+internal conflicts or protests (list under "morale_signals")."""
 
 
 def _slug(team: str) -> str:
@@ -57,10 +63,23 @@ def _extract_json(text: str) -> dict:
     return json.loads(text[start:end + 1])
 
 
+def _recent_fixture(team: str, today: dt.date) -> str:
+    """A concrete search anchor: the team's group match of the last 2 days."""
+    from . import schedule
+    for date_str, home, away in schedule.GROUP_FIXTURES:
+        date = dt.date.fromisoformat(date_str)
+        if team in (home, away) and 0 <= (today - date).days <= 2:
+            return (f" IMPORTANT: {team} played a World Cup match on {date_str} "
+                    f"({home} vs {away}). Analyse the match reports of that game "
+                    f"for red cards, suspensions, in-match injuries and incidents.")
+    return ""
+
+
 def fetch_team(team: str, api_key: str, today: dt.date) -> dict:
     user = (f"Team: {team}. Today is {today.isoformat()} during the FIFA World Cup "
             f"2026. Collect injuries, suspensions, expected lineup changes and "
-            f"morale signals, and confirm the team's next match.")
+            f"morale signals, and confirm the team's next match."
+            + _recent_fixture(team, today))
     payload = {
         "model": MODEL,
         "temperature": 0.1,
