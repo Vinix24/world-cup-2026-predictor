@@ -17,8 +17,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-06-14
 - Score so far: 8 matches, 38% correct, RPS 0.2131
-- Newly decided: Brazil 1-1 Morocco [X, predicted 1-1]; Haiti 0-1 Scotland [OK, predicted 0-1]; Qatar 1-1 Switzerland [X, predicted 0-2]; Australia 2-0 Turkey [X, predicted 1-1]
-- News ingested: 48 teams scanned, 16 out / 10 doubtful
+- Newly decided: Canada 1-1 Bosnia-Herzegovina [?]; Brazil 1-1 Morocco [X, predicted 1-1]; Haiti 0-1 Scotland [OK, predicted 0-1]; Qatar 1-1 Switzerland [X, predicted 0-2]; Australia 2-0 Turkey [X, predicted 1-1]
+- News ingested: 48 teams scanned, 28 out / 27 doubtful
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-13
