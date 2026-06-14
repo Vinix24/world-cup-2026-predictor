@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.1 — 2026-06-14
+
+**Added**
+- **Expected-points-optimal scoreline** (`wkpool/scoring.py`). Your pool rewards
+  the exact score far above the bare winner, so `wkpool mine` now fills in the
+  scoreline that *maximises expected points* under your pool's rubric
+  (configurable in `weights.yaml: pool_scoring`) — often different from the most
+  likely score (e.g. enter a draw when any draw scores 100). The private change
+  report and `PREDICTIONS.local.md` lead with this "ENTER" score and its
+  expected points.
+
 ## v0.2 — 2026-06-14
 
 Iterating on the MVP with the highest-leverage data improvements.

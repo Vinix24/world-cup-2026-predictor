@@ -29,6 +29,12 @@ DEFAULTS: dict = {
     "odds": {"blend": 60},        # max Elo points to nudge a team toward market consensus
     "simulation": {"n_sims": 20000, "max_goals": 12, "extra_time_factor": 0.33, "seed": None},
     "model": {"train_since": "1993-01-01", "eval_holdout_since": "2024-06-01"},
+    # Your pool's scoring rubric — drives the expected-points-optimal scoreline.
+    "pool_scoring": {
+        "exact": 200, "draw": 100, "winner_plus_one_goals": 95,
+        "winner": 75, "one_team_goals": 20,
+        "max_pred_goals": 6, "max_calc_goals": 10,
+    },
 }
 
 

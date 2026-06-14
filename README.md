@@ -135,9 +135,15 @@ what you publish never leaks your own tuning. Your edge lives in
 
 `wkpool mine` runs the pipeline with your private weights, writes a gitignored
 `PREDICTIONS.local.md`, and diffs against the previous private run. The daily
-script then mails you `output/changes.md` — only when a tip flipped or a
-probability moved — so you know exactly what to re-enter in your actual pool,
-while the public `PREDICTIONS.md` keeps updating for everyone to watch.
+script then mails you `output/changes.md` — only when the score to enter
+changed — so you know exactly what to re-enter in your actual pool, while the
+public `PREDICTIONS.md` keeps updating for everyone to watch.
+
+Crucially, `mine` doesn't just report the most likely score: it fills in the
+scoreline that **maximises expected points under your pool's rubric**
+(`weights.yaml: pool_scoring`). When the exact score is worth far more than the
+bare winner, the maths often says to enter a draw (any draw scores) or a
+specific favourite scoreline — the edge most pool players leave on the table.
 
 ## Recalibration during the tournament
 

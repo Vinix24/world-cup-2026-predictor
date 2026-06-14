@@ -13,9 +13,9 @@ from __future__ import annotations
 import datetime as dt
 import json
 
-from . import data_io, schedule
+from . import data_io, scoring, schedule
 from .config import OUTPUT_DIR, ROOT
-from .predict import predict_remaining
+from .predict import _advantage, predict_remaining
 from .sim import TournamentSim
 
 PRIVATE_MD = ROOT / "PREDICTIONS.local.md"
@@ -31,13 +31,24 @@ def _tip(row: dict) -> str:
     return max(probs, key=probs.get)
 
 
-def _snapshot(preds, sim_df) -> dict:
-    matches = {}
+def _enrich(preds, goal_model, ratings, weights) -> list[dict]:
+    """Add the expected-points-optimal scoreline (what to enter) per match."""
+    rubric = weights.get("pool_scoring", scoring.DEFAULT_RUBRIC)
+    home_adv = float(weights["ratings"]["home_advantage"])
+    rows = []
     for r in preds.itertuples(index=False):
-        key = f"{r.home}|{r.away}"
-        matches[key] = {"date": r.date, "home": r.home, "away": r.away,
-                        "p_home": r.p_home, "p_draw": r.p_draw, "p_away": r.p_away,
-                        "likely": r.likely_score}
+        adv = _advantage(r.home, r.away, home_adv)
+        lam_h, lam_a = goal_model.lambdas(ratings[r.home], ratings[r.away], home_adv=adv)
+        eh, ea, ev = scoring.optimal_prediction(lam_h, lam_a, rubric)
+        rows.append({"date": r.date, "home": r.home, "away": r.away,
+                     "p_home": r.p_home, "p_draw": r.p_draw, "p_away": r.p_away,
+                     "likely": r.likely_score, "enter": f"{eh}-{ea}",
+                     "ev": round(ev, 1)})
+    return rows
+
+
+def _snapshot(rows: list[dict], sim_df) -> dict:
+    matches = {f"{r['home']}|{r['away']}": r for r in rows}
     champ = {r.team: round(float(r.p_champion), 4)
              for r in sim_df.itertuples(index=False)}
     return {"matches": matches, "champions": champ}
@@ -52,18 +63,18 @@ def _diff(prev: dict, cur: dict) -> list[str]:
         p = pm.get(key)
         label = f"{c['home']} – {c['away']} ({c['date']})"
         if p is None:
-            out.append(f"NEW {label}: {_tip(c)} "
-                       f"({c['p_home']:.0%}/{c['p_draw']:.0%}/{c['p_away']:.0%}), "
-                       f"score {c['likely']}")
+            out.append(f"NEW {label}: enter {c['enter']} "
+                       f"(EV {c['ev']}, {_tip(c)} {c['p_home']:.0%}/{c['p_draw']:.0%}/{c['p_away']:.0%})")
             continue
+        enter_changed = p.get("enter") != c["enter"]
         moved = max(abs(c[k] - p[k]) for k in ("p_home", "p_draw", "p_away"))
-        tip_flip = _tip(p) != _tip(c)
-        if tip_flip or moved >= PROB_THRESHOLD:
-            flag = "TIP FLIP " if tip_flip else ""
-            out.append(f"{flag}{label}: {_tip(p)} {p['p_home']:.0%}/{p['p_draw']:.0%}/{p['p_away']:.0%}"
-                       f"  ->  {_tip(c)} {c['p_home']:.0%}/{c['p_draw']:.0%}/{c['p_away']:.0%}"
-                       + (f" (score {p['likely']}->{c['likely']})" if p['likely'] != c['likely'] else ""))
-    # champion outlook shifts
+        if enter_changed:
+            out.append(f"ENTER {label}: {p.get('enter')} -> {c['enter']} "
+                       f"(EV {c['ev']}; {_tip(c)} {c['p_home']:.0%}/{c['p_draw']:.0%}/{c['p_away']:.0%})")
+        elif moved >= PROB_THRESHOLD:
+            out.append(f"{label}: enter stays {c['enter']}, "
+                       f"odds {p['p_home']:.0%}/{p['p_draw']:.0%}/{p['p_away']:.0%}"
+                       f" -> {c['p_home']:.0%}/{c['p_draw']:.0%}/{c['p_away']:.0%}")
     pc, cc = prev.get("champions", {}), cur["champions"]
     champ_lines = []
     for team, c in sorted(cc.items(), key=lambda kv: -kv[1])[:12]:
@@ -83,23 +94,26 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     sim = TournamentSim(goal_model, ratings, weights, played)
     sim_df = sim.run(n_sims or int(weights["simulation"]["n_sims"]))
 
-    cur = _snapshot(preds, sim_df)
+    rows = _enrich(preds, goal_model, ratings, weights)
+    cur = _snapshot(rows, sim_df)
     prev = json.loads(PREV_JSON.read_text()) if PREV_JSON.exists() else {}
     changes = _diff(prev, cur)
 
-    # full private report
+    # full private report — "enter" is the expected-points-optimal score to fill in
     today = dt.date.today().isoformat()
     lines = [f"# My private predictions — {today}", "",
-             "_Run with your weights.local.yaml. Not committed. Enter these in your pool._", ""]
+             "_Run with your weights. Not committed. **Enter** = the score that "
+             "maximises expected points under your pool's rubric._", ""]
     lines += ["## Tournament outlook (top 8)", ""]
     for r in sim_df.head(8).itertuples(index=False):
         lines.append(f"- {r.team}: champion {r.p_champion:.1%}, final {r.p_F:.1%}")
     lines += ["", "## Upcoming matches", "",
-              "| Date | Match | tip | 1/X/2 | score |", "|---|---|---|---|---|"]
-    for r in preds.itertuples(index=False):
-        row = {"p_home": r.p_home, "p_draw": r.p_draw, "p_away": r.p_away}
-        lines.append(f"| {r.date} | {r.home} – {r.away} | {_tip(row)} "
-                     f"| {r.p_home:.0%}/{r.p_draw:.0%}/{r.p_away:.0%} | {r.likely_score} |")
+              "| Date | Match | ENTER | exp. pts | 1/X/2 | modal |",
+              "|---|---|---|---|---|---|"]
+    for r in rows:
+        lines.append(f"| {r['date']} | {r['home']} – {r['away']} | **{r['enter']}** "
+                     f"| {r['ev']} | {r['p_home']:.0%}/{r['p_draw']:.0%}/{r['p_away']:.0%} "
+                     f"| {r['likely']} |")
     PRIVATE_MD.write_text("\n".join(lines))
 
     has_changes = bool(changes) and changes != ["First private run — baseline stored, no diff yet."]

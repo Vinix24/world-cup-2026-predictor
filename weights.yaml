@@ -50,3 +50,15 @@ simulation:
 model:
   train_since: "1993-01-01"   # FIFA ranking era; enough history for stable ratings
   eval_holdout_since: "2024-06-01"  # out-of-sample window reported at train time
+
+# Your pool's points table. `wkpool mine` fills in the score that maximises
+# expected points under this rubric — not just the most likely score.
+# Defaults below match a graded exact-score pool; change them for yours.
+pool_scoring:
+  exact: 200                 # exact full-time score (after extra time, no pens)
+  draw: 100                  # correct draw, wrong score
+  winner_plus_one_goals: 95  # correct winner + one team's goal count
+  winner: 75                 # correct winner only
+  one_team_goals: 20         # wrong winner, one team's goal count right
+  max_pred_goals: 6          # search predicted scorelines 0..this
+  max_calc_goals: 10         # integrate the score distribution 0..this
