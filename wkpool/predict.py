@@ -89,12 +89,12 @@ def score_history(results_2026: pd.DataFrame) -> dict | None:
         rec = latest.get((r.home_team, r.away_team)) or latest.get((r.away_team, r.home_team))
         if rec is None:
             continue
+        # probs in result orientation: [home win, draw, away win]
         if rec["home"] == r.home_team:
             probs = [rec["p_home"], rec["p_draw"], rec["p_away"]]
-            diff = r.home_score - r.away_score
-        else:
+        else:  # prediction stored with teams swapped vs. the result
             probs = [rec["p_away"], rec["p_draw"], rec["p_home"]]
-            diff = r.away_score - r.home_score
+        diff = r.home_score - r.away_score
         outcome_idx = 0 if diff > 0 else (1 if diff == 0 else 2)
         cum_p = np.cumsum(probs)
         cum_o = np.cumsum([1 if i == outcome_idx else 0 for i in range(3)])

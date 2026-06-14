@@ -10,7 +10,7 @@ LOG="$REPO/output/daily_local.log"
 mkdir -p "$REPO/output"
 echo "=== wkpool daily $(date '+%F %T') ===" >> "$LOG"
 
-if ./.venv/bin/wkpool daily --force --with-news >> "$LOG" 2>&1; then
+if ./.venv/bin/wkpool daily --force --with-news --public >> "$LOG" 2>&1; then
     TODAY=$(date +%F)
     # today's rows from the predictions table: "| 2026-06-14 | F | Netherlands – Japan | ... | 1-1 |"
     TIPS=$(grep "^| $TODAY" PREDICTIONS.md \
@@ -19,11 +19,11 @@ if ./.venv/bin/wkpool daily --force --with-news >> "$LOG" 2>&1; then
     [ -z "$TIPS" ] && TIPS="Geen wedstrijden vandaag"
     SCORE=$(./.venv/bin/wkpool score 2>/dev/null | tail -1)
 
-    # publish the living document: commit today's prediction diff and push
+    # publish the living document: commit today's diffs and push
     if git remote get-url origin > /dev/null 2>&1; then
-        git add PREDICTIONS.md
+        git add PREDICTIONS.md NEWS.md TRACK_RECORD.md track_record.jsonl
         if ! git diff --cached --quiet; then
-            git commit -q -m "Predictions update $TODAY (data + news recalibration)"
+            git commit -q -m "Daily update $TODAY (results + news recalibration)"
             git push -q origin HEAD >> "$LOG" 2>&1 || echo "push failed" >> "$LOG"
         fi
     fi

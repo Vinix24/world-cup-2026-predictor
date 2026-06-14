@@ -1,6 +1,6 @@
 # WK 2026 — Predictions
 
-_Generated 2026-06-14 09:19 by [wkpool](https://github.com/Vinix24/wkpool). Probabilities are isotonic-calibrated; weights in `weights.yaml`._
+_Generated 2026-06-14 09:54 by [wkpool](https://github.com/Vinix24/wkpool). Probabilities are isotonic-calibrated; weights in `weights.yaml`._
 
 Model holdout (since 2024-06-01): **61.0% accuracy**, RPS 0.1666 on 2225 matches.
 
@@ -10,18 +10,18 @@ Tournament so far: **50%** of 4 scored matches correct, RPS 0.1851.
 
 | Team | Group | P(R16) | P(QF) | P(SF) | P(final) | P(champion) |
 |---|---|---|---|---|---|---|
-| Spain | H | 75.6% | 55.8% | 42.7% | 30.0% | **19.7%** |
-| Argentina | J | 69.1% | 53.1% | 37.7% | 24.9% | **15.7%** |
-| France | I | 69.8% | 45.7% | 28.7% | 16.0% | **8.6%** |
-| Mexico | A | 73.6% | 45.3% | 26.9% | 14.4% | **7.5%** |
-| England | L | 66.0% | 37.2% | 22.1% | 12.3% | **6.5%** |
-| Colombia | K | 61.6% | 36.1% | 19.8% | 10.6% | **5.3%** |
-| Brazil | C | 60.3% | 36.6% | 20.2% | 10.4% | **5.2%** |
-| Ecuador | E | 61.6% | 33.2% | 17.8% | 8.3% | **3.9%** |
-| Portugal | K | 56.9% | 29.5% | 15.6% | 7.8% | **3.6%** |
-| Netherlands | F | 50.1% | 28.5% | 14.0% | 6.2% | **2.8%** |
-| Germany | E | 56.4% | 28.6% | 14.1% | 6.2% | **2.6%** |
-| United States | D | 62.0% | 32.4% | 12.8% | 5.6% | **2.2%** |
+| Spain | H | 75.8% | 55.7% | 43.3% | 30.3% | **19.6%** |
+| Argentina | J | 68.8% | 53.7% | 38.6% | 25.4% | **15.9%** |
+| France | I | 70.5% | 46.9% | 28.7% | 16.1% | **8.8%** |
+| Mexico | A | 72.9% | 44.8% | 25.9% | 13.3% | **7.1%** |
+| England | L | 66.3% | 37.5% | 22.8% | 12.5% | **6.7%** |
+| Colombia | K | 62.6% | 36.7% | 19.4% | 10.5% | **5.6%** |
+| Brazil | C | 60.0% | 37.6% | 21.2% | 10.8% | **5.5%** |
+| Ecuador | E | 60.6% | 31.8% | 17.0% | 7.7% | **3.3%** |
+| Portugal | K | 54.9% | 29.0% | 14.4% | 7.2% | **2.9%** |
+| Germany | E | 54.9% | 27.5% | 13.9% | 5.6% | **2.7%** |
+| Netherlands | F | 50.5% | 29.4% | 14.3% | 6.4% | **2.5%** |
+| United States | D | 62.2% | 32.0% | 12.7% | 6.3% | **2.4%** |
 
 ## Upcoming group matches
 

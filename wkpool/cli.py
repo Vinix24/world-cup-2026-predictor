@@ -13,7 +13,7 @@ import sys
 
 import pandas as pd
 
-from . import data_io, news, schedule
+from . import data_io, news, schedule, track
 from .config import ensure_dirs, load_env, load_weights
 from .elo import EloEngine
 from .model import GoalModel, OutcomeModel, build_training_frame
@@ -96,6 +96,10 @@ def cmd_daily(args, weights):
     score = score_history(data_io.world_cup_2026_results(df))
     write_report(preds, sim_df, metrics, score)
 
+    if args.with_news:
+        news.render_digest()
+    track.update(weights)
+
 
 def cmd_score(args, weights):
     df = data_io.load_results()
@@ -127,6 +131,8 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("daily", help="full pipeline incl. PREDICTIONS.md")
     p.add_argument("--force", action="store_true", help="force data re-download")
     p.add_argument("--with-news", action="store_true", help="also fetch Perplexity news")
+    p.add_argument("--public", action="store_true",
+                   help="ignore weights.local.yaml (use for the published/committed run)")
     p.add_argument("--sims", type=int)
     p.set_defaults(func=cmd_daily)
 
@@ -136,7 +142,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     load_env()
     ensure_dirs()
-    weights = load_weights()
+    weights = load_weights(public_only=getattr(args, "public", False))
     pd.set_option("display.width", 160)
     args.func(args, weights)
     return 0

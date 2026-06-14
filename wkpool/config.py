@@ -36,10 +36,19 @@ def _merge(base: dict, override: dict) -> dict:
     return out
 
 
-def load_weights(path: Path | None = None) -> dict:
-    """DEFAULTS < weights.yaml < weights.local.yaml (gitignored, your edge)."""
+def load_weights(path: Path | None = None, public_only: bool = False) -> dict:
+    """DEFAULTS < weights.yaml < weights.local.yaml (gitignored, your edge).
+
+    public_only=True skips weights.local.yaml, so the committed/published run
+    uses the public default weights and never leaks your private tuning.
+    """
     weights = dict(DEFAULTS)
-    paths = [path] if path else [ROOT / "weights.yaml", ROOT / "weights.local.yaml"]
+    if path:
+        paths = [path]
+    else:
+        paths = [ROOT / "weights.yaml"]
+        if not public_only:
+            paths.append(ROOT / "weights.local.yaml")
     for p in paths:
         if p.exists():
             with open(p) as f:

@@ -105,6 +105,60 @@ def fetch_team(team: str, api_key: str, today: dt.date) -> dict:
         return _extract_json(resp.json()["choices"][0]["message"]["content"])
 
 
+def render_digest(today: dt.date | None = None) -> None:
+    """Render a public, shareable daily news digest from the scraped JSON.
+
+    This is the lead-magnet artifact: a clean World Cup injury/suspension
+    digest with source links, committed to the repo. It says nothing about
+    how the model uses the news — that stays private.
+    """
+    from .config import ROOT
+    today = today or dt.date.today()
+    if not NEWS_DIR.is_dir():
+        return
+    reports = []
+    for path in sorted(NEWS_DIR.glob("*.json")):
+        try:
+            reports.append(json.loads(path.read_text()))
+        except json.JSONDecodeError:
+            continue
+    reports.sort(key=lambda d: d.get("team", ""))
+
+    lines = [
+        "# WK 2026 — daily news digest",
+        "",
+        f"_Auto-generated {today.isoformat()}. Injuries, suspensions and lineup "
+        "news per team, gathered each morning. Sources linked per entry._",
+        "",
+    ]
+    for d in reports:
+        out = [i for i in d.get("injuries", []) if i.get("status") in ("out", "doubtful")]
+        susp = d.get("suspensions", [])
+        changes = d.get("expected_lineup_changes", [])
+        if not (out or susp or changes):
+            continue
+        lines.append(f"## {d.get('team', '?')}")
+        nxt = d.get("next_match", {})
+        if nxt.get("opponent"):
+            lines.append(f"_Next: {nxt.get('opponent')} ({nxt.get('date', '?')})_")
+        for s in susp:
+            who = s.get("player", "?")
+            why = s.get("reason") or s.get("detail", "")
+            lines.append(f"- **Suspended:** {who} — {why}")
+        for i in out:
+            tag = "OUT" if i.get("status") == "out" else "Doubtful"
+            lines.append(f"- **{tag}:** {i.get('player', '?')} — {i.get('detail', '')}")
+        for c in changes:
+            if c.get("likelihood") in ("confirmed", "likely"):
+                lines.append(f"- _Lineup:_ {c.get('change', '')} ({c['likelihood']})")
+        srcs = d.get("sources", [])
+        if srcs:
+            lines.append(f"- Sources: {', '.join(srcs[:3])}")
+        lines.append("")
+    (ROOT / "NEWS.md").write_text("\n".join(lines))
+    print(f"wrote {ROOT / 'NEWS.md'}")
+
+
 def fetch_all(teams: list[str]) -> int:
     """Fetch news for the given teams; returns number of teams fetched."""
     api_key = os.environ.get("PERPLEXITY_API_KEY", "").strip()

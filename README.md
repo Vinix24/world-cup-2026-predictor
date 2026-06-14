@@ -109,6 +109,27 @@ The JSON file format is the contract, not the fetcher — write
 `data/news/netherlands.json` by hand or with your own scraper and the
 injury plugin picks it up all the same.
 
+## The living documents
+
+Three files are regenerated and committed every day, so the git history is
+itself the proof that the system works:
+
+- **[PREDICTIONS.md](PREDICTIONS.md)** — current match probabilities and the
+  tournament outlook.
+- **[NEWS.md](NEWS.md)** — a daily World Cup injury & suspension digest with
+  source links. Useful on its own, even if you never run the model.
+- **[TRACK_RECORD.md](TRACK_RECORD.md)** — cumulative accuracy and RPS, plus a
+  dated recalibration log. Every prediction is logged *before* kickoff, so the
+  accuracy curve can't be cherry-picked afterwards — hits and misses both.
+
+## Public vs private
+
+The committed daily run uses the **public default weights** (`--public`), so
+what you publish never leaks your own tuning. Your edge lives in
+`weights.local.yaml` and `plugins_user/` — both gitignored. Run `wkpool daily`
+without `--public` locally to predict with your private weights; just don't
+commit the result.
+
 ## Recalibration during the tournament
 
 Played matches enter every simulation as fixed results, and every result
