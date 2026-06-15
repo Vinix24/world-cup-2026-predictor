@@ -104,3 +104,29 @@ def test_merge_results_adds_missing_only():
     assert len(merged) == 2
     assert ("Brazil", "Morocco") in {(r.home_team, r.away_team)
                                      for r in merged.itertuples(index=False)}
+
+
+def test_results_fallback_skips_unmapped_names(monkeypatch):
+    """An unmapped football-data name must not create a duplicate/garbage row."""
+    import wkpool.sources as src
+
+    class FakeResp:
+        status_code = 200
+        def raise_for_status(self): pass
+        def json(self):
+            return {"matches": [
+                {"utcDate": "2026-06-12T18:00:00Z",
+                 "homeTeam": {"name": "Canada"},
+                 "awayTeam": {"name": "Bosnia-Herzegovina"},  # alias -> canonical
+                 "score": {"fullTime": {"home": 1, "away": 1}}},
+                {"utcDate": "2026-06-12T18:00:00Z",
+                 "homeTeam": {"name": "Atlantis"},  # unknown -> skipped
+                 "awayTeam": {"name": "Narnia"},
+                 "score": {"fullTime": {"home": 2, "away": 2}}},
+            ]}
+
+    monkeypatch.setenv("FOOTBALL_DATA_API_KEY", "x")
+    monkeypatch.setattr(src.requests, "get", lambda *a, **k: FakeResp())
+    df = src.fetch_results_fallback()
+    assert len(df) == 1
+    assert df.iloc[0]["away_team"] == "Bosnia and Herzegovina"

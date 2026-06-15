@@ -12,8 +12,15 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-06-12 | 4 | 2 | 50% | 0.1851 |
 | 2026-06-13 | 4 | 2 | 50% | 0.1851 |
 | 2026-06-14 | 8 | 3 | 38% | 0.2131 |
+| 2026-06-15 | 12 | 5 | 42% | 0.2153 |
 
 ## Daily recalibration log
+
+### 2026-06-15
+- Score so far: 12 matches, 42% correct, RPS 0.2153
+- Newly decided: Ivory Coast 1-0 Ecuador [X, predicted 0-1]; Netherlands 2-2 Japan [X, predicted 1-1]; Germany 7-1 Curaçao [OK, predicted 2-0]; Sweden 5-1 Tunisia [OK, predicted 1-1]
+- News ingested: 48 teams scanned, 28 out / 27 doubtful
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-14
 - Score so far: 8 matches, 38% correct, RPS 0.2131

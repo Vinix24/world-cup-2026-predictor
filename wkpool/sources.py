@@ -33,6 +33,7 @@ _FD_ALIASES = {
     "Czechia": "Czech Republic",
     "Türkiye": "Turkey",
     "Cabo Verde": "Cape Verde",
+    "Bosnia-Herzegovina": "Bosnia and Herzegovina",
 }
 
 
@@ -58,15 +59,20 @@ def fetch_results_fallback() -> pd.DataFrame | None:
     except (requests.RequestException, ValueError):
         return None
 
+    known = set(schedule.all_teams())
     rows = []
     for m in matches:
         score = m.get("score", {}).get("fullTime", {})
         if score.get("home") is None or score.get("away") is None:
             continue
+        home, away = _canon(m["homeTeam"]["name"]), _canon(m["awayTeam"]["name"])
+        if home not in known or away not in known:
+            # unmapped name -> skip rather than create a duplicate/garbage row
+            print(f"  football-data: skipping unmapped fixture {home} vs {away}")
+            continue
         rows.append({
             "date": m["utcDate"][:10],
-            "home_team": _canon(m["homeTeam"]["name"]),
-            "away_team": _canon(m["awayTeam"]["name"]),
+            "home_team": home, "away_team": away,
             "home_score": int(score["home"]),
             "away_score": int(score["away"]),
             "tournament": "FIFA World Cup",
