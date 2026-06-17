@@ -20,8 +20,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-06-17
 - Score so far: 20 matches, 45% correct, RPS 0.1890
-- Newly decided: Belgium 1-1 Egypt [X, predicted 1-0]; Iran 2-2 New Zealand [X, predicted 1-0]; Spain 0-0 Cape Verde [X, predicted 3-0]; Saudi Arabia 1-1 Uruguay [X, predicted 0-1]; France 3-1 Senegal [OK, predicted 1-0]; Iraq 1-4 Norway [OK, predicted 0-1]; Argentina 3-0 Algeria [OK, predicted 2-0]; Austria 3-1 Jordan [OK, predicted 1-0]
-- News ingested: 48 teams scanned, 73 out / 58 doubtful
+- Newly decided: Spain 0-0 Cape Verde [X, predicted 3-0]; Saudi Arabia 1-1 Uruguay [X, predicted 0-1]; Belgium 1-1 Egypt [X, predicted 1-0]; Iran 2-2 New Zealand [X, predicted 1-0]; Iraq 1-4 Norway [OK, predicted 0-1]; Argentina 3-0 Algeria [OK, predicted 2-0]; France 3-1 Senegal [OK, predicted 1-0]; Austria 3-1 Jordan [OK, predicted 1-0]
+- News ingested: 48 teams scanned, 79 out / 58 doubtful
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-16
