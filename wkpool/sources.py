@@ -33,13 +33,13 @@ _FD_ALIASES = {
     "Czechia": "Czech Republic",
     "Türkiye": "Turkey",
     "Cabo Verde": "Cape Verde",
+    "Cape Verde Islands": "Cape Verde",
     "Bosnia-Herzegovina": "Bosnia and Herzegovina",
 }
 
 
 def _canon(name: str) -> str:
-    name = _FD_ALIASES.get(name, name)
-    return name if name in set(schedule.all_teams()) else name
+    return _FD_ALIASES.get(name, name)
 
 
 def fetch_results_fallback() -> pd.DataFrame | None:
@@ -86,10 +86,18 @@ def fetch_results_fallback() -> pd.DataFrame | None:
 
 
 def merge_results(primary: pd.DataFrame, extra: pd.DataFrame | None) -> pd.DataFrame:
-    """Add any WC matches from `extra` that `primary` does not have yet."""
+    """Add WC2026 results from `extra` not yet scored in `primary`.
+
+    Dedup is scoped to this tournament's matches. Two nations have almost always
+    met before in some friendly, so a team-pair check against the full martj42
+    history (matches since 1872) would treat every WC fixture as already-known
+    and silently drop the fresh result. Match on the pair within WC2026 only.
+    """
     if extra is None or extra.empty:
         return primary
-    have = {(r.home_team, r.away_team) for r in primary.itertuples(index=False)}
+    wc = primary[(primary["tournament"] == "FIFA World Cup")
+                 & (primary["date"] >= "2026-06-11")]
+    have = {(r.home_team, r.away_team) for r in wc.itertuples(index=False)}
     new = extra[[(h, a) not in have and (a, h) not in have
                  for h, a in zip(extra["home_team"], extra["away_team"])]]
     if new.empty:
