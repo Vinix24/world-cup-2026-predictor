@@ -49,6 +49,24 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.2 — 2026-06-17
+
+**Fixed**
+- **Faster results feed dropped fresh results.** `merge_results` deduped against
+  the full martj42 history (matches since 1872), so any nation pair that had ever
+  met was treated as already-known and the new WC2026 score was discarded — only
+  the never-before-played Iraq–Norway got through. Dedup is now scoped to WC2026
+  matches, and the "Cape Verde Islands" football-data alias is mapped. Scored WC
+  matches jumped 12 → 20 once the backlog merged; accuracy 42% → 45%.
+
+**Added**
+- **News-driven pool-action alert.** When fresh injury/suspension news shifts the
+  expected-points-optimal score of an *upcoming* match, the private change report
+  (`output/changes.md`) now leads with an ACTIE block naming the entries to
+  re-fill, the old→new score, and the news behind it; the mailer marks the subject
+  (⚠️) so it stands out. Keys on the injuries plugin only (the news signal), gated
+  on the ENTER score actually moving, scoped to not-yet-played matches.
+
 ## v0.2.1 — 2026-06-14
 
 **Added**

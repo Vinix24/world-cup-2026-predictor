@@ -45,8 +45,12 @@ def main() -> int:
         return 0
 
     if CHANGES.exists():
-        subject = f"WK-tips bijgewerkt {date.today().isoformat()}"
         body = CHANGES.read_text()
+        # an ACTIE block means news moved a score you can still re-enter
+        if "ACTIE" in body:
+            subject = f"⚠️ WK poule bijstellen {date.today().isoformat()}"
+        else:
+            subject = f"WK-tips bijgewerkt {date.today().isoformat()}"
         if PRIVATE.exists():
             body += "\n\n---\n\n" + PRIVATE.read_text()
     elif "--always" in sys.argv and PUBLIC.exists():

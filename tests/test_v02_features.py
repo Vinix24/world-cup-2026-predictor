@@ -106,6 +106,25 @@ def test_merge_results_adds_missing_only():
                                      for r in merged.itertuples(index=False)}
 
 
+def test_merge_results_ignores_historical_meeting():
+    """A pre-WC friendly between the same nations must not mask the WC result.
+
+    Regression: dedup once keyed on the full martj42 history, so any pair that
+    had ever met was treated as already-known and the fresh WC score dropped.
+    """
+    primary = pd.DataFrame([{"date": pd.Timestamp("2018-03-23"),
+                             "home_team": "Belgium", "away_team": "Egypt",
+                             "home_score": 0, "away_score": 1,
+                             "tournament": "Friendly", "neutral": False}])
+    extra = pd.DataFrame([{"date": pd.Timestamp("2026-06-15"),
+                           "home_team": "Belgium", "away_team": "Egypt",
+                           "home_score": 1, "away_score": 1,
+                           "tournament": "FIFA World Cup", "neutral": True}])
+    merged = sources.merge_results(primary, extra)
+    wc = merged[merged["tournament"] == "FIFA World Cup"]
+    assert len(wc) == 1 and int(wc.iloc[0]["home_score"]) == 1
+
+
 def test_results_fallback_skips_unmapped_names(monkeypatch):
     """An unmapped football-data name must not create a duplicate/garbage row."""
     import wkpool.sources as src

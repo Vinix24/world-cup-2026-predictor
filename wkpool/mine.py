@@ -14,7 +14,8 @@ import datetime as dt
 import json
 
 from . import data_io, scoring, schedule
-from .config import OUTPUT_DIR, ROOT
+from .config import NEWS_DIR, OUTPUT_DIR, ROOT
+from .plugins.injuries import InjuryPlugin
 from .predict import _advantage, predict_remaining
 from .sim import TournamentSim
 
@@ -47,11 +48,80 @@ def _enrich(preds, goal_model, ratings, weights) -> list[dict]:
     return rows
 
 
-def _snapshot(rows: list[dict], sim_df) -> dict:
+def _snapshot(rows: list[dict], sim_df, news_adj: dict) -> dict:
     matches = {f"{r['home']}|{r['away']}": r for r in rows}
     champ = {r.team: round(float(r.p_champion), 4)
              for r in sim_df.itertuples(index=False)}
-    return {"matches": matches, "champions": champ}
+    return {"matches": matches, "champions": champ, "news_adj": news_adj}
+
+
+def _news_adjustments(weights: dict) -> dict[str, float]:
+    """Per-team Elo nudge from injuries/suspensions only — the news signal.
+
+    Climate and odds are not news, so the action alert keys on the injuries
+    plugin alone (weighted as the engine uses it).
+    """
+    w = float(weights.get("plugin_weights", {}).get("injuries", 0.0))
+    if w == 0.0:
+        return {}
+    raw = InjuryPlugin().adjustments(schedule.all_teams(), weights)
+    return {t: round(w * pts, 1) for t, pts in raw.items()}
+
+
+def _news_reason(team: str) -> str:
+    """Short readable summary of a team's current injury/suspension news."""
+    path = NEWS_DIR / f"{team.lower().replace(' ', '_')}.json"
+    if not path.exists():
+        return ""
+    try:
+        report = json.loads(path.read_text())
+    except (json.JSONDecodeError, ValueError):
+        return ""
+    out = [i.get("player", "?") for i in report.get("injuries", [])
+           if i.get("status") == "out"]
+    doubt = [i.get("player", "?") for i in report.get("injuries", [])
+             if i.get("status") == "doubtful"]
+    susp = [s.get("player", "?") if isinstance(s, dict) else str(s)
+            for s in report.get("suspensions", [])]
+    bits = []
+    if out:
+        bits.append("out: " + ", ".join(out[:3]) + ("…" if len(out) > 3 else ""))
+    if susp:
+        bits.append("geschorst: " + ", ".join(susp[:3]))
+    if doubt and not out:
+        bits.append("twijfel: " + ", ".join(doubt[:3]))
+    return "; ".join(bits)
+
+
+def _action_items(prev: dict, cur: dict) -> list[str]:
+    """Upcoming matches whose ENTER score moved *and* a participating team's
+    news adjustment moved since the last run — the pool entries to re-fill now.
+
+    `cur['matches']` only holds not-yet-played matches (predict_remaining), so
+    decided matches are out of scope by construction.
+    """
+    if not prev:
+        return []
+    pm, cm = prev.get("matches", {}), cur["matches"]
+    pa, ca = prev.get("news_adj", {}), cur.get("news_adj", {})
+    items = []
+    for key, c in cm.items():
+        p = pm.get(key)
+        if p is None or p.get("enter") == c["enter"]:
+            continue  # brand-new match, or the entry did not move
+        home, away = c["home"], c["away"]
+        moved = next((t for t in (home, away)
+                      if round(ca.get(t, 0.0) - pa.get(t, 0.0), 1) != 0.0), None)
+        if moved is None:
+            continue  # entry moved, but not because of news
+        old, new = pa.get(moved, 0.0), ca.get(moved, 0.0)
+        detail = f"{moved} nieuws ({old:+.0f}→{new:+.0f} Elo)"
+        reason = _news_reason(moved)
+        if reason:
+            detail += f": {reason}"
+        items.append(f"{home} – {away} ({c['date']}): vul **{c['enter']}** in "
+                     f"(was {p.get('enter')}) — {detail}")
+    return items
 
 
 def _diff(prev: dict, cur: dict) -> list[str]:
@@ -95,9 +165,10 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     sim_df = sim.run(n_sims or int(weights["simulation"]["n_sims"]))
 
     rows = _enrich(preds, goal_model, ratings, weights)
-    cur = _snapshot(rows, sim_df)
+    cur = _snapshot(rows, sim_df, _news_adjustments(weights))
     prev = json.loads(PREV_JSON.read_text()) if PREV_JSON.exists() else {}
     changes = _diff(prev, cur)
+    actions = _action_items(prev, cur)
 
     # full private report — "enter" is the expected-points-optimal score to fill in
     today = dt.date.today().isoformat()
@@ -120,6 +191,10 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     if has_changes:
         cl = [f"# What changed in your predictions — {today}", ""]
+        if actions:
+            cl += ["## ⚠️ ACTIE — poule bijstellen (nieuws verschoof je invoer)", ""]
+            cl += [f"- {a}" for a in actions]
+            cl += ["", "## Overige wijzigingen", ""]
         cl += [f"- {c}" for c in changes]
         cl += ["", "Full list: PREDICTIONS.local.md"]
         CHANGES_MD.write_text("\n".join(cl))
@@ -127,5 +202,6 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
         CHANGES_MD.unlink()  # no real changes -> no mail trigger
 
     PREV_JSON.write_text(json.dumps(cur, ensure_ascii=False))
-    print(f"private run: {len(changes)} change line(s); wrote {PRIVATE_MD.name}")
+    print(f"private run: {len(changes)} change line(s), "
+          f"{len(actions)} news-driven action(s); wrote {PRIVATE_MD.name}")
     return has_changes
