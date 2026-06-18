@@ -31,8 +31,9 @@ def load_plugins() -> list:
     from .injuries import InjuryPlugin
     from .climate import ClimatePlugin
     from .odds import OddsPlugin
+    from .previews import PreviewsPlugin
 
-    plugins: list = [InjuryPlugin(), ClimatePlugin(), OddsPlugin()]
+    plugins: list = [InjuryPlugin(), ClimatePlugin(), OddsPlugin(), PreviewsPlugin()]
 
     user_dir = ROOT / "plugins_user"
     if user_dir.is_dir():

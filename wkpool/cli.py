@@ -13,7 +13,7 @@ import sys
 
 import pandas as pd
 
-from . import data_io, news, schedule, sources, track
+from . import data_io, news, previews, schedule, sources, track
 from .config import ensure_dirs, load_env, load_weights
 from .elo import EloEngine
 from .model import GoalModel, OutcomeModel, build_training_frame
@@ -93,6 +93,8 @@ def cmd_daily(args, weights):
                        persist_days=int(weights["injuries"]["persist_days"]))
         sources.fetch_outright_odds()
     df, outcome, goal_model, ratings, forms, played, metrics = _prepare(weights)
+    if args.with_news:
+        previews.fetch_all(played)  # forward-looking press consensus for next fixtures
 
     preds = predict_remaining(outcome, goal_model, ratings, forms, weights, played)
     log_history(preds)
@@ -113,6 +115,14 @@ def cmd_daily(args, weights):
 
     from . import analyze
     analyze.run(weights)  # read-only schommelingen-analyse -> output/analysis.md
+
+
+def cmd_previews(args, weights):
+    df = data_io.load_results()
+    played = {(r.home_team, r.away_team): (int(r.home_score), int(r.away_score))
+              for r in data_io.world_cup_2026_results(df).itertuples(index=False)}
+    n = previews.fetch_all(played, days_ahead=args.days)
+    print(f"previews fetched for {n} match(es)")
 
 
 def cmd_analyze(args, weights):
@@ -161,6 +171,10 @@ def main(argv: list[str] | None = None) -> int:
                    help="ignore weights.local.yaml (use for the published/committed run)")
     p.add_argument("--sims", type=int)
     p.set_defaults(func=cmd_daily)
+
+    p = sub.add_parser("previews", help="fetch forward-looking match previews (Perplexity)")
+    p.add_argument("--days", type=int, default=2, help="fixtures within N days ahead")
+    p.set_defaults(func=cmd_previews)
 
     p = sub.add_parser("analyze", help="read-only schommelingen-analyse (no weight changes)")
     p.set_defaults(func=cmd_analyze)

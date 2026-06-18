@@ -49,6 +49,21 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.4 — 2026-06-18
+
+**Added**
+- **Forward-looking match previews (`wkpool previews`).** A second Perplexity
+  scrape, this one looking ahead: for each upcoming fixture it gathers the
+  aggregate press/pundit consensus (predicted result, who is favored, the
+  reasons, source count) into `data/previews/*.json`. Reuses the existing
+  PERPLEXITY_API_KEY.
+- **Previews plugin** turns that consensus into an Elo nudge (favored team up,
+  underdog down, scaled by the press lean and confidence). Weight-gated, **off by
+  default** — odds are the quantitative market consensus, previews the qualitative
+  layer on top. `wkpool analyze` records the raw preview signal each run so its
+  value can be measured on results before the weight ever goes up. Wired into the
+  daily pipeline behind `--with-news`.
+
 ## v0.2.3 — 2026-06-18
 
 **Added**

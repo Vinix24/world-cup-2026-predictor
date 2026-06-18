@@ -26,6 +26,8 @@ plugin_weights:
   climate: 0.0             # experimental, no proven effect — off by default
   odds: 0.0               # bookmaker consensus — strongest covariate in the
                           # literature; off by default, set ~0.5-1.0 to use it
+  previews: 0.0           # press/pundit preview consensus (qualitative, on top
+                          # of odds); off until `wkpool analyze` proves its value
 
 injuries:
   points_per_out: 12       # Elo penalty per likely starter reported out
@@ -40,6 +42,12 @@ climate:
 odds:
   blend: 60                # max Elo points to nudge a team toward market consensus
                            # (needs data/odds/outright.json — see `wkpool odds`)
+
+previews:
+  blend: 40                # max Elo nudge from the press lean (p_home - p_away)
+  max_age_days: 5          # ignore preview files older than this
+  max_team_points: 40      # cap the total preview nudge per team
+                           # (needs data/previews/*.json — see `wkpool previews`)
 
 simulation:
   n_sims: 20000            # Monte Carlo tournament runs (100000 for paper-grade)

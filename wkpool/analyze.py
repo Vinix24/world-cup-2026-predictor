@@ -15,6 +15,7 @@ from collections import defaultdict
 from . import data_io, schedule
 from .config import OUTPUT_DIR
 from .plugins.injuries import InjuryPlugin
+from .plugins.previews import PreviewsPlugin
 from .predict import HISTORY, score_history
 
 SIGNAL_LOG = OUTPUT_DIR / "signal_log.jsonl"
@@ -63,12 +64,17 @@ def _trajectories() -> dict:
 
 
 def _record_signal(weights: dict, n_played: int) -> None:
-    adj = InjuryPlugin().adjustments(schedule.all_teams(), weights)
+    teams = schedule.all_teams()
+    news = InjuryPlugin().adjustments(teams, weights)
+    # raw preview lean at blend=1, so the stored signal is weight-independent
+    prev = PreviewsPlugin().adjustments(teams, {**weights, "previews":
+                                        {**weights.get("previews", {}), "blend": 1.0}})
     snap = {
         "at": dt.datetime.now().isoformat(timespec="seconds"),
         "plugin_weights": {k: float(v) for k, v
                            in weights.get("plugin_weights", {}).items()},
-        "news_adj": {t: round(p, 1) for t, p in adj.items() if p},
+        "news_adj": {t: round(p, 1) for t, p in news.items() if p},
+        "previews_adj": {t: round(p, 3) for t, p in prev.items() if p},
         "played": n_played,
     }
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

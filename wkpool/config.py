@@ -12,6 +12,7 @@ OUTPUT_DIR = ROOT / "output"
 MODELS_DIR = ROOT / "models"
 NEWS_DIR = DATA_DIR / "news"
 ODDS_DIR = DATA_DIR / "odds"
+PREVIEWS_DIR = DATA_DIR / "previews"
 
 DEFAULTS: dict = {
     "ratings": {
@@ -19,7 +20,7 @@ DEFAULTS: dict = {
         "k_nations_league": 30, "k_friendly": 20, "home_advantage": 100,
     },
     "form": {"half_life_days": 1095},
-    "plugin_weights": {"injuries": 1.0, "climate": 0.0, "odds": 0.0},
+    "plugin_weights": {"injuries": 1.0, "climate": 0.0, "odds": 0.0, "previews": 0.0},
     "injuries": {
         "points_per_out": 12, "points_per_doubtful": 6, "max_news_age_days": 5,
         "persist_days": 3,        # carry a reported injury forward this many days
@@ -27,6 +28,7 @@ DEFAULTS: dict = {
     },
     "climate": {"warm_bonus_points": 15},
     "odds": {"blend": 60},        # max Elo points to nudge a team toward market consensus
+    "previews": {"blend": 40, "max_age_days": 5, "max_team_points": 40},
     "simulation": {"n_sims": 20000, "max_goals": 12, "extra_time_factor": 0.33, "seed": None},
     "model": {"train_since": "1993-01-01", "eval_holdout_since": "2024-06-01"},
     # Your pool's scoring rubric — drives the expected-points-optimal scoreline.
@@ -82,5 +84,5 @@ def load_env(path: Path | None = None) -> None:
 
 
 def ensure_dirs() -> None:
-    for d in (DATA_DIR, OUTPUT_DIR, MODELS_DIR, NEWS_DIR, ODDS_DIR):
+    for d in (DATA_DIR, OUTPUT_DIR, MODELS_DIR, NEWS_DIR, ODDS_DIR, PREVIEWS_DIR):
         d.mkdir(parents=True, exist_ok=True)
