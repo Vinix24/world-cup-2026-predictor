@@ -49,6 +49,17 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.7 — 2026-06-18
+
+**Added**
+- **Pool track on your real entries.** `wkpool mine` now logs the ENTER score (the
+  expected-points-optimal score you actually fill in) to
+  `output/enter_history.jsonl` and scores it against results under your pool rubric:
+  exact hits + total pool points (`score_pool`). The public TRACK_RECORD measures
+  the modal prediction; this measures what you enter, oriented to each result's
+  home/away. It starts the day logging begins, so it reflects your real pool
+  performance from here on. Shown in the private report header and the run line.
+
 ## v0.2.6 — 2026-06-18
 
 **Added**

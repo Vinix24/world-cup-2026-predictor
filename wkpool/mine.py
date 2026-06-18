@@ -22,6 +22,7 @@ from .sim import TournamentSim
 PRIVATE_MD = ROOT / "PREDICTIONS.local.md"
 PREV_JSON = OUTPUT_DIR / "private_prev.json"
 CHANGES_MD = OUTPUT_DIR / "changes.md"
+ENTER_HISTORY = OUTPUT_DIR / "enter_history.jsonl"
 
 PROB_THRESHOLD = 0.05   # report a match if its top probability moved this much
 CHAMP_THRESHOLD = 0.02  # report a team if its title chance moved this much
@@ -156,6 +157,49 @@ def _diff(prev: dict, cur: dict) -> list[str]:
     return out
 
 
+def _log_enter(rows: list[dict]) -> None:
+    """Append this run's entered scores, so the pool track measures what you
+    actually fill in (the expected-points-optimal ENTER), not the public modal."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = dt.datetime.now().isoformat(timespec="seconds")
+    with open(ENTER_HISTORY, "a") as f:
+        for r in rows:
+            f.write(json.dumps({"at": stamp, "date": r["date"], "home": r["home"],
+                                "away": r["away"], "enter": r["enter"]},
+                               ensure_ascii=False) + "\n")
+
+
+def score_pool(results_2026, rubric: dict) -> dict | None:
+    """Exact hits + total pool points of the last pre-match ENTER per played match.
+
+    Uses the entered (expected-points-optimal) score, oriented to the result's
+    home/away. Only counts matches that had a logged ENTER before kickoff, so the
+    track starts the day logging began and reflects your real pool entries.
+    """
+    if not ENTER_HISTORY.exists():
+        return None
+    latest: dict[tuple[str, str], str] = {}
+    for line in ENTER_HISTORY.read_text().splitlines():
+        r = json.loads(line)
+        latest[(r["home"], r["away"])] = r["enter"]   # later lines overwrite
+    exact = pts = n = 0
+    for res in results_2026.itertuples(index=False):
+        direct = latest.get((res.home_team, res.away_team))
+        swap = latest.get((res.away_team, res.home_team))
+        if direct is not None:
+            eh, ea = (int(x) for x in direct.split("-"))
+        elif swap is not None:
+            ea, eh = (int(x) for x in swap.split("-"))  # logged with teams swapped
+        else:
+            continue
+        ah, aa = int(res.home_score), int(res.away_score)
+        pts += scoring.points(eh, ea, ah, aa, rubric)
+        n += 1
+        if (eh, ea) == (ah, aa):
+            exact += 1
+    return {"matches": n, "exact": exact, "points": pts} if n else None
+
+
 def run(weights: dict, n_sims: int | None = None) -> bool:
     """Run the private pass; return True if predictions changed since last run."""
     from .cli import _prepare
@@ -165,6 +209,9 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     sim_df = sim.run(n_sims or int(weights["simulation"]["n_sims"]))
 
     rows = _enrich(preds, goal_model, ratings, weights)
+    _log_enter(rows)
+    rubric = weights.get("pool_scoring", scoring.DEFAULT_RUBRIC)
+    pool = score_pool(data_io.world_cup_2026_results(df), rubric)
     cur = _snapshot(rows, sim_df, _news_adjustments(weights))
     prev = json.loads(PREV_JSON.read_text()) if PREV_JSON.exists() else {}
     changes = _diff(prev, cur)
@@ -175,6 +222,9 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     lines = [f"# My private predictions — {today}", "",
              "_Run with your weights. Not committed. **Enter** = the score that "
              "maximises expected points under your pool's rubric._", ""]
+    if pool:
+        lines += [f"_Pool track so far: {pool['exact']}/{pool['matches']} exact, "
+                  f"{pool['points']} pts (your entered scores vs results)._", ""]
     lines += ["## Tournament outlook (top 8)", ""]
     for r in sim_df.head(8).itertuples(index=False):
         lines.append(f"- {r.team}: champion {r.p_champion:.1%}, final {r.p_F:.1%}")
@@ -202,6 +252,9 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
         CHANGES_MD.unlink()  # no real changes -> no mail trigger
 
     PREV_JSON.write_text(json.dumps(cur, ensure_ascii=False))
-    print(f"private run: {len(changes)} change line(s), "
-          f"{len(actions)} news-driven action(s); wrote {PRIVATE_MD.name}")
+    msg = (f"private run: {len(changes)} change line(s), "
+           f"{len(actions)} news-driven action(s)")
+    if pool:
+        msg += f"; pool {pool['exact']}/{pool['matches']} exact, {pool['points']} pts"
+    print(msg + f"; wrote {PRIVATE_MD.name}")
     return has_changes
