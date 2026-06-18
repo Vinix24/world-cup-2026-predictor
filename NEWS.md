@@ -1,6 +1,6 @@
 # WK 2026 — daily news digest
 
-_Auto-generated 2026-06-17. Injuries, suspensions and lineup news per team, gathered each morning. Sources linked per entry._
+_Auto-generated 2026-06-18. Injuries, suspensions and lineup news per team, gathered each morning. Sources linked per entry._
 
 ## Algeria
 - **OUT:** Anthony Mandrea — Underwent shoulder surgery and is currently sidelined in the lead-up to the World Cup.
