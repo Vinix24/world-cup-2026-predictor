@@ -15,13 +15,13 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-06-15 | 12 | 5 | 42% | 0.2153 |
 | 2026-06-16 | 12 | 5 | 42% | 0.2153 |
 | 2026-06-17 | 20 | 9 | 45% | 0.1890 |
-| 2026-06-18 | 22 | 11 | 50% | 0.1821 |
+| 2026-06-18 | 24 | 11 | 46% | 0.1991 |
 
 ## Daily recalibration log
 
 ### 2026-06-18
-- Score so far: 22 matches, 50% correct, RPS 0.1821
-- Newly decided: England 4-2 Croatia [OK, predicted 1-0]; Uzbekistan 1-3 Colombia [OK, predicted 0-1]
+- Score so far: 24 matches, 46% correct, RPS 0.1991
+- Newly decided: England 4-2 Croatia [OK, predicted 1-0]; Ghana 1-0 Panama [X, predicted 0-1]; Portugal 1-1 DR Congo [X, predicted 1-0]; Uzbekistan 1-3 Colombia [OK, predicted 0-1]
 - News ingested: 48 teams scanned, 79 out / 58 doubtful
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 

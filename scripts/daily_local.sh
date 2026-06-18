@@ -10,7 +10,9 @@ LOG="$REPO/output/daily_local.log"
 mkdir -p "$REPO/output"
 echo "=== wkpool daily $(date '+%F %T') ===" >> "$LOG"
 
-if ./.venv/bin/wkpool daily --force --with-news --public >> "$LOG" 2>&1; then
+# no --public: the committed PREDICTIONS.md uses YOUR weights (weights.local.yaml,
+# which stays gitignored). The public sees the scores move, not the weighting.
+if ./.venv/bin/wkpool daily --force --with-news >> "$LOG" 2>&1; then
     TODAY=$(date +%F)
     # today's rows from the predictions table: "| 2026-06-14 | F | Netherlands – Japan | ... | 1-1 |"
     TIPS=$(grep "^| $TODAY" PREDICTIONS.md \

@@ -49,6 +49,16 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.8 — 2026-06-18
+
+**Changed**
+- **Committed predictions now use the maintainer's own weights.** The daily run
+  dropped `--public`, so `PREDICTIONS.md` and the public track record are generated
+  with `weights.local.yaml` folded in (e.g. odds 0.5). The weights file itself stays
+  gitignored: the public sees the scores move, not the weighting behind them. The
+  PREDICTIONS.md header says so plainly. `--public` still exists for a clean
+  default-weight run (forkers, reproducible baseline).
+
 ## v0.2.7 — 2026-06-18
 
 **Added**
