@@ -5,36 +5,36 @@ _Auto-generated 2026-06-18. Bookmaker consensus (median across EU/UK books) to w
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
 | 1 | France | 5.1 | 18.9% |
-| 2 | Spain | 7.4 | 13.1% |
-| 3 | England | 7.6 | 12.7% |
-| 4 | Argentina | 10 | 9.7% |
-| 5 | Portugal | 12 | 8.0% |
+| 2 | Spain | 7.4 | 13.0% |
+| 3 | England | 7.4 | 13.0% |
+| 4 | Argentina | 9.8 | 9.9% |
+| 5 | Portugal | 12.5 | 7.7% |
 | 6 | Brazil | 14.5 | 6.7% |
 | 7 | Germany | 16.5 | 5.9% |
 | 8 | Netherlands | 24 | 4.0% |
-| 9 | Norway | 38 | 2.5% |
-| 10 | Morocco | 46 | 2.1% |
-| 11 | United States | 46 | 2.1% |
-| 12 | Belgium | 60 | 1.6% |
+| 9 | Norway | 40 | 2.4% |
+| 10 | United States | 46 | 2.1% |
+| 11 | Morocco | 48 | 2.0% |
+| 12 | Belgium | 55 | 1.8% |
 | 13 | Colombia | 60 | 1.6% |
 | 14 | Japan | 65 | 1.5% |
-| 15 | Mexico | 80 | 1.2% |
-| 16 | Switzerland | 110 | 0.9% |
+| 15 | Mexico | 75 | 1.3% |
+| 16 | Switzerland | 120 | 0.8% |
 | 17 | Australia | 140 | 0.7% |
-| 18 | Senegal | 160 | 0.6% |
-| 19 | Croatia | 170 | 0.6% |
-| 20 | Uruguay | 180 | 0.5% |
-| 21 | Sweden | 180 | 0.5% |
-| 22 | Ecuador | 190 | 0.5% |
-| 23 | Austria | 210 | 0.5% |
+| 18 | Senegal | 150 | 0.6% |
+| 19 | Sweden | 180 | 0.5% |
+| 20 | Uruguay | 190 | 0.5% |
+| 21 | Croatia | 200 | 0.5% |
+| 22 | Ecuador | 200 | 0.5% |
+| 23 | Austria | 220 | 0.4% |
 | 24 | Turkey | 230 | 0.4% |
-| 25 | Ivory Coast | 310 | 0.3% |
-| 26 | South Korea | 320 | 0.3% |
-| 27 | Canada | 360 | 0.3% |
-| 28 | Scotland | 410 | 0.2% |
-| 29 | Egypt | 420 | 0.2% |
-| 30 | DR Congo | 560 | 0.2% |
-| 31 | Ghana | 730 | 0.1% |
+| 25 | Ivory Coast | 250 | 0.4% |
+| 26 | South Korea | 330 | 0.3% |
+| 27 | Canada | 340 | 0.3% |
+| 28 | Scotland | 460 | 0.2% |
+| 29 | Egypt | 460 | 0.2% |
+| 30 | Ghana | 750 | 0.1% |
+| 31 | DR Congo | 751 | 0.1% |
 | 32 | Algeria | 1000 | 0.1% |
 | 33 | Paraguay | 1000 | 0.1% |
 | 34 | Tunisia | 1000 | 0.1% |
