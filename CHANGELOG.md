@@ -49,6 +49,20 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.6 — 2026-06-18
+
+**Added**
+- **Weight advisor (`wkpool advise`).** Suggest-only, closing the analyze → advise
+  loop. It backtests the core weights (Elo K-factors, form half-life, home
+  advantage) on the ~2245-match holdout — deterministically, the model has a fixed
+  random_state — and proposes a change only when a candidate beats the current
+  setting by a real margin (RPS gain >= 0.0005). It never edits `weights.yaml`; the
+  last set stays human. Signal weights (injuries/odds/previews) are not
+  holdout-validatable and are reported from live measurement (signal_log.jsonl),
+  not proposed. Writes `output/weight_advice.md`. On-demand, not in the daily run.
+  First run: 0 proposals — the core weights already sit at the holdout optimum, so
+  edge has to come from the signals.
+
 ## v0.2.5 — 2026-06-18
 
 **Added**

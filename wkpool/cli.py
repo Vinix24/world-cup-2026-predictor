@@ -132,6 +132,11 @@ def cmd_analyze(args, weights):
     analyze.run(weights)
 
 
+def cmd_advise(args, weights):
+    from . import advisor
+    advisor.run(weights)
+
+
 def cmd_score(args, weights):
     df = data_io.load_results()
     score = score_history(data_io.world_cup_2026_results(df))
@@ -180,6 +185,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("analyze", help="read-only schommelingen-analyse (no weight changes)")
     p.set_defaults(func=cmd_analyze)
+
+    p = sub.add_parser("advise", help="suggest-only weight advisor (holdout backtest)")
+    p.set_defaults(func=cmd_advise)
 
     p = sub.add_parser("score", help="score logged predictions vs. results")
     p.set_defaults(func=cmd_score)
