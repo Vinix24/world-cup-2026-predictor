@@ -35,6 +35,7 @@ _FD_ALIASES = {
     "Cabo Verde": "Cape Verde",
     "Cape Verde Islands": "Cape Verde",
     "Bosnia-Herzegovina": "Bosnia and Herzegovina",
+    "Congo DR": "DR Congo",
 }
 
 
