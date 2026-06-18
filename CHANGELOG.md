@@ -49,6 +49,19 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.3 — 2026-06-18
+
+**Added**
+- **Schommelingen-analyse (`wkpool analyze`).** A read-only agent that reports how
+  the predictions move day-to-day, which ones moved most, and whether the movement
+  helped or hurt once results came in. It changes no weights — that stays a human
+  call — and appends a per-run signal snapshot to `output/signal_log.jsonl` (per-team
+  news adjustment + active weights), the durable substrate a later weight-advisor
+  needs. Runs automatically at the end of the daily pipeline; writes
+  `output/analysis.md`. First read: 24 played, 3 exact, every prediction adjustment
+  so far net-neutral (news-driven wobble, no edge).
+- **`Congo DR` football-data alias** so Portugal–DR Congo merges (last name mismatch).
+
 ## v0.2.2 — 2026-06-17
 
 **Fixed**

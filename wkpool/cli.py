@@ -111,6 +111,14 @@ def cmd_daily(args, weights):
         news.render_digest()
     track.update(weights)
 
+    from . import analyze
+    analyze.run(weights)  # read-only schommelingen-analyse -> output/analysis.md
+
+
+def cmd_analyze(args, weights):
+    from . import analyze
+    analyze.run(weights)
+
 
 def cmd_score(args, weights):
     df = data_io.load_results()
@@ -153,6 +161,9 @@ def main(argv: list[str] | None = None) -> int:
                    help="ignore weights.local.yaml (use for the published/committed run)")
     p.add_argument("--sims", type=int)
     p.set_defaults(func=cmd_daily)
+
+    p = sub.add_parser("analyze", help="read-only schommelingen-analyse (no weight changes)")
+    p.set_defaults(func=cmd_analyze)
 
     p = sub.add_parser("score", help="score logged predictions vs. results")
     p.set_defaults(func=cmd_score)
