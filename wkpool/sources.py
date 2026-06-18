@@ -17,7 +17,7 @@ import pandas as pd
 import requests
 
 from . import schedule
-from .config import ODDS_DIR, ensure_dirs
+from .config import ODDS_DIR, ROOT, ensure_dirs
 
 FOOTBALL_DATA_URL = "https://api.football-data.org/v4/competitions/WC/matches"
 ODDS_API_URL = ("https://api.the-odds-api.com/v4/sports/"
@@ -143,3 +143,47 @@ def fetch_outright_odds() -> int:
         json.dumps(consensus, indent=2, ensure_ascii=False))
     print(f"wrote outright odds for {len(consensus)} teams")
     return len(consensus)
+
+
+def render_odds_digest() -> None:
+    """Render a public ODDS.md from data/odds/outright.json, sources cited.
+
+    The shareable market view: bookmaker-consensus title odds and the
+    margin-stripped implied probability per team. How the model *weights* this
+    stays private (weights.local.yaml) — only the data is published.
+    """
+    path = ODDS_DIR / "outright.json"
+    if not path.exists():
+        return
+    try:
+        odds = {t: float(o) for t, o in json.loads(path.read_text()).items()
+                if float(o) > 1.0}
+    except (json.JSONDecodeError, ValueError):
+        return
+    if not odds:
+        return
+    implied = {t: 1.0 / o for t, o in odds.items()}
+    total = sum(implied.values())  # strip the overround so the field sums to 100%
+    implied = {t: p / total for t, p in implied.items()}
+
+    today = dt.date.today().isoformat()
+    lines = [
+        "# WK 2026 — market odds",
+        "",
+        f"_Auto-generated {today}. Bookmaker consensus (median across EU/UK books) "
+        "to win the tournament. Decimal odds and the implied champion probability, "
+        "normalised to strip the bookmaker margin._",
+        "",
+        "| # | Team | Decimal odds | Implied champion % |",
+        "|---|---|---|---|",
+    ]
+    for i, (t, o) in enumerate(sorted(odds.items(), key=lambda kv: kv[1]), 1):
+        lines.append(f"| {i} | {t} | {o:g} | {implied[t]:.1%} |")
+    lines += [
+        "",
+        "_Source: The Odds API (the-odds-api.com), `soccer_fifa_world_cup_winner` "
+        "market, regions eu,uk. Odds are the median bookmaker consensus; implied % "
+        "is normalised to remove the overround._",
+    ]
+    (ROOT / "ODDS.md").write_text("\n".join(lines) + "\n")
+    print(f"wrote {ROOT / 'ODDS.md'}")

@@ -66,6 +66,7 @@ def cmd_news(args, weights):
 
 def cmd_odds(args, weights):
     sources.fetch_outright_odds()
+    sources.render_odds_digest()
 
 
 def cmd_mine(args, weights):
@@ -92,6 +93,7 @@ def cmd_daily(args, weights):
         news.fetch_all(schedule.all_teams(),
                        persist_days=int(weights["injuries"]["persist_days"]))
         sources.fetch_outright_odds()
+    sources.render_odds_digest()
     df, outcome, goal_model, ratings, forms, played, metrics = _prepare(weights)
     if args.with_news:
         previews.fetch_all(played)  # forward-looking press consensus for next fixtures

@@ -49,6 +49,20 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.5 — 2026-06-18
+
+**Added**
+- **Public market-odds feed (`ODDS.md`).** Bookmaker-consensus title odds and the
+  margin-stripped implied champion probabilities, rendered to a committed `ODDS.md`
+  with full source attribution (The Odds API). Published like the NEWS.md digest:
+  the data is shared, how the model weights it is not. Added to the daily push.
+
+**Changed**
+- **Odds now weight the private predictions only.** `weights.local.yaml` (gitignored)
+  sets `plugin_weights.odds` to 0.5, so `wkpool mine` folds the market into your pool
+  entries while the committed/public model stays on defaults (odds 0.0). The daily run
+  fetches the odds, weights them privately, and publishes the public ODDS.md feed.
+
 ## v0.2.4 — 2026-06-18
 
 **Added**

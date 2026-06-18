@@ -21,7 +21,7 @@ if ./.venv/bin/wkpool daily --force --with-news --public >> "$LOG" 2>&1; then
 
     # publish the living document for the world: commit public diffs and push
     if git remote get-url origin > /dev/null 2>&1; then
-        git add PREDICTIONS.md NEWS.md TRACK_RECORD.md track_record.jsonl
+        git add PREDICTIONS.md NEWS.md ODDS.md TRACK_RECORD.md track_record.jsonl
         if ! git diff --cached --quiet; then
             git commit -q -m "Daily update $TODAY (results + news recalibration)"
             git push -q origin HEAD >> "$LOG" 2>&1 || echo "push failed" >> "$LOG"
