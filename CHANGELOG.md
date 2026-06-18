@@ -54,8 +54,8 @@ picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 **Changed**
 - **Committed predictions now use the maintainer's own weights.** The daily run
   dropped `--public`, so `PREDICTIONS.md` and the public track record are generated
-  with `weights.local.yaml` folded in (e.g. odds 0.5). The weights file itself stays
-  gitignored: the public sees the scores move, not the weighting behind them. The
+  with the maintainer's private `weights.local.yaml` folded in. The weights file
+  itself stays gitignored: the public sees the scores move, not the weighting. The
   PREDICTIONS.md header says so plainly. `--public` still exists for a clean
   default-weight run (forkers, reproducible baseline).
 
@@ -93,10 +93,10 @@ picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
   the data is shared, how the model weights it is not. Added to the daily push.
 
 **Changed**
-- **Odds now weight the private predictions only.** `weights.local.yaml` (gitignored)
-  sets `plugin_weights.odds` to 0.5, so `wkpool mine` folds the market into your pool
-  entries while the committed/public model stays on defaults (odds 0.0). The daily run
-  fetches the odds, weights them privately, and publishes the public ODDS.md feed.
+- **Private weighting split from the public feed.** The model's signal weighting
+  lives in `weights.local.yaml` (gitignored) and stays private; the public `ODDS.md`
+  feed publishes the market data itself with source attribution. The data is shared,
+  the weighting is not.
 
 ## v0.2.4 — 2026-06-18
 
