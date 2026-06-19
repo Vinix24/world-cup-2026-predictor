@@ -23,6 +23,8 @@ PRIVATE_MD = ROOT / "PREDICTIONS.local.md"
 PREV_JSON = OUTPUT_DIR / "private_prev.json"
 CHANGES_MD = OUTPUT_DIR / "changes.md"
 ENTER_HISTORY = OUTPUT_DIR / "enter_history.jsonl"
+ACTION_LOG = OUTPUT_DIR / "action_log.jsonl"        # append-only audit trail
+ACTION_LOG_MD = OUTPUT_DIR / "action_log.md"        # readable view of the above
 
 PROB_THRESHOLD = 0.05   # report a match if its top probability moved this much
 CHAMP_THRESHOLD = 0.02  # report a team if its title chance moved this much
@@ -116,13 +118,48 @@ def _action_items(prev: dict, cur: dict) -> list[str]:
         if moved is None:
             continue  # entry moved, but not because of news
         old, new = pa.get(moved, 0.0), ca.get(moved, 0.0)
-        detail = f"{moved} nieuws ({old:+.0f}→{new:+.0f} Elo)"
-        reason = _news_reason(moved)
-        if reason:
-            detail += f": {reason}"
-        items.append(f"{home} – {away} ({c['date']}): vul **{c['enter']}** in "
-                     f"(was {p.get('enter')}) — {detail}")
+        items.append({"date": c["date"], "home": home, "away": away,
+                      "from": p.get("enter"), "to": c["enter"], "team": moved,
+                      "elo_from": round(old, 1), "elo_to": round(new, 1),
+                      "reason": _news_reason(moved)})
     return items
+
+
+def _action_line(it: dict) -> str:
+    detail = f"{it['team']} nieuws ({it['elo_from']:+.0f}→{it['elo_to']:+.0f} Elo)"
+    if it["reason"]:
+        detail += f": {it['reason']}"
+    return (f"{it['home']} – {it['away']} ({it['date']}): vul **{it['to']}** in "
+            f"(was {it['from']}) — {detail}")
+
+
+def _log_actions(items: list[dict]) -> None:
+    """Append every news-driven entry change to a permanent local audit trail and
+    re-render the readable view. So you keep a dated record of why each pick moved,
+    not just the latest changes.md (overwritten each run)."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = dt.datetime.now().isoformat(timespec="seconds")
+    with open(ACTION_LOG, "a") as f:
+        for it in items:
+            f.write(json.dumps({"logged_at": stamp, **it}, ensure_ascii=False) + "\n")
+    _render_action_log()
+
+
+def _render_action_log() -> None:
+    if not ACTION_LOG.exists():
+        return
+    rows = [json.loads(line) for line in ACTION_LOG.read_text().splitlines()]
+    lines = ["# Pool action log — why each pick moved", "",
+             "_Append-only, local. Every news-driven change to your entered score, "
+             "with the reason. Newest first._", ""]
+    for r in reversed(rows):
+        when = r.get("logged_at", "")[:16].replace("T", " ")
+        detail = f"{r['team']} {r['elo_from']:+.0f}→{r['elo_to']:+.0f} Elo"
+        if r.get("reason"):
+            detail += f" ({r['reason']})"
+        lines.append(f"- **{when}** — {r['home']} – {r['away']} ({r['date']}): "
+                     f"{r['from']} → {r['to']}. {detail}")
+    ACTION_LOG_MD.write_text("\n".join(lines) + "\n")
 
 
 def _diff(prev: dict, cur: dict) -> list[str]:
@@ -216,6 +253,8 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     prev = json.loads(PREV_JSON.read_text()) if PREV_JSON.exists() else {}
     changes = _diff(prev, cur)
     actions = _action_items(prev, cur)
+    if actions:
+        _log_actions(actions)   # permanent audit trail of why each pick moved
 
     # full private report — "enter" is the expected-points-optimal score to fill in
     today = dt.date.today().isoformat()
@@ -243,7 +282,7 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
         cl = [f"# What changed in your predictions — {today}", ""]
         if actions:
             cl += ["## ⚠️ ACTIE — poule bijstellen (nieuws verschoof je invoer)", ""]
-            cl += [f"- {a}" for a in actions]
+            cl += [f"- {_action_line(a)}" for a in actions]
             cl += ["", "## Overige wijzigingen", ""]
         cl += [f"- {c}" for c in changes]
         cl += ["", "Full list: PREDICTIONS.local.md"]

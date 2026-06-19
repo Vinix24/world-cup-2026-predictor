@@ -49,6 +49,16 @@ an ET adjustment once the group stage ends. Pool-strategy layer (contrarian
 picks vs the field) still a roadmap item. `weights.local.yaml` not yet created
 (private predictions currently equal public).
 
+## v0.2.9 — 2026-06-19
+
+**Added**
+- **Pool action log.** Every news-driven change to your entered score is appended
+  to a permanent local audit trail (`output/action_log.jsonl`): match, old→new
+  score, the team, the Elo move, and the reason (which player out/doubtful).
+  Rendered to a readable `output/action_log.md`, newest first. The daily changes.md
+  is overwritten each run; this is the durable record of *why* each pick moved.
+  `_action_items` now returns structured items, formatted by `_action_line`.
+
 ## v0.2.8 — 2026-06-18
 
 **Changed**

@@ -22,8 +22,10 @@ def test_action_when_news_moves_entry():
     cur = _snap(enter="1-1", bel_adj=-30.0)   # entry moved, Belgium news worsened
     items = mine._action_items(prev, cur)
     assert len(items) == 1
-    assert "Belgium – Egypt" in items[0]
-    assert "1-1" in items[0] and "was 1-0" in items[0]
+    assert items[0]["from"] == "1-0" and items[0]["to"] == "1-1"
+    assert items[0]["team"] == "Belgium"
+    line = mine._action_line(items[0])         # formatter used in the report/mail
+    assert "Belgium – Egypt" in line and "was 1-0" in line
 
 
 def test_no_action_when_entry_moves_without_news():
