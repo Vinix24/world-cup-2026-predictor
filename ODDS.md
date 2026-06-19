@@ -1,40 +1,40 @@
 # WK 2026 — market odds
 
-_Auto-generated 2026-06-18. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
+_Auto-generated 2026-06-19. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
-| 1 | France | 5.1 | 18.9% |
+| 1 | France | 5 | 19.2% |
 | 2 | Spain | 7.4 | 13.0% |
 | 3 | England | 7.4 | 13.0% |
-| 4 | Argentina | 9.8 | 9.9% |
-| 5 | Portugal | 12.5 | 7.7% |
-| 6 | Brazil | 14.5 | 6.7% |
-| 7 | Germany | 16.5 | 5.9% |
+| 4 | Argentina | 10 | 9.6% |
+| 5 | Portugal | 13 | 7.4% |
+| 6 | Brazil | 14.5 | 6.6% |
+| 7 | Germany | 16.5 | 5.8% |
 | 8 | Netherlands | 24 | 4.0% |
-| 9 | Norway | 40 | 2.4% |
+| 9 | Norway | 42 | 2.3% |
 | 10 | United States | 46 | 2.1% |
 | 11 | Morocco | 48 | 2.0% |
-| 12 | Belgium | 55 | 1.8% |
-| 13 | Colombia | 60 | 1.6% |
+| 12 | Belgium | 50 | 1.9% |
+| 13 | Mexico | 60 | 1.6% |
 | 14 | Japan | 65 | 1.5% |
-| 15 | Mexico | 75 | 1.3% |
-| 16 | Switzerland | 120 | 0.8% |
-| 17 | Australia | 140 | 0.7% |
-| 18 | Senegal | 150 | 0.6% |
-| 19 | Sweden | 180 | 0.5% |
-| 20 | Uruguay | 190 | 0.5% |
-| 21 | Croatia | 200 | 0.5% |
-| 22 | Ecuador | 200 | 0.5% |
-| 23 | Austria | 220 | 0.4% |
-| 24 | Turkey | 230 | 0.4% |
-| 25 | Ivory Coast | 250 | 0.4% |
-| 26 | South Korea | 330 | 0.3% |
-| 27 | Canada | 340 | 0.3% |
+| 15 | Colombia | 65 | 1.5% |
+| 16 | Switzerland | 100 | 1.0% |
+| 17 | Senegal | 140 | 0.7% |
+| 18 | Australia | 140 | 0.7% |
+| 19 | Uruguay | 180 | 0.5% |
+| 20 | Croatia | 180 | 0.5% |
+| 21 | Sweden | 180 | 0.5% |
+| 22 | Ecuador | 210 | 0.5% |
+| 23 | Ivory Coast | 230 | 0.4% |
+| 24 | Canada | 230 | 0.4% |
+| 25 | Austria | 230 | 0.4% |
+| 26 | Turkey | 240 | 0.4% |
+| 27 | South Korea | 290 | 0.3% |
 | 28 | Scotland | 460 | 0.2% |
-| 29 | Egypt | 460 | 0.2% |
-| 30 | Ghana | 750 | 0.1% |
-| 31 | DR Congo | 751 | 0.1% |
+| 29 | Egypt | 470 | 0.2% |
+| 30 | Ghana | 760 | 0.1% |
+| 31 | DR Congo | 920 | 0.1% |
 | 32 | Algeria | 1000 | 0.1% |
 | 33 | Paraguay | 1000 | 0.1% |
 | 34 | Tunisia | 1000 | 0.1% |
