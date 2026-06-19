@@ -22,9 +22,9 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-06-19
 - Score so far: 28 matches, 50% correct, RPS 0.1816
-- Newly decided: Switzerland 4-1 Bosnia and Herzegovina [OK, predicted 2-0]; Canada 6-0 Qatar [OK, predicted 2-0]; Czech Republic 1-1 South Africa [X, predicted 1-0]; Mexico 1-0 South Korea [OK, predicted 1-0]
-- News ingested: 48 teams scanned, 71 out / 49 doubtful, 5 suspensions
-  - Suspensions: Unspecified Qatar player 1 (Qatar); Unspecified Qatar player 2 (Qatar); César Montes (Mexico); Omar Rekik (Tunisia); Unknown Bosnia and Herzegovina player (Bosnia and Herzegovina)
+- Newly decided: Mexico 1-0 South Korea [OK, predicted 1-0]; Switzerland 4-1 Bosnia and Herzegovina [OK, predicted 2-0]; Czech Republic 1-1 South Africa [X, predicted 1-0]; Canada 6-0 Qatar [OK, predicted 2-0]
+- News ingested: 48 teams scanned, 73 out / 62 doubtful, 5 suspensions
+  - Suspensions: Homam Ahmed (Qatar); Assim Madibo (Qatar); Teboho Mokoena (South Africa); Abdukodir Khusanov (Uzbekistan); Tarik Muharemovic (Bosnia and Herzegovina)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-18
