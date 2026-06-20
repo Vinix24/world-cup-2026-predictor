@@ -23,9 +23,9 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-06-20
 - Score so far: 32 matches, 53% correct, RPS 0.1814
-- Newly decided: United States 2-0 Australia [OK, predicted 1-1]; Scotland 0-1 Morocco [OK, predicted 0-1]; Brazil 3-0 Haiti [OK, predicted 2-0]; Turkey 0-1 Paraguay [X, predicted 1-1]
-- News ingested: 48 teams scanned, 71 out / 58 doubtful, 7 suspensions
-  - Suspensions: Andy Robertson (Scotland); Homam Ahmed (Qatar); Assim Madibo (Qatar); César Montes (Mexico); Miguel Almiron (Paraguay); Tani Oluwaseyi (Canada); Tarik Muharemović (Bosnia and Herzegovina)
+- Newly decided: Brazil 3-0 Haiti [OK, predicted 2-0]; United States 2-0 Australia [OK, predicted 1-1]; Scotland 0-1 Morocco [OK, predicted 0-1]; Turkey 0-1 Paraguay [X, predicted 1-1]
+- News ingested: 48 teams scanned, 75 out / 62 doubtful, 6 suspensions
+  - Suspensions: Homam Ahmed (Qatar); Assim Madibo (Qatar); Miguel Almirón (Paraguay); Tani Oluwaseyi (Canada); Tarik Muharemovic (Bosnia and Herzegovina); Shankland (Morocco)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-19
