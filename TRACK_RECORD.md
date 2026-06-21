@@ -18,8 +18,16 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-06-18 | 24 | 11 | 46% | 0.1991 |
 | 2026-06-19 | 28 | 14 | 50% | 0.1816 |
 | 2026-06-20 | 32 | 17 | 53% | 0.1814 |
+| 2026-06-21 | 36 | 20 | 56% | 0.1762 |
 
 ## Daily recalibration log
+
+### 2026-06-21
+- Score so far: 36 matches, 56% correct, RPS 0.1762
+- Newly decided: Ecuador 0-0 Curaçao [X, predicted 2-0]; Netherlands 5-1 Sweden [OK, predicted 1-0]; Germany 2-1 Ivory Coast [OK, predicted 1-0]; Tunisia 0-4 Japan [OK, predicted 0-2]
+- News ingested: 48 teams scanned, 64 out / 61 doubtful, 4 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); César Montes (Mexico); Miguel Almirón (Paraguay)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-20
 - Score so far: 32 matches, 53% correct, RPS 0.1814
