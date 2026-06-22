@@ -1,40 +1,40 @@
 # WK 2026 — market odds
 
-_Auto-generated 2026-06-21. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
+_Auto-generated 2026-06-22. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
-| 1 | France | 4.9 | 19.7% |
-| 2 | England | 7.4 | 13.1% |
-| 3 | Spain | 7.4 | 13.1% |
-| 4 | Argentina | 9.8 | 9.9% |
-| 5 | Portugal | 13.5 | 7.2% |
-| 6 | Brazil | 16 | 6.0% |
-| 7 | Germany | 17 | 5.7% |
-| 8 | Netherlands | 19 | 5.1% |
-| 9 | United States | 38 | 2.5% |
-| 10 | Morocco | 44 | 2.2% |
-| 11 | Norway | 44 | 2.2% |
-| 12 | Belgium | 50 | 1.9% |
-| 13 | Japan | 55 | 1.8% |
-| 14 | Colombia | 65 | 1.5% |
-| 15 | Mexico | 70 | 1.4% |
-| 16 | Switzerland | 130 | 0.7% |
-| 17 | Senegal | 170 | 0.6% |
-| 18 | Uruguay | 180 | 0.5% |
-| 19 | Croatia | 190 | 0.5% |
-| 20 | Ivory Coast | 190 | 0.5% |
+| 1 | France | 5.1 | 19.0% |
+| 2 | Spain | 7 | 13.8% |
+| 3 | England | 7.4 | 13.1% |
+| 4 | Argentina | 8.6 | 11.2% |
+| 5 | Portugal | 14.5 | 6.7% |
+| 6 | Germany | 16.5 | 5.9% |
+| 7 | Brazil | 17 | 5.7% |
+| 8 | Netherlands | 18 | 5.4% |
+| 9 | United States | 34 | 2.8% |
+| 10 | Norway | 46 | 2.1% |
+| 11 | Morocco | 48 | 2.0% |
+| 12 | Japan | 55 | 1.8% |
+| 13 | Belgium | 65 | 1.5% |
+| 14 | Colombia | 70 | 1.4% |
+| 15 | Mexico | 85 | 1.1% |
+| 16 | Switzerland | 120 | 0.8% |
+| 17 | Australia | 170 | 0.6% |
+| 18 | Senegal | 180 | 0.5% |
+| 19 | Croatia | 200 | 0.5% |
+| 20 | Ivory Coast | 230 | 0.4% |
 | 21 | Austria | 240 | 0.4% |
-| 22 | Canada | 260 | 0.4% |
-| 23 | Sweden | 260 | 0.4% |
-| 24 | Australia | 280 | 0.3% |
-| 25 | Egypt | 350 | 0.3% |
-| 26 | South Korea | 480 | 0.2% |
-| 27 | Ecuador | 600 | 0.2% |
-| 28 | Paraguay | 660 | 0.1% |
-| 29 | Scotland | 700 | 0.1% |
-| 30 | Ghana | 860 | 0.1% |
-| 31 | Algeria | 1000 | 0.1% |
+| 22 | Canada | 270 | 0.4% |
+| 23 | Sweden | 330 | 0.3% |
+| 24 | Egypt | 330 | 0.3% |
+| 25 | Uruguay | 420 | 0.2% |
+| 26 | Ecuador | 420 | 0.2% |
+| 27 | South Korea | 500 | 0.2% |
+| 28 | Algeria | 501 | 0.2% |
+| 29 | Paraguay | 710 | 0.1% |
+| 30 | Scotland | 770 | 0.1% |
+| 31 | Ghana | 890 | 0.1% |
 | 32 | Iran | 1000 | 0.1% |
 | 33 | Jordan | 1000 | 0.1% |
 | 34 | Uzbekistan | 1000 | 0.1% |

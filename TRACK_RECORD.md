@@ -19,8 +19,16 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-06-19 | 28 | 14 | 50% | 0.1816 |
 | 2026-06-20 | 32 | 17 | 53% | 0.1814 |
 | 2026-06-21 | 36 | 20 | 56% | 0.1762 |
+| 2026-06-22 | 40 | 22 | 55% | 0.1752 |
 
 ## Daily recalibration log
+
+### 2026-06-22
+- Score so far: 40 matches, 55% correct, RPS 0.1752
+- Newly decided: New Zealand 1-3 Egypt [OK, predicted 1-1]; Spain 4-0 Saudi Arabia [OK, predicted 3-0]; Belgium 0-0 Iran [X, predicted 1-0]; Uruguay 2-2 Cape Verde [X, predicted 2-0]
+- News ingested: 48 teams scanned, 63 out / 77 doubtful, 2 suspensions
+  - Suspensions: Miguel Almirón (Paraguay); Nathan Ngoy (Belgium)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-21
 - Score so far: 36 matches, 56% correct, RPS 0.1762
