@@ -26,8 +26,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 ### 2026-06-22
 - Score so far: 40 matches, 55% correct, RPS 0.1752
 - Newly decided: New Zealand 1-3 Egypt [OK, predicted 1-1]; Spain 4-0 Saudi Arabia [OK, predicted 3-0]; Belgium 0-0 Iran [X, predicted 1-0]; Uruguay 2-2 Cape Verde [X, predicted 2-0]
-- News ingested: 48 teams scanned, 63 out / 77 doubtful, 2 suspensions
-  - Suspensions: Miguel Almirón (Paraguay); Nathan Ngoy (Belgium)
+- News ingested: 48 teams scanned, 66 out / 88 doubtful, 3 suspensions
+  - Suspensions: Assim Madibo (Qatar); Unnamed second Qatar player (Qatar); Nathan Ngoy (Belgium)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-21
