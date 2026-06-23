@@ -26,9 +26,9 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-06-23
 - Score so far: 44 matches, 59% correct, RPS 0.1665
-- Newly decided: Argentina 2-0 Austria [OK, predicted 2-0]; France 3-0 Iraq [OK, predicted 3-0]; Norway 3-2 Senegal [OK, predicted 1-0]; Jordan 1-2 Algeria [OK, predicted 0-1]
-- News ingested: 48 teams scanned, 60 out / 75 doubtful, 2 suspensions
-  - Suspensions: Assim Madibo (Qatar); Nathan Ngoy (Belgium)
+- Newly decided: Norway 3-2 Senegal [OK, predicted 1-0]; Argentina 2-0 Austria [OK, predicted 2-0]; France 3-0 Iraq [OK, predicted 3-0]; Jordan 1-2 Algeria [OK, predicted 0-1]
+- News ingested: 48 teams scanned, 74 out / 76 doubtful, 1 suspensions
+  - Suspensions: Nathan Ngoy (Belgium)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-22
