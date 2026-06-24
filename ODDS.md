@@ -4,37 +4,37 @@ _Auto-generated 2026-06-24. Bookmaker consensus (median across EU/UK books) to w
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
-| 1 | France | 5.2 | 18.6% |
-| 2 | Spain | 7 | 13.8% |
-| 3 | Argentina | 7.8 | 12.4% |
-| 4 | England | 8.4 | 11.5% |
+| 1 | France | 5.2 | 18.7% |
+| 2 | Spain | 7 | 13.9% |
+| 3 | Argentina | 7.6 | 12.8% |
+| 4 | England | 8.6 | 11.3% |
 | 5 | Portugal | 12 | 8.1% |
 | 6 | Germany | 16.5 | 5.9% |
 | 7 | Brazil | 19 | 5.1% |
-| 8 | Netherlands | 20 | 4.8% |
-| 9 | United States | 34 | 2.8% |
-| 10 | Norway | 38 | 2.5% |
-| 11 | Morocco | 50 | 1.9% |
+| 8 | Netherlands | 19.5 | 5.0% |
+| 9 | United States | 34 | 2.9% |
+| 10 | Norway | 38 | 2.6% |
+| 11 | Morocco | 48 | 2.0% |
 | 12 | Japan | 50 | 1.9% |
-| 13 | Colombia | 55 | 1.8% |
+| 13 | Colombia | 60 | 1.6% |
 | 14 | Belgium | 65 | 1.5% |
 | 15 | Mexico | 85 | 1.1% |
 | 16 | Switzerland | 120 | 0.8% |
-| 17 | Senegal | 180 | 0.5% |
-| 18 | Croatia | 200 | 0.5% |
-| 19 | Ivory Coast | 240 | 0.4% |
+| 17 | Croatia | 220 | 0.4% |
+| 18 | Senegal | 240 | 0.4% |
+| 19 | Ivory Coast | 250 | 0.4% |
 | 20 | Canada | 270 | 0.4% |
-| 21 | Ghana | 310 | 0.3% |
-| 22 | Egypt | 330 | 0.3% |
-| 23 | Australia | 340 | 0.3% |
-| 24 | Sweden | 350 | 0.3% |
-| 25 | South Korea | 430 | 0.2% |
-| 26 | Austria | 440 | 0.2% |
-| 27 | Ecuador | 470 | 0.2% |
-| 28 | Uruguay | 500 | 0.2% |
-| 29 | Algeria | 501 | 0.2% |
-| 30 | Paraguay | 660 | 0.1% |
-| 31 | Scotland | 670 | 0.1% |
+| 21 | Egypt | 330 | 0.3% |
+| 22 | Australia | 370 | 0.3% |
+| 23 | Sweden | 380 | 0.3% |
+| 24 | Austria | 450 | 0.2% |
+| 25 | Ecuador | 470 | 0.2% |
+| 26 | South Korea | 480 | 0.2% |
+| 27 | Uruguay | 500 | 0.2% |
+| 28 | Ghana | 520 | 0.2% |
+| 29 | Scotland | 730 | 0.1% |
+| 30 | Paraguay | 730 | 0.1% |
+| 31 | Algeria | 940 | 0.1% |
 | 32 | Iran | 1000 | 0.1% |
 | 33 | Uzbekistan | 1000 | 0.1% |
 | 34 | New Zealand | 1000 | 0.1% |

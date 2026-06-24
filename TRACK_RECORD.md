@@ -28,8 +28,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 ### 2026-06-24
 - Score so far: 48 matches, 60% correct, RPS 0.1639
 - Newly decided: Colombia 1-0 DR Congo [OK, predicted 2-0]; England 0-0 Ghana [X, predicted 3-0]; Portugal 5-0 Uzbekistan [OK, predicted 2-0]; Panama 0-1 Croatia [OK, predicted 0-1]
-- News ingested: 48 teams scanned, 69 out / 63 doubtful, 1 suspensions
-  - Suspensions: Omar Rekik (Tunisia)
+- News ingested: 48 teams scanned, 71 out / 67 doubtful, 3 suspensions
+  - Suspensions: Homam El Amin (Homam Ahmed) (Qatar); Assim Madibo (Qatar); Tarik Muharemovic (Bosnia and Herzegovina)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-23
