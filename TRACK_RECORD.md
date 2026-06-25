@@ -22,15 +22,15 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-06-22 | 40 | 22 | 55% | 0.1752 |
 | 2026-06-23 | 44 | 26 | 59% | 0.1665 |
 | 2026-06-24 | 48 | 29 | 60% | 0.1639 |
-| 2026-06-25 | 54 | 33 | 61% | 0.1660 |
+| 2026-06-25 | 54 | 34 | 63% | 0.1650 |
 
 ## Daily recalibration log
 
 ### 2026-06-25
-- Score so far: 54 matches, 61% correct, RPS 0.1660
-- Newly decided: Bosnia and Herzegovina 3-1 Qatar [OK, predicted 1-1]; Canada 2-1 Switzerland [X, predicted 1-1]; Scotland 0-3 Brazil [OK, predicted 0-2]; Mexico 3-0 Czech Republic [OK, predicted 0-2]; South Africa 1-0 South Korea [X, predicted 0-1]; Morocco 4-2 Haiti [OK, predicted 2-0]
-- News ingested: 48 teams scanned, 66 out / 66 doubtful, 1 suspensions
-  - Suspensions: Mohamed Hany (Egypt)
+- Score so far: 54 matches, 63% correct, RPS 0.1650
+- Newly decided: Bosnia and Herzegovina 3-1 Qatar [OK, predicted 1-1]; Canada 1-2 Switzerland [OK, predicted 1-1]; Scotland 0-3 Brazil [OK, predicted 0-2]; Mexico 3-0 Czech Republic [OK, predicted 0-2]; South Africa 1-0 South Korea [X, predicted 0-1]; Morocco 4-2 Haiti [OK, predicted 2-0]
+- News ingested: 48 teams scanned, 72 out / 75 doubtful, 1 suspensions
+  - Suspensions: César Montes (Czech Republic)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-24
