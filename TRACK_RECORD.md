@@ -23,8 +23,16 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-06-23 | 44 | 26 | 59% | 0.1665 |
 | 2026-06-24 | 48 | 29 | 60% | 0.1639 |
 | 2026-06-25 | 54 | 34 | 63% | 0.1650 |
+| 2026-06-26 | 60 | 36 | 60% | 0.1715 |
 
 ## Daily recalibration log
+
+### 2026-06-26
+- Score so far: 60 matches, 60% correct, RPS 0.1715
+- Newly decided: Curaçao 0-2 Ivory Coast [OK, predicted 0-1]; Tunisia 1-3 Netherlands [OK, predicted 0-2]; Ecuador 2-1 Germany [X, predicted 0-1]; Japan 1-1 Sweden [X, predicted 1-0]; Turkey 3-2 United States [X, predicted 0-1]; Paraguay 0-0 Australia [X, predicted 1-1]
+- News ingested: 48 teams scanned, 70 out / 68 doubtful, 5 suspensions
+  - Suspensions: Fabinho (Brazil); Danilo (Brazil); Assim Madibo (Qatar); Miguel Almirón (Paraguay); Diego Gómez (Paraguay)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-25
 - Score so far: 54 matches, 63% correct, RPS 0.1650
