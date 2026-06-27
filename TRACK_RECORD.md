@@ -31,8 +31,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 ### 2026-06-27
 - Score so far: 66 matches, 61% correct, RPS 0.1645
 - Newly decided: Senegal 5-0 Iraq [OK, predicted 1-0]; Norway 1-4 France [OK, predicted 0-1]; Cape Verde 0-0 Saudi Arabia [X, predicted 1-1]; New Zealand 1-5 Belgium [OK, predicted 0-2]; Uruguay 0-1 Spain [OK, predicted 0-2]; Egypt 1-1 Iran [X, predicted 1-1]
-- News ingested: 48 teams scanned, 69 out / 64 doubtful, 3 suspensions
-  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Arthur Theate (Belgium)
+- News ingested: 48 teams scanned, 79 out / 69 doubtful, 7 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); César Montes (Mexico); Agustín Canobbio (Uruguay); Sidnei Lopes Cabral (Cape Verde); Diego Gómez (Paraguay); Rebin Sulaka (Iraq)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-26
