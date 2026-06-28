@@ -13,7 +13,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 
-from . import data_io, scoring, schedule
+from . import data_io, knockout, scoring, schedule
 from .config import NEWS_DIR, OUTPUT_DIR, ROOT
 from .plugins.injuries import InjuryPlugin
 from .predict import _advantage, predict_remaining
@@ -246,10 +246,12 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     sim_df = sim.run(n_sims or int(weights["simulation"]["n_sims"]))
 
     rows = _enrich(preds, goal_model, ratings, weights)
-    _log_enter(rows)
+    ko_rows = (knockout.predict_r32(outcome, goal_model, ratings, forms, weights, played)
+               if knockout.group_stage_complete(played) else [])
+    _log_enter(rows + ko_rows)
     rubric = weights.get("pool_scoring", scoring.DEFAULT_RUBRIC)
     pool = score_pool(data_io.world_cup_2026_results(df), rubric)
-    cur = _snapshot(rows, sim_df, _news_adjustments(weights))
+    cur = _snapshot(rows + ko_rows, sim_df, _news_adjustments(weights))
     prev = json.loads(PREV_JSON.read_text()) if PREV_JSON.exists() else {}
     changes = _diff(prev, cur)
     actions = _action_items(prev, cur)
@@ -267,13 +269,25 @@ def run(weights: dict, n_sims: int | None = None) -> bool:
     lines += ["## Tournament outlook (top 8)", ""]
     for r in sim_df.head(8).itertuples(index=False):
         lines.append(f"- {r.team}: champion {r.p_champion:.1%}, final {r.p_F:.1%}")
-    lines += ["", "## Upcoming matches", "",
-              "| Date | Match | ENTER | exp. pts | 1/X/2 | modal |",
-              "|---|---|---|---|---|---|"]
-    for r in rows:
-        lines.append(f"| {r['date']} | {r['home']} – {r['away']} | **{r['enter']}** "
-                     f"| {r['ev']} | {r['p_home']:.0%}/{r['p_draw']:.0%}/{r['p_away']:.0%} "
-                     f"| {r['likely']} |")
+    if rows:
+        lines += ["", "## Upcoming group matches", "",
+                  "| Date | Match | ENTER | exp. pts | 1/X/2 | modal |",
+                  "|---|---|---|---|---|---|"]
+        for r in rows:
+            lines.append(f"| {r['date']} | {r['home']} – {r['away']} | **{r['enter']}** "
+                         f"| {r['ev']} | {r['p_home']:.0%}/{r['p_draw']:.0%}/{r['p_away']:.0%} "
+                         f"| {r['likely']} |")
+    if ko_rows:
+        lines += ["", "## Round of 32 — enter now", "",
+                  "_ENTER = expected-points-optimal score. Venue elevation and the "
+                  "host bonus are folded into the rating; the note flags any match "
+                  "where altitude or home advantage moved the line._", "",
+                  "| Date | Match | ENTER | exp. pts | 1/X/2 | modal | Venue | Note |",
+                  "|---|---|---|---|---|---|---|---|"]
+        for r in ko_rows:
+            lines.append(f"| {r['date']} | {r['home']} – {r['away']} | **{r['enter']}** "
+                         f"| {r['ev']} | {r['p_home']:.0%}/{r['p_draw']:.0%}/{r['p_away']:.0%} "
+                         f"| {r['likely']} | {r['venue']} | {r['note']} |")
     PRIVATE_MD.write_text("\n".join(lines))
 
     has_changes = bool(changes) and changes != ["First private run — baseline stored, no diff yet."]

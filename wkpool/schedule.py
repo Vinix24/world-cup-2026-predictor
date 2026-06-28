@@ -141,6 +141,34 @@ FINAL: tuple[int, int] = (101, 102)
 
 ROUND_NAMES = ["R32", "R16", "QF", "SF", "F"]
 
+# Official host venue per round-of-32 match (FIFA match schedule), with the
+# stadium's approximate elevation in metres. Elevation only matters for the
+# altitude factor; every venue except Estadio Azteca sits well below the
+# 1000 m threshold, so only match 79 (Mexico City) is materially affected.
+R32_VENUES: dict[int, dict] = {
+    73: {"city": "Inglewood (LA)", "stadium": "SoFi Stadium", "country": "USA", "elev_m": 30},
+    74: {"city": "Foxborough (Boston)", "stadium": "Gillette Stadium", "country": "USA", "elev_m": 90},
+    75: {"city": "Guadalupe (Monterrey)", "stadium": "Estadio BBVA", "country": "Mexico", "elev_m": 500},
+    76: {"city": "Houston", "stadium": "NRG Stadium", "country": "USA", "elev_m": 15},
+    77: {"city": "East Rutherford (NY/NJ)", "stadium": "MetLife Stadium", "country": "USA", "elev_m": 5},
+    78: {"city": "Arlington (Dallas)", "stadium": "AT&T Stadium", "country": "USA", "elev_m": 180},
+    79: {"city": "Mexico City", "stadium": "Estadio Azteca", "country": "Mexico", "elev_m": 2240},
+    80: {"city": "Atlanta", "stadium": "Mercedes-Benz Stadium", "country": "USA", "elev_m": 320},
+    81: {"city": "Santa Clara (SF Bay)", "stadium": "Levi's Stadium", "country": "USA", "elev_m": 6},
+    82: {"city": "Seattle", "stadium": "Lumen Field", "country": "USA", "elev_m": 5},
+    83: {"city": "Toronto", "stadium": "BMO Field", "country": "Canada", "elev_m": 80},
+    84: {"city": "Inglewood (LA)", "stadium": "SoFi Stadium", "country": "USA", "elev_m": 30},
+    85: {"city": "Vancouver", "stadium": "BC Place", "country": "Canada", "elev_m": 3},
+    86: {"city": "Miami Gardens", "stadium": "Hard Rock Stadium", "country": "USA", "elev_m": 2},
+    87: {"city": "Kansas City", "stadium": "Arrowhead Stadium", "country": "USA", "elev_m": 270},
+    88: {"city": "Arlington (Dallas)", "stadium": "AT&T Stadium", "country": "USA", "elev_m": 180},
+}
+
+# Which nation each host venue belongs to, for venue-aware home advantage: a host
+# team gets the bonus only when the match is actually played in its own country
+# (in the knockout a host can be drawn into another host's stadium).
+HOST_COUNTRY: dict[str, str] = {"United States": "USA", "Mexico": "Mexico", "Canada": "Canada"}
+
 
 def all_teams() -> list[str]:
     return [t for g in GROUPS.values() for t in g]

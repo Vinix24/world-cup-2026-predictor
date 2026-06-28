@@ -147,6 +147,23 @@ def cmd_score(args, weights):
           f"{score['accuracy']:.1%} accuracy, RPS {score['rps']:.4f}")
 
 
+def cmd_knockout(args, weights):
+    from . import knockout
+    df, outcome, goal_model, ratings, forms, played, metrics = _prepare(weights)
+    if not knockout.group_stage_complete(played):
+        n = sum(1 for _, h, a in schedule.GROUP_FIXTURES
+                if (h, a) in played or (a, h) in played)
+        print(f"group stage not complete ({n}/72 played) — round of 32 not set yet")
+        return
+    rows = knockout.predict_r32(outcome, goal_model, ratings, forms, weights, played)
+    print(f"Round of 32 — {len(rows)} matches (your weights, ENTER = pool-optimal)")
+    for r in rows:
+        note = f"  [{r['note']}]" if r["note"] else ""
+        print(f"  {r['date']}  {r['home']} – {r['away']}: ENTER {r['enter']} "
+              f"(EV {r['ev']}, {r['p_home']:.0%}/{r['p_draw']:.0%}/{r['p_away']:.0%}, "
+              f"modal {r['likely']}) @ {r['venue']}{note}")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="wkpool",
                                      description="World Cup 2026 predictor")
@@ -191,6 +208,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("score", help="score logged predictions vs. results")
     p.set_defaults(func=cmd_score)
+
+    p = sub.add_parser("knockout", help="round-of-32 predictions (your weights)")
+    p.set_defaults(func=cmd_knockout)
 
     args = parser.parse_args(argv)
     load_env()
