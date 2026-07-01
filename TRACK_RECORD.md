@@ -25,8 +25,40 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-06-25 | 54 | 34 | 63% | 0.1650 |
 | 2026-06-26 | 60 | 36 | 60% | 0.1715 |
 | 2026-06-27 | 66 | 40 | 61% | 0.1645 |
+| 2026-06-28 | 72 | 44 | 61% | 0.1591 |
+| 2026-06-29 | 72 | 44 | 61% | 0.1591 |
+| 2026-06-30 | 72 | 44 | 61% | 0.1591 |
+| 2026-07-01 | 72 | 44 | 61% | 0.1591 |
 
 ## Daily recalibration log
+
+### 2026-07-01
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: France 3-0 Sweden [?]; Ivory Coast 1-2 Norway [?]; Mexico 2-0 Ecuador [?]
+- News ingested: 48 teams scanned, 82 out / 78 doubtful, 4 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Declan Rice (England); Leonardo Balerdi (Argentina)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
+
+### 2026-06-30
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: Germany 1-1 Paraguay [?]; Brazil 2-1 Japan [?]; Netherlands 1-1 Morocco [?]
+- News ingested: 48 teams scanned, 93 out / 64 doubtful, 1 suspensions
+  - Suspensions: Sead Kolašinac (Bosnia and Herzegovina)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
+
+### 2026-06-29
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: South Africa 0-1 Canada [?]
+- News ingested: 48 teams scanned, 91 out / 62 doubtful, 5 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam Al Amin (Qatar); Agustín Canobbio (Uruguay); Assim Madibo (Canada); Tomáš Souček (Czech Republic)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
+
+### 2026-06-28
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: DR Congo 3-1 Uzbekistan [OK, predicted 1-1]; Colombia 0-0 Portugal [X, predicted 1-1]; Panama 0-2 England [OK, predicted 0-2]; Algeria 3-3 Austria [X, predicted 1-1]; Jordan 1-3 Argentina [OK, predicted 0-3]; Croatia 2-1 Ghana [OK, predicted 2-0]
+- News ingested: 48 teams scanned, 80 out / 70 doubtful, 3 suspensions
+  - Suspensions: Assim Madibo (Qatar); Agustín Canobbio (Uruguay); Joseph Oppong (Croatia)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 1095d, K_wc=60, sims=20000
 
 ### 2026-06-27
 - Score so far: 66 matches, 61% correct, RPS 0.1645
