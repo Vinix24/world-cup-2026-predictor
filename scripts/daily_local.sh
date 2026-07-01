@@ -17,7 +17,7 @@ if ./.venv/bin/wkpool daily --force --with-news >> "$LOG" 2>&1; then
     # today's rows from the predictions table: "| 2026-06-14 | F | Netherlands – Japan | ... | 1-1 |"
     TIPS=$(grep "^| $TODAY" PREDICTIONS.md \
         | awk -F'|' '{gsub(/^ +| +$/,"",$4); gsub(/^ +| +$/,"",$8); printf "%s: %s\n", $4, $8}' \
-        | head -6)
+        | head -6 || true)
     [ -z "$TIPS" ] && TIPS="Geen wedstrijden vandaag"
     SCORE=$(./.venv/bin/wkpool score 2>/dev/null | tail -1)
 
