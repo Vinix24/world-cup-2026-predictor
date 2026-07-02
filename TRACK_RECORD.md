@@ -36,8 +36,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 ### 2026-07-02
 - Score so far: 72 matches, 61% correct, RPS 0.1591
 - Newly decided: Belgium 3-2 Senegal [?]; England 2-1 DR Congo [?]; United States 2-0 Bosnia and Herzegovina [?]
-- News ingested: 48 teams scanned, 84 out / 82 doubtful, 2 suspensions
-  - Suspensions: Assim Madibo (Qatar); Homam Al Amin (Qatar)
+- News ingested: 48 teams scanned, 87 out / 91 doubtful, 4 suspensions
+  - Suspensions: Okay Yokuşlu (Turkey); Assim Madibo (Qatar); Homam El Amin (Qatar); Assim Madibo (Canada)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-01
