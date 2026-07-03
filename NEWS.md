@@ -8,46 +8,52 @@ _Auto-generated 2026-07-03. Injuries, suspensions and lineup news per team, gath
 - **OUT:** Melvin Mastil — Out with a groin hernia in the lead-up to World Cup 2026.
 - **OUT:** Yacine Titraoui — Sidelined due to hamstring fatigue ahead of World Cup 2026.
 - **Doubtful:** Amine Gouiri — Reported muscle injury before the tournament; no clear recent update confirming full recovery despite scoring vs Jordan, so his status remains uncertain.
-- Sources: Sports Mole: Switzerland vs. Algeria injury, suspension list, predicted XIs (World Cup 2026).[3], Wikipedia: Algeria national football team – 2026 World Cup results, including 2–0 loss to Switzerland in Round of 32.[6]
 
 ## Argentina
 _Next: Algeria (2026-06-16)_
-- **Doubtful:** Nicolás Tagliafico — Reported with a muscle strain in the soleus of his left leg and has not trained with the team since the issue was identified; cited as doubtful for Argentina's opening match.
-- **Doubtful:** Nicolás González — Reported to be unable to train with the rest of the team because of a muscle strain.
+- **OUT:** Nicolás Tagliafico — Muscle strain in the soleus of his left leg suffered vs Honduras; has not trained with the team and is expected to miss the World Cup opener, forcing improvisation at left back.
+- **Doubtful:** Nicolás González — Muscle strain, unable to train normally; part of the 'walking wounded' group being managed with limited minutes rather than cut from the squad.
+- **Doubtful:** Gonzalo Montiel — Recently had physical issues and limited minutes; trained fully only recently and remains in a managed program.
+- **Doubtful:** Leandro Paredes — Hamstring issue from a Boca Libertadores match; described as the biggest concern, still rehabbing and working separately on a tailored program.
+- **Doubtful:** Nicolás Paz — Had physical issues and limited minutes; part of the group being managed carefully despite remaining in the squad.
 - **Doubtful:** Cristian Romero — Partially torn MCL in his knee suffered in mid-April; World Cup participation described as at risk and recovery timeline dependent on progress.
 - **Doubtful:** Nahuel Molina — Thigh muscle injury picked up in late May; expected absence of two to three weeks and still not considered 100% fit in pre-World Cup reports.
 - **Doubtful:** Emiliano Martínez — Fractured ring finger on right hand; training without gloves but expected to be fit for the World Cup opener vs Algeria if recovery continues.
-- **Doubtful:** Leandro Paredes — Hamstring issue sustained in Boca Juniors’ Libertadores match; still rehabbing and working separately in national-team camp.
 - **Doubtful:** Julián Álvarez — Lingering inflammation in left ankle after a twist in a Champions League semi; being managed carefully in training though expected to be ready for the World Cup.
 - **Doubtful:** Nico Paz — Knee discomfort; has been progressing in training but was only recently able to work fully with the group.
 - **OUT:** Leonardo Balerdi — Muscle injury in the soleus of his right leg suffered during training; AFA confirmed he will not be part of the World Cup squad and has been replaced in the final 26-man list.
-- _Lineup:_ Facundo Medina was tested as the strongest option to start if Tagliafico is unavailable at left back. (likely)
-- _Lineup:_ Marcos Acuña could be the fallback option if Tagliafico does not recover in time. (likely)
-- _Lineup:_ Gerónimo Rulli is expected to start in goal while Emiliano Martínez continues to be managed after a fractured ring finger. (likely)
-- Sources: https://www.marca.com/en/world-cup/2026/06/11/argentina-suffers-setback-regarding-one-of-its-stars-just-days-before-its-world-cup-debut.html, https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info, https://www.aljazeera.com/sports/2026/5/29/messi-to-captain-argentina-at-world-cup-as-scaloni-plays-down-injury-fears
+- _Lineup:_ Facundo Medina or Marcos Senesi expected to start at left back in place of injured Nicolás Tagliafico for the opener, as Argentina has no natural backup left back in the 26-man list. (likely)
+- _Lineup:_ Emiliano Martínez now back in full training after finger injury and expected to start in goal for the World Cup opener instead of Gerónimo Rulli, who only covered in the final tune-up. (confirmed)
+- _Lineup:_ Lionel Messi to start and play significant minutes in the World Cup opener after being declared fully recovered from his recent muscle fatigue and knock at Inter Miami. (confirmed)
+- Sources: Marca report on Tagliafico and González muscle strains and lack of backup left back in Argentina’s 26-man World Cup squad., ESPN World Cup 2026 injuries tracker noting recent injury concerns for key Argentina players, including Messi’s muscle fatigue., CGTN Sports Scene Facebook update summarizing Argentina’s injury situation, confirming Martínez back in full training, Molina over his knock, Álvarez recovered, and Tagliafico expected to miss the opener with improvised solutions at left back.
 
 ## Australia
-_Next: Egypt (None)_
-- **OUT:** Jacob Italiano — Ruled out of the World Cup clash with Paraguay after sustaining a groin injury in training; additional tests were planned, but he was not available for that match.
+_Next: Egypt (2026-06-30)_
+- **OUT:** Jacob Italiano — Out for the World Cup with an adductor/groin injury suffered in training; he missed the Paraguay match and was confirmed unavailable for the rest of the tournament.
+- **OUT:** Mathew Leckie — Out for the World Cup with a hamstring strain sustained during the match against the United States; he missed the Paraguay match and was confirmed unavailable for the rest of the tournament.
+- **OUT:** Nick D'Agostino — Departed pre-camp after suffering a leg injury in training; no later report in the provided results says he returned.
 - **OUT:** Mat Leckie — Exited injured during the match against the USA; later reporting says he is out of the tournament due to injury.
-- **OUT:** Mathew Leckie — Out of the World Cup with a hamstring strain suffered during the group match against the United States; confirmed by the team and he missed the subsequent draw with Paraguay.
 - **OUT:** Lewis Miller — Misses the World Cup after undergoing surgery for a torn Achilles tendon in February, with a minimum nine‑month recovery period.
 - **OUT:** Riley McGree — Reported as ruled out of the 2026 FIFA World Cup with a hamstring injury.
-- _Lineup:_ Jason Geria is an option to cover the right flank and/or central defense because Australia is short of right-sided players. (likely)
-- Sources: ABC News report on Jacob Italiano injury and pre-Paraguay availability, ESPN World Cup injuries tracker for Australia, Wikipedia 2026 Australia national soccer team season
+- _Lineup:_ Jordan Bos may continue at right back / inverted wing-back to cover for Jacob Italiano. (likely)
+- _Lineup:_ Jason Geria is an option on the right flank or at centre-back if Tony Popovic changes the defensive shape. (likely)
+- Sources: Reuters, 2026-06-27, ABC News, 2026-06-25, Socceroos official squad update
 
 ## Austria
-- **OUT:** Christoph Baumgartner — Ruled out of the 2026 World Cup with a thigh injury sustained before the pre‑tournament friendly against Tunisia; Austria opted to proceed without naming a new replacement beyond calling up Dejan Ljubičić.
-- Sources: Reuters: Austria stick with World Cup squad after Baumgartner injury, 2026-06-03, Wikipedia: Austria national football team – 2026 World Cup results and squad section (match vs Spain on 2026-07-02, Baumgartner listed as injured)
+- **OUT:** Christoph Baumgartner — Ruled out of the 2026 World Cup after suffering a thigh injury prior to the 1-0 friendly win over Tunisia; Ralf Rangnick and the OFB confirmed he will miss the tournament and no replacement will be called up.
+- _Lineup:_ Austria must adjust their midfield/attacking setup to cover for the absence of Christoph Baumgartner, a key RB Leipzig midfielder, after his pre‑tournament thigh injury ruled him out of the World Cup. (confirmed)
+- Sources: Reuters: Austria stick with World Cup squad after Baumgartner injury (2026-06-03), Transfermarkt: Austria – Suspensions and injuries (no current entries listed)
 
 ## Belgium
 _Next: United States (None)_
 - **OUT:** Zeno Debast — Leg injury sustained while training with Sporting CP last month; missed recent Belgium training sessions and is not expected to be available until later in the tournament.
 - **Doubtful:** Romelu Lukaku — Entered the World Cup after an injury-plagued season and recent hamstring rehabilitation; coach Garcia has said he is out of shape and not yet at peak condition, raising ongoing fitness and load‑management concerns.
-- Sources: https://sports.yahoo.com/video/how-does-usa-stack-up-against-belgium-033711563.html, https://rg.org/en-ca/sportsbooks/world-cup-2026/belgium, https://www.espn.com/soccer/story/_/id/48777814/romelu-lukaku-named-belgium-world-cup-squad-injury-troubles
+- Sources: Yahoo Sports video discussion indicating Belgium as the USA's opponent in the Round of 16 at FIFA World Cup 2026[7]
 
 ## Bosnia and Herzegovina
-_Next: Qatar (2026-06-24)_
+_Next: Switzerland (2026-06-18)_
+- **Doubtful:** Sead Kolasinac — Came off late with a knock against Canada after receiving medical attention and was substituted by Dzenis Burnic.
+- **OUT:** Tabakovic — Reported to have broken a bone; described as Bosnia & Herzegovina's star striker and key recent goalscorer.
 - **OUT:** Edin Džeko — Picked up a shoulder injury just before the penalty shootout in the World Cup qualifying playoff, and was ruled out of participation in that shootout; no recent reports in the last 48 hours confirming full recovery, so his availability for current World Cup matches remains doubtful.
 - **OUT:** Harís Tabaković — Described as Bosnia & Herzegovina's star striker who 'broke a bone'; injury referenced in discussion around the World Cup 2026 campaign with no new update in the last 48 hours indicating he has returned to full fitness.
 - **OUT:** Haris Tabakovic — Broke a bone in his ankle and has been ruled out of the World Cup.
@@ -55,37 +61,36 @@ _Next: Qatar (2026-06-24)_
 - **Doubtful:** Sead Kolašinac — He came out of the Canada match with a knock and was replaced by Dženis Burnić.
 - **Doubtful:** Unnamed Bosnia player (not specified in results) — Bosnia were described as relying on veteran options in the Canada preview, but no specific additional injury was identified in the available results.
 - **OUT:** Haric Tabakovic — Star striker reportedly broke a bone prior to or during the World Cup, with Bosnia fans discussing that he is unavailable despite scoring several crucial goals in qualifying.
-- Sources: Reuters preview on Canada vs Bosnia and Herzegovina at World Cup 2026, highlighting Bosnia's qualification via a dramatic penalty shootout win over Italy and Edin Džeko's leadership role.[4], Facebook post noting that 40-year-old Edin Džeko picked up a shoulder injury just before the decisive penalty shootout that sent Bosnia to the World Cup, ruling him out of that shootout.[5], Reddit discussion referencing Bosnia & Herzegovina's star striker Harís Tabaković having 'broke a bone' during the World Cup 2026 campaign.[6]
+- Sources: Olympics.com live updates: Canada vs Bosnia and Herzegovina Group B match report, including Kolasinac knock and substitution by Burnic[3], Instagram reel listing Bosnia's World Cup fixtures: Canada 1-1 Bosnia, Switzerland v Bosnia & Herzegovina (18 June), Bosnia v Qatar (24 June)[6], Reddit discussion noting Bosnia & Herzegovina’s star striker Tabakovic broke a bone and has been crucial in recent matches[5]
 
 ## Brazil
-_Next: Japan (None)_
-- **OUT:** Rodrygo — Torn ACL and meniscus sustained with Real Madrid in March; ruled out for the rest of 2026 and not in Brazil’s World Cup squad.
-- **OUT:** Éder Militão — Severe hamstring tear requiring surgery; ruled out of the 2026 World Cup and absent from the tournament squad.
-- **OUT:** Estêvão — Serious torn hamstring suffered in April; left off Brazil’s preliminary World Cup squad and not participating in the tournament.
-- **Doubtful:** Raphinha — Hamstring injury picked up during Brazil’s 3-0 win over Haiti; has missed subsequent World Cup knockout match and remains a fitness doubt.
-- **Doubtful:** Lucas Paquetá — Thigh problems listed on current Brazil injury report; availability for the next match remains uncertain.
-- _Lineup:_ Right-back selection expected to differ from pre-tournament plans, with Danilo and Ibañez competing and Ederson considered as an alternative due to the absence of Wesley and Éder Militão. (likely)
-- _Lineup:_ Attack expected to continue to be built around Vinícius Jr. with reduced options on the right wing as Rodrygo and Estêvão are unavailable and Raphinha remains a fitness doubt. (likely)
-- Sources: Reuters World Cup 2026 preview on Brazil’s injuries and right-back options (Danilo, Ibañez, Ederson) and pre-tournament absences of Rodrygo, Estêvão, Militão, and Neymar’s initial calf layoff., ESPN 2026 World Cup injuries tracker detailing Rodrygo’s ACL/meniscus tear, Estêvão’s torn hamstring and exclusion from the squad, Éder Militão’s hamstring surgery ruling him out of the World Cup, and Neymar’s grade 2 calf timeline and expected availability after the opener., FIFA.com update on Neymar’s grade 2 calf injury and expected 2–3 week absence at the start of the World Cup.
+- **OUT:** Rodrygo — Torn ACL and meniscus sustained in March; ruled out for the World Cup and the rest of 2026.
+- **OUT:** Éder Militão — Serious hamstring tear requiring surgery; ruled out of the World Cup.
+- **OUT:** Estêvão — Severe torn hamstring from April; left off Brazil’s World Cup squad.
+- **Doubtful:** Neymar — Grade 2 right calf strain in mid-May; initially ruled out of early group games and expected to miss at least two to three weeks, fitness and availability for knockout stages still uncertain but he has not featured in recent matchday squads.
+- **OUT:** Raphinha — Hamstring injury suffered during Brazil’s 3-0 win over Haiti, has missed subsequent World Cup knockout match and remains sidelined.
+- **Doubtful:** Lucas Paquetá — Listed with thigh problems; current World Cup status unclear but flagged as an active injury concern.
+- _Lineup:_ Continued absence of Rodrygo and Éder Militão forces Brazil to rely on Gabriel Magalhães in central defence and adjust right-back options, with Danilo and Ibañez competing and Ederson considered as cover. (confirmed)
+- _Lineup:_ Neymar not expected to start next match; Brazil to continue relying on Vinícius Júnior as primary creative and attacking focal point. (likely)
+- _Lineup:_ With Raphinha out injured, Brazil’s right-wing role to be filled by alternative wide forwards rather than his return. (likely)
+- Sources: Reuters match preview and squad update on Brazil’s World Cup campaign and injury situation, including absences of Rodrygo, Estêvão, Militão and Neymar and defensive/right-back options., ESPN 2026 World Cup injuries tracker detailing torn knee ligaments for Rodrygo, serious hamstring injury for Militão, Estêvão’s hamstring tear and Neymar’s calf problem and expected timeline., FIFA.com report confirming Neymar’s grade two calf injury and expected two-to-three-week absence.
 
 ## Canada
-_Next: Switzerland (2026-06-24)_
-- **OUT:** Ismael Koné — Fractured his leg in the group-stage match vs. Qatar and has been ruled out for the remainder of the World Cup.
-- **OUT:** Marcelo Flores — Ruptured ACL during Concacaf Champions Cup final for Tigres, ruling him out of the World Cup; Canada replaced him in the squad.
-- **Doubtful:** Alphonso Davies — Recovering from a hamstring injury; back in training and described by coach Jesse Marsch as getting closer to full strength but still being assessed for involvement against Switzerland.
-- **OUT:** Alfie Jones — Central defender continuing recovery from an ankle injury and expected to miss a third consecutive World Cup match.
+_Next: Switzerland (2026-07-01)_
+- **OUT:** Ismael Koné — Sustained fractures of both tibia and fibula in his left leg during the 6–0 win over Qatar; underwent surgery for a lower limb fracture and is ruled out for the remainder of the tournament.
+- **Doubtful:** Alphonso Davies — Recovering from a hamstring injury; returned to training and is on a structured regimen, with coaching staff to assess his readiness and role for the upcoming match. Described as getting closer to full strength but not yet fully fit.
+- **Doubtful:** Stephen Eustaquio — Vice-captain missed a recent training session in Vancouver; expected to rejoin later that day, but no official explanation provided and no clear update confirming full fitness.
+- **OUT:** Alfie Jones — Central defender continuing recovery from an ankle injury and expected to miss a third consecutive match.
+- **OUT:** Moïse Bombito — Suffered a broken leg in October while at club level; recovery judged insufficient for World Cup contribution and he has been removed from the tournament roster.
+- **OUT:** Marcelo Flores — Tore his ACL in the Concacaf Champions Cup final just before joining the World Cup camp and has not yet been replaced in the squad.
 - **Doubtful:** Moise Bombito — Coming off a leg fracture from his club season; Canada are giving him up to the last minute in World Cup fitness checks, with potential involvement depending on progress.
-- **Doubtful:** Stephen Eustaquio — Vice-captain missed the start of a training session in Vancouver ahead of the Switzerland match for unspecified reasons; expected to rejoin the team later that day but no clear update on full fitness.
-- **OUT:** Moïse Bombito — Center back suffered a broken leg while playing for OGC Nice in October; recovery judged insufficient for him to contribute at the World Cup and he has been removed from the squad.
 - **OUT:** Ismael Kone — Sustained a double fracture of his left leg after a red-card tackle against Qatar, underwent surgery and has been ruled out for the remainder of the tournament.
 - **Doubtful:** Ali Ahmed — Took part in a return-to-play program and modified training sessions during camp.
 - **Doubtful:** Jacob Shaffelburg — Was involved in return-to-play work and modified training sessions throughout the week.
 - **OUT:** Ismaël Koné — Suffered a serious lower-leg fracture in Canada’s 6-0 win over Qatar and underwent surgery; reporting says he later reunited with the team after surgery.
-- _Lineup:_ Canada must replace injured midfielder Ismael Koné in the matchday squad and starting XI structure after his tournament-ending leg fracture vs Qatar. (confirmed)
-- _Lineup:_ Marcelo Flores has been removed from the World Cup squad due to ACL rupture and replaced by winger Jayden Nelson, affecting wide attacking options. (confirmed)
-- _Lineup:_ Central defender Alfie Jones is set to miss another match through his ankle injury, requiring continued use of alternate centre-back options. (confirmed)
-- _Lineup:_ Alphonso Davies is being monitored following his hamstring injury; coaching staff will decide whether he starts, plays limited minutes, or is held back for the Switzerland match. (likely)
-- Sources: Reuters report on Canada injuries and Switzerland match build-up, including Koné’s leg fracture, Davies’ hamstring status and Alfie Jones’ ankle issue.[1], ESPN World Cup injuries tracker entry on Marcelo Flores’ ACL rupture ruling him out of the tournament.[2], New York Times/The Athletic feature on Canada’s medical team and ongoing rehabilitation of Bombito and Jones.[4]
+- _Lineup:_ Midfield to be restructured following Ismael Koné’s leg fracture, with 22-year-old Nathan Saliba now expected to take a larger role in central midfield after his breakout performance in the 6–0 win over Qatar. (likely)
+- _Lineup:_ Luc De Fougerolles expected to start at center back in Bombito’s absence, having impressed in pre-tournament friendlies. (likely)
+- Sources: Reuters: Canada facing key injuries in run-up to Switzerland match, June 21, 2026, Fox Sports: 2026 FIFA World Cup Buzz – Canada updates on Koné injury and Group B stakes, Sports Illustrated: Canada loses star player to injury on eve of 2026 World Cup
 
 ## Croatia
 - **Doubtful:** Luka Modrić — Reported with a double cheekbone fracture, but sources say he is expected to recover in time to captain Croatia at the World Cup.
@@ -93,117 +98,133 @@ _Next: Switzerland (2026-06-24)_
 - **Doubtful:** Luka Vušković — Reported with a knee ligament issue, but current reporting says he is expected to be part of the World Cup squad.
 - **Doubtful:** Marco Pašalić — Reported with a quadriceps tear; current reporting indicates he should be available for the World Cup.
 - **Doubtful:** Toni Fruk — Reported with a back injury, but current reporting says he is expected to play at the World Cup.
-- Sources: Reddit World Cup 2026 subreddit reaction thread stating that Portugal knocked Croatia out of the World Cup[9]
+- Sources: Reddit fan discussion and reaction to Portugal knocking Croatia out of World Cup 2026[9]
 
 ## Czech Republic
 - **Doubtful:** Tomáš Souček — Reported to have suffered a serious injury in the match against Mexico on June 25; current availability is not confirmed in the provided results.
 - **Doubtful:** Patrik Schick — Reported as an injury doubt with a calf strain and expected to return in a few days; current fitness for the next match is not confirmed in the provided results.
 - **OUT:** Tomas Soucek — Suffered a serious injury during a World Cup match incident and was carried off; described in reports as a 'horror injury', with expectation he will miss upcoming fixtures.
-- Sources: 1, 2, 3
+- Sources: Facebook post reporting Czech Republic players forced to walk to training due to logistical drama at the 2026 World Cup[10]
 
 ## DR Congo
+_Next: England (2026-07-08)_
 - **OUT:** Rocky Bushiri — Ruled out of the 2026 World Cup after suffering a serious Achilles injury during tournament preparations; replaced in the squad.
-- Sources: https://sports.yahoo.com/articles/dr-congo-2026-world-cup-160000108.html, https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/congo-dr/squad, https://www.nytimes.com/athletic/7243364/2026/05/01/world-cup-injury-news-latest/
+- Sources: Sky Sports World Cup last-32 preview noting England vs DR Congo in Atlanta on Wednesday, July 8, 2026[1], FIFA squad and fixtures page for Congo DR at World Cup 2026[10], YouTube press conference with DR Congo coach Sébastien Desabre on adapting to health-related decisions amid Ebola outbreak, June 2, 2026[4]
+
+## Ecuador
+- _Lineup:_ Ecuador were eliminated in the round of 32 after the 2-0 defeat to Mexico on June 30, 2026, so no further competitive lineup changes are expected for World Cup matches. (confirmed)
+- Sources: Standard: Mexico vs Ecuador lineups, team news and predicted XIs, June 30, 2026[3], Wikipedia: Ecuador national football team – World Cup 2026 match vs Mexico, June 30, 2026[5], FIFA.com: Ecuador squad and World Cup 2026 fixtures/results[8]
 
 ## Egypt
 _Next: Australia (2026-07-03)_
-- **Doubtful:** Mohamed Salah — Hamstring strain suffered during Egypt's 1-1 draw with Iran; scans confirmed the injury and he has begun a treatment programme. Team doctor reports pain in the hamstring, but coach Hossam Hassan says it does not appear serious. His availability for the last-32 tie against Australia remains uncertain.
+- **Doubtful:** Mohamed Salah — Hamstring strain suffered against Iran; scans confirmed the injury but he has returned to training and is in an intensive rehab programme, with Egypt staff optimistic he can play at least some part against Australia.
+- **OUT:** Mohamed Abdelmonem — Sustained a torn ACL in his knee early in the match, left the pitch in tears and is not expected to feature again at this World Cup.
+- **OUT:** Ahmed Fatouh — Picked up a hamstring injury against Iran; completed 90 minutes only because all substitutions were used and is now expected to miss the Australia game.
+- **Doubtful:** Hamdi Fathi — Described as having fitness issues ahead of the Australia match, leaving his availability uncertain.
+- **Doubtful:** Hossam Abdelmaguid — Also reported to be dealing with fitness problems before facing Australia, with no confirmation he will be ready.
 - **OUT:** Ahmed Fattouh — Hamstring tear that the Egyptian FA statement says makes it difficult for him to recover in time, indicating he will miss upcoming World Cup knockout matches.
-- _Lineup:_ Confirmed non-selection of Ahmed Fattouh in the matchday squad because of his hamstring tear, requiring a change at left-back. (confirmed)
-- Sources: BBC Sport article on Salah as an injury doubt for Egypt's last-32 tie against Australia after a hamstring strain confirmed by scans and comments from the team doctor and coach Hossam Hassan.[2], FIFA World Cup 2026 article noting Egypt's injury worries, including a statement that Ahmed Fattouh has a hamstring tear making it difficult for him to recover in time.[3], Al Jazeera overview of World Cup 2026 injury doubts mentioning Salah's earlier hamstring tear and four-week treatment window before the tournament.[1]
+- _Lineup:_ If Mohamed Salah is not deemed fit to start, Egypt are expected to shift more attacking responsibility to Omar Marmoush and potentially restore him to the starting XI after he began on the bench against Iran. (likely)
+- _Lineup:_ With Mohamed Abdelmonem ruled out by an ACL injury, Egypt will have to start an alternative centre-back in his place for the Australia match. (confirmed)
+- _Lineup:_ With Ahmed Fatouh expected to miss out due to a hamstring problem, Egypt are likely to field a different option at left-back. (likely)
+- Sources: BBC Sport article: World Cup 2026: Egypt v Australia - Mohamed Salah fitness latest[2], FIFA.com World Cup 2026 Egypt injury update on Mohamed Abdelmonem’s ACL injury[3], Al Jazeera injury roundup on potential World Cup absentees including Salah, with confirmation he was expected to be ready for the tournament[1]
 
 ## England
-_Next: Senegal (2026-07-??)_
-- **OUT:** Tino Livramento — Withdrew from England's World Cup squad after a minor calf injury in training; scan and medical assessment confirmed he could take no further part in the tournament.
-- **Doubtful:** Reece James — Reported hamstring injury is described as worse than originally thought, with his availability for the rest of the World Cup dependent on England reaching the latter stages.
+_Next: DR Congo (2026-07-01)_
+- **OUT:** Reece James — Ruled out of the World Cup last-32 game against DR Congo with a hamstring injury and did not take part in training ahead of the match.
+- **OUT:** Jarell Quansah — Twisted his ankle in the final group-stage win over Panama and has been ruled out of the last-32 game against DR Congo; missed training and is following an individual programme.
+- **OUT:** Tino Livramento — Withdrew from England's World Cup 2026 squad after a minor calf injury in training; scan confirmed he could play no further part in the tournament and he returned to Newcastle for rehabilitation. Trevoh Chalobah was called up in his place.
 - **Doubtful:** Harry Kane — A report mentions a right-ankle scan after an injury scare, but no confirmed withdrawal or official update is included in the available news.
 - **Doubtful:** Elliot Anderson — Suffered a glute/dead leg issue against Ghana and has been assessed; reported as not serious but his involvement versus Panama is being managed with possible rest to protect him for knockouts.
-- _Lineup:_ Trevoh Chalobah has been called up to replace Tino Livramento in the squad. (confirmed)
-- _Lineup:_ England may have to rely more heavily on Reece James at right back if he is fit, with Ezri Konsa, Jarell Quansah, and Djed Spence as possible cover. (likely)
-- _Lineup:_ A center-back option rather than a natural fullback was chosen as Livramento's replacement. (confirmed)
-- Sources: SI, Sky Sports News (YouTube live update), England/Newcastle social posts carried in search results
+- _Lineup:_ Djed Spence expected to start at right-back in place of injured Jarell Quansah and Reece James for the last-32 match against DR Congo. (likely)
+- Sources: Sky Sports report on 2026-07-01 detailing Reece James and Jarell Quansah ruled out of England's World Cup last-32 match against DR Congo with injury and Djed Spence expected to start at right-back., Sports Illustrated piece confirming Tino Livramento's calf injury, his withdrawal from the World Cup and Trevoh Chalobah being called up as replacement., Newcastle United official social media post confirming Livramento has withdrawn from England's World Cup 2026 squad with a minor calf injury and will miss the tournament.
 
 ## France
 _Next: Azerbaijan (None)_
+- **Doubtful:** Kylian Mbappé — Right ankle pain; he has missed two consecutive training sessions and was described as a very doubtful participant for the next match.
 - **Doubtful:** Theo Hernandez — Missed training because of a knee issue.
+- **Doubtful:** Raphaël Varane — Missed training ahead of the final because of flu.
+- **Doubtful:** Ibrahima Konaté — Missed training ahead of the final because of flu.
+- **Doubtful:** Aurélien Tchouaméni — Missed training because of a hip bruise.
+- **Doubtful:** Dayot Upamecano — Reported to be suffering from a sore throat and was unavailable for the semi-final because of illness.
+- **Doubtful:** Adrien Rabiot — Reported viral infection; was unavailable for the semi-final because of illness.
 - **Doubtful:** Raphael Varane — Missed training due to flu.
 - **Doubtful:** Ibrahima Konate — Missed training due to flu.
 - **Doubtful:** Aurelien Tchouameni — Missed training due to a hip bruise.
-- **Doubtful:** Dayot Upamecano — Reported to be suffering from a sore throat and had been unavailable because of illness.
-- **Doubtful:** Adrien Rabiot — Reported to have a virus infection and had been unavailable because of illness.
-- **Doubtful:** Kylian Mbappé — Still struggling with right ankle pain and has missed two consecutive training sessions; participation was described as very doubtful.
 - **OUT:** Hugo Ekitiké — Reported in an injury tracker with a torn Achilles tendon.
 - **Doubtful:** William Saliba — Back injury had made him doubtful, but Didier Deschamps later said he should be OK to play and he returned to full group training.
 - **OUT:** Hugo Ekitike — Torn Achilles tendon suffered with Liverpool; ruled out of the 2026 World Cup and replaced in the squad.
 - **Doubtful:** Kylian Mbappe — Still struggling with right ankle pain and has missed consecutive training sessions; participation remains very doubtful.
-- _Lineup:_ Kylian Mbappé may be rested or replaced if his ankle issue does not improve. (likely)
-- _Lineup:_ Defensive reshuffle may be needed if Theo Hernandez, Raphael Varane, Ibrahima Konate, or Dayot Upamecano remain unavailable. (likely)
-- _Lineup:_ Adrien Rabiot or Aurelien Tchouameni could miss out if illness and bruising do not clear in time. (likely)
-- Sources: 1, 2
+- _Lineup:_ Mbappé may be withheld if his ankle pain does not improve; a return to Madrid was not ruled out. (likely)
+- _Lineup:_ France may need to rotate the back line if Varane, Konaté, or Theo Hernandez are not fit to train fully. (likely)
+- _Lineup:_ Upamecano and Rabiot are candidates to return if their illness clears in time. (likely)
+- Sources: [1], [5]
 
 ## Germany
-- **OUT:** Nico Schlotterbeck — Medial collateral ligament tear in left ankle suffered in the 2-1 win over Ivory Coast in Group E; ruled out for the rest of the World Cup and sidelined for several months.
-- **OUT:** Serge Gnabry — Torn adductor injury in mid-April ruled him out of the rest of the club season and the 2026 World Cup.
-- **OUT:** Lennart Karl — Torn thigh muscle in left leg suffered in training before the USA friendly; withdrawn from World Cup squad and replaced by Assan Ouédraogo.
+- **OUT:** Nico Schlotterbeck — Torn ligament in left ankle (medial collateral ligament) suffered against Ivory Coast; ruled out for the remainder of the World Cup and sidelined for several months.
+- **OUT:** Serge Gnabry — Torn adductor sustained in mid-April; ruled out of the 2026 World Cup.
+- **OUT:** Lennart Karl — Torn muscle in left thigh suffered in training before the World Cup; withdrew from the squad and was replaced by Assan Ouédraogo.
 - **Doubtful:** Manuel Neuer — Calf injury; missed both pre-World-Cup friendlies and has not played since May 16, with coach expressing hope he will be ready for the World Cup opener but no clear confirmation of full fitness for knockout stage.
-- _Lineup:_ Centre-back rotation required with Nico Schlotterbeck out; increased likelihood that Antonio Rüdiger and another central defender (e.g. Jonathan Tah, Waldemar Anton or Malick Thiaw) start together in his absence. (likely)
-- Sources: Reuters: Germany defender Schlotterbeck out World Cup with ankle injury, June 22, 2026, DW: Germany out of 2026 World Cup: What went wrong?, June 2026, Sports Illustrated: Germany's Defensive Frailties Leave a Clear Ceiling at the 2026 World Cup, June 2026
+- _Lineup:_ Antonio Rüdiger expected to start at centre-back in place of injured Nico Schlotterbeck for the remainder of the tournament. (confirmed)
+- _Lineup:_ Assan Ouédraogo included in the squad and expected to be available for midfield/wing roles after replacing injured Lennart Karl. (confirmed)
+- _Lineup:_ Jamal Musiala expected to have an increased role in attack/wide areas due to Serge Gnabry’s absence. (likely)
+- Sources: Reuters report on Nico Schlotterbeck’s ankle ligament injury ruling him out of the World Cup and noting he will remain with the team in the USA., ESPN 2026 World Cup injuries tracker detailing Serge Gnabry’s torn adductor ruling him out of the World Cup and Karl’s torn thigh muscle with Ouédraogo replacing him., Sports Mole summary of Lennart Karl’s thigh muscle fibre tear, his withdrawal from the Germany World Cup squad, and Manuel Neuer’s calf strain concern before the opener.
 
 ## Ghana
-_Next: England (2026-07-07)_
-- **OUT:** Mohammed Kudus — Misses the World Cup after failing to recover from a serious thigh/quadriceps injury with subsequent hamstring setback; ruled out of Ghana's 26-man World Cup squad.
-- **OUT:** Mohammed Salisu — Torn anterior cruciate ligament sustained in January; not in the World Cup squad and expected to miss the tournament.
-- **OUT:** Alexander Djiku — Picked up an injury in training on the weekend before squad announcement; replaced in the World Cup squad by Derrick Luckassen.
-- **Doubtful:** Lawrence Ati-Zigi — Required treatment multiple times and limped off at half-time against Panama with what was described as a dead leg; replaced by Benjamin Asare, making his availability for the next match uncertain.
+_Next: England (None)_
+- **OUT:** Mohammed Kudus — Misses the World Cup after failing to recover from a thigh/quadriceps injury and subsequent setback to his hamstring; ruled out of the tournament when Ghana named their squad.
+- **OUT:** Mohammed Salisu — Central defender ruled out of the World Cup with a torn anterior cruciate ligament suffered in January; expected return well beyond the tournament.
+- **OUT:** Alexander Djiku — Picked up an injury in training on the weekend before Ghana named their World Cup squad and was replaced by Derrick Luckassen in the final 26-man list.
+- **OUT:** Lawrence Ati-Zigi — First-choice goalkeeper ruled out of the remaining World Cup games due to a groin injury, as reported on June 20, 2026.
 - **OUT:** Tariq Lamptey — Left out of Ghana's World Cup squad due to injury.
-- _Lineup:_ Benjamin Asare likely to start in goal if Lawrence Ati-Zigi does not recover fully from the knock sustained against Panama. (likely)
-- Sources: Reuters: Ghana name World Cup squad after injuries force delay (2026-06-01)[3], ESPN: 2026 World Cup injuries tracker – Mohammed Kudus, Ghana[2], The Sun: Ghana suffer major injury scare just days before England World Cup clash vs Three Lions after winning late against Panama[1]
+- _Lineup:_ With first-choice goalkeeper Lawrence Ati-Zigi ruled out for the remainder of the World Cup due to a groin injury, Ghana are expected to start back-up goalkeeper Benjamin Asare or another reserve in goal instead of Ati-Zigi in upcoming matches. (likely)
+- _Lineup:_ Defensive lineup adjusted with Derrick Luckassen included in the World Cup squad to cover for injured centre-back Alexander Djiku, who missed the tournament through injury. (confirmed)
+- Sources: Reuters report on Ghana delaying and then naming their World Cup 2026 squad due to injuries to Mohammed Kudus, Alexander Djiku and Mohammed Salisu, published June 1, 2026.[3], ESPN World Cup 2026 injuries tracker entry for Mohammed Kudus, detailing his quadriceps injury, hamstring setback and doubts over World Cup participation.[2], Instagram reel from June 20, 2026 reporting that Black Stars goalkeeper Lawrence Ati-Zigi has been ruled out of the remaining World Cup games due to a groin injury.[5]
 
 ## Haiti
-- **OUT:** Leverton Pierre — Ruled out of the 2026 World Cup with a right adductor muscle injury; withdrawn from the squad and replaced by Garven Metusala.
-- _Lineup:_ Garven Metusala added to Haiti's World Cup squad to replace injured midfielder Leverton Pierre. (confirmed)
-- Sources: Reuters report on Leverton Pierre ruled out of World Cup with adductor injury and Garven Metusala called up as replacement (11 June 2026)., USL Championship club release confirming Garven Metusala added to Haiti's World Cup squad to replace injured Leverton Pierre., Wikipedia summary of Haiti's 2026 World Cup campaign, including squad notes marking Leverton Pierre as injured and Metusala as his replacement.
+- **OUT:** Leverton Pierre — Ruled out of the World Cup with a right adductor muscle injury; withdrawn from the 26-man squad and replaced by Garven Metusala.
+- _Lineup:_ Garven Metusala, a centre-back, added to Haiti’s World Cup squad to replace injured midfielder Leverton Pierre, giving the coaching staff an additional defensive option and removing Pierre from any lineup consideration. (confirmed)
+- Sources: Reuters report on Leverton Pierre being ruled out of the World Cup with an adductor injury and Garven Metusala being called up as his replacement.[1], USL Championship club announcement confirming Garven Metusala’s addition to Haiti’s World Cup squad in place of the injured Leverton Pierre.[4], Wikipedia entry for the Haiti national football team detailing the 2026 World Cup Group C matches versus Scotland, Brazil, and Morocco and confirming Haiti’s elimination after the group stage.[7]
 
 ## Iran
+_Next: Belgium (2026-06-21)_
+- **Doubtful:** Several unnamed players — Head coach Amir Ghalenoei said several players developed cramps during the 2-2 draw with New Zealand and would be evaluated by the technical team; the substitutions were described as necessary because of cramps and injury issues.
 - **OUT:** Ali Gholizadeh — Sustained a torn anterior cruciate ligament in his left knee while playing for Lech Poznan, requiring surgery and several months of rehabilitation, ruling him out of World Cup 2026.
-- Sources: Reuters report on Ali Gholizadeh’s ACL injury ruling him out of World Cup 2026 (May 5, 2026)., Al Jazeera feature on Iran’s World Cup exit and emotional impact, including VAR-offside incident against Egypt and elimination following Austria–Algeria result (June 30, 2026)., Iran International English social media post noting Iran failed to advance at the 2026 World Cup and left their hotel/base in Tijuana, Mexico (late June 2026).
+- _Lineup:_ Potential rotation or substitution planning because several players were cramping in the opener and were to be evaluated before the next match. (likely)
+- Sources: NBC News report on Iran's opener and post-match comments, Yahoo Sports live World Cup updates, Al Jazeera report on Iran's World Cup exit
 
 ## Iraq
 - **OUT:** Ahmed Yahya — Ruled out of the 2026 World Cup with a hamstring injury and replaced in the squad by Ahmed Hassan Makenzie.
 - **Doubtful:** Aymen Hussein — Transfermarkt lists him with a thigh problem as of 2026-06-30.
-- _Lineup:_ Ahmed Hassan Makenzie to be included in matchday squads in place of injured defender Ahmed Yahya. (confirmed)
-- Sources: Reuters report on June 6, 2026 about Ahmed Hassan Makenzie replacing injured Ahmed Yahya in Iraq's World Cup squad.[1], Instagram post noting Ahmed Yahya is out of the World Cup with a hamstring injury.[10], FIFA.com and squad profile pieces confirming Iraq’s participation at World Cup 2026 and general squad context.[6][9]
+- _Lineup:_ Inclusion of Ahmed Hassan Makenzie in the final World Cup squad in place of injured defender Ahmed Yahya. (confirmed)
+- Sources: Reuters report on June 6, 2026 that Iraq called up Ahmed Hassan Makenzie to replace injured Ahmed Yahya in their World Cup squad.[1], Instagram post confirming Ahmed Yahya is out of the World Cup with a hamstring injury.[10], FIFA.com and Yahoo Sports squad/profile pieces confirming Iraq’s 2026 World Cup participation but not detailing further recent injuries or suspensions.[6]
 
 ## Ivory Coast
-- **OUT:** Clément Akpa — Ruled out of the 2026 FIFA World Cup with an adductor injury suffered in training with AJ Auxerre; replaced in the World Cup squad by Christopher Operi.
+- **OUT:** Clément Akpa — Ruled out of the 2026 FIFA World Cup through injury prior to the tournament and replaced in the Ivory Coast squad by Christopher Opéri.
 - **Doubtful:** Wilfried Singo — Listed as doubtful for the World Cup round of 32 match vs Norway due to a hamstring problem.
 - **Doubtful:** Elye Wahi — Listed as doubtful in pre-match team news ahead of Ivory Coast’s Round of 32 match against Norway.
-- _Lineup:_ Christopher Operi included in the World Cup squad in place of injured defender Clément Akpa. (confirmed)
-- Sources: Reuters report on Clément Akpa’s injury and Christopher Operi’s call-up (May 30, 2026)., Instagram post confirming Akpa ruled out of World Cup and Operi replacing him in the squad., Sports Mole team news: Ivory Coast vs Norway – injury, suspension list, predicted XIs, noting Wilfried Singo as doubtful with a hamstring issue.
+- Sources: https://www.instagram.com/p/DY-Iky1jMPp/, https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team
 
 ## Japan
-_Next: Netherlands (2026-06-14)_
-- **OUT:** Kaoru Mitoma — Excluded from Japan's 2026 World Cup squad after a hamstring injury sustained with Brighton; medical staff judged he could not regain fitness during the tournament.
-- **OUT:** Takumi Minamino — Tore the anterior cruciate ligament in his left knee playing for Monaco in December and was not named in Japan's 2026 World Cup squad.
-- **OUT:** Wataru Endo — Withdrew from Japan's 2026 World Cup squad due to persistent problems with a left foot injury that required surgery in February; medical team deemed him not physically ready and he announced retirement from international football.
-- **OUT:** Takefusa Kubo — Suffered a knee injury in the group-stage opener against the Netherlands; has been out since and missed subsequent group games.
+- **OUT:** Takefusa Kubo — Left knee injury suffered in the group opener against the Netherlands; he missed the second group match v Tunisia and has been out since, including the final group game v Sweden and the Round of 32 loss to Brazil.
+- **OUT:** Kaoru Mitoma — Torn hamstring prior to the tournament; was not named in Japan’s final World Cup squad and has not featured at the World Cup.
+- **OUT:** Takumi Minamino — Torn ACL and knee surgery prior to the tournament; failed to prove fitness and was not selected in Japan’s World Cup squad.
+- **OUT:** Wataru Endo — Left foot injury that flared up in late May; ruled out of the World Cup squad days before Japan’s opener and announced immediate retirement from the national team.
 - **OUT:** Koki Machida — Listed among injured players missing from Japan's final World Cup squad.
 - **OUT:** Hidemasa Morita — Sporting CP midfielder absent from the World Cup squad; described as an absentee from the squad rather than a current injury during the tournament.
-- _Lineup:_ Shuto Machino called up to replace injured captain Wataru Endo in the World Cup squad, adding a forward option and forcing a reshuffle in midfield and leadership structure. (confirmed)
-- _Lineup:_ Ko Itakura to serve as Japan's new captain in Endo's absence, likely starting in central defense while taking over armband duties. (confirmed)
-- Sources: Al Jazeera report on Japan's 2026 World Cup squad omissions of Kaoru Mitoma and Takumi Minamino due to injury.[1], Olympics.com article on Wataru Endo's foot injury, withdrawal from the World Cup squad, and replacement by Shuto Machino with Ko Itakura appointed captain.[2], Japan Forward coverage of Endo pulling out of the World Cup, his left foot issues, and confirmation of Ko Itakura as new captain and Shuto Machino as squad replacement.[3]
+- Sources: Chosun Ilbo English report on Kubo’s knee injury and absence from the Tunisia match (June 20, 2026)[1], NHK World feature on Japan’s World Cup campaign and injuries to Mitoma, Minamino, Endo and Kubo, including Kubo missing Tunisia and remaining out afterward[4], ESPN World Cup 2026 injury tracker entries for Kaoru Mitoma and Takumi Minamino being left out of the squad through injury[3]
 
 ## Jordan
-_Next: Argentina (2026-06-27)_
-- **OUT:** Ibrahim Sabra — Torn ligament in left ankle sustained in training; ruled out of World Cup 2026 and removed from the final squad.
+- **OUT:** Ibrahim Sabra — Ruled out of the 2026 World Cup after tearing ankle ligaments in his left ankle during training, confirmed by the Jordanian FA.
+- **OUT:** Adham Al-Quraishi — Sustained an ACL tear playing for Jordan at the Arab Cup in December; listed on World Cup injury tracker as unavailable for national team duty.
+- **Doubtful:** Ali Olwan — Fitness concerns highlighted ahead of Jordan’s World Cup debut, with his condition being a main issue for the coaching staff.
+- **Doubtful:** Yazan Al Naimat — Fitness concerns noted alongside Ali Olwan as a key worry before Jordan’s first World Cup match.
 - **OUT:** Yazan Al-Naimat — ACL injury suffered in Arab Cup quarterfinals in December; confirmed to miss World Cup 2026 finals.
 - **OUT:** Yazan Alnemat — ACL injury sustained in the Arab Cup quarterfinals last December; confirmed to miss the World Cup finals.
-- **OUT:** Adham Al-Quraishi — Sustained an ACL tear playing for Jordan at the Arab Cup in December and remains unavailable for World Cup duty.
-- _Lineup:_ Coaching staff to rely on other forwards such as Ali Olwan and Mohammad Abu Zrayq in place of injured strikers Ibrahim Sabra and Yazan Al-Naimat. (likely)
-- Sources: Reuters report confirming Ibrahim Sabra's torn ankle ligament and his exclusion from World Cup 2026., FIFA.com squad article noting Sabra's late injury ruling him out of the tournament., Al Jazeera World Cup 2026 preview confirming Yazan Al-Naimat's ACL injury and absence from the finals.
+- _Lineup:_ Jordan must replace injured forward Ibrahim Sabra in the World Cup squad and matchday lineups after his confirmed ankle ligament tear. (confirmed)
+- _Lineup:_ Right-back Adham Al-Quraishi is expected to be omitted from lineups due to his ACL injury, requiring alternative options in the defensive line. (confirmed)
+- Sources: Reuters report on Ibrahim Sabra’s torn ankle ligament ruling him out of World Cup 2026., World Cup injury tracker entry noting Adham Al-Quraishi’s ACL tear and absence for Jordan., Pre-tournament report highlighting fitness concerns over Ali Olwan and Yazan Al Naimat before Jordan’s World Cup debut.
 
 ## Mexico
-_Next: South Africa (2026-06-11)_
 - **OUT:** Luis Ángel Malagón — Suffered a serious left Achilles tendon injury in a Concacaf Champions Cup match for Club América; initial reports indicate he will require surgery and be sidelined for 6–9 months, ruling him out of the 2026 World Cup.
 - **OUT:** Marcel Ruiz — Commentary on Mexico’s injury situation identifies Ruiz as one of several players 'confirmed to be out' for the World Cup due to injury, with expectations he may not return to play until 2027.
 - **OUT:** Huescas — Listed among the core group of injured Mexico players and described as 'probably' out for the World Cup, with concern he may not return this season.
@@ -220,162 +241,173 @@ _Next: South Africa (2026-06-11)_
 - **Doubtful:** Henry Martín — Listed in recent reporting among players uncertain due to injury concerns.
 - **Doubtful:** Jesús Orozco Chiquete — Listed in recent reporting among players uncertain due to injury concerns.
 - **Doubtful:** Chino Huerta — Listed in recent reporting among players uncertain due to injury concerns.
-- _Lineup:_ With Luis Ángel Malagón ruled out long term by an Achilles injury, Mexico are expected to turn to another goalkeeper for the World Cup; previous reports suggested Rangel as a favorite and veteran Guillermo Ochoa has a strong chance to be in contention for a historic sixth World Cup. (likely)
-- Sources: Sports Illustrated report on Luis Ángel Malagón’s Achilles tendon injury and World Cup absence, ESPN 2026 World Cup injuries tracker, Futbol Asada YouTube discussion on Mexico’s injury crisis and affected players (Malagón, Marcel Ruiz, Gilberto Mora, Edson Álvarez, Huescas, César Montes, Mateo Chávez, Alexis Vega)
+- Sources: Yahoo Sports live updates piece on 2026 World Cup news, including Mexico as opening match hosts against South Africa but without new injury/suspension updates in the last 48 hours[4], FourFourTwo Mexico World Cup 2026 squad and fixture list, which lists the group-stage matches but does not report fresh injuries or suspensions and is dated before the current 48-hour window[5], Transfermarkt Mexico national team suspensions and injuries page, showing no current injury or suspension information for the Mexico squad in the latest update[6]
 
 ## Morocco
-- **OUT:** Nayef Aguerd — Ruled out of World Cup 2026 and removed from the squad due to a groin injury with pubic bone fracture complications; replaced in the roster by defender Marwane Saadane.
-- **OUT:** Abde Ezzalzouli — Sustained a right knee/medial ligament (MCL) sprain in the Norway friendly after teammate Chadi Riad landed on his leg; unable to prove fitness and officially withdrawn from the World Cup squad, replaced by Amine Sbaï.
-- **Doubtful:** Noussair Mazraoui — Substituted in the Norway friendly after shoulder/physical discomfort; coach highlighted ongoing concern and defensive lineup seen as weakened approaching the tournament.
+_Next: Brazil (2026-06-13)_
+- **OUT:** Nayef Aguerd — Groin injury with pubic bone fracture; removed from World Cup squad and replaced by Marwane Saadane.
+- **OUT:** Abde Ezzalzouli — Medial collateral ligament sprain/right knee from friendly vs Norway; ruled out of Morocco’s World Cup squad and replaced, so will miss the tournament.
+- **Doubtful:** Noussair Mazraoui — Shoulder injury picked up shortly before the World Cup; fitness being monitored ahead of group games.
 - **OUT:** Abde/Abdessamad Ezzalzouli — Sustained right knee ligament damage (MCL sprain) in the friendly vs Norway; ruled out of the World Cup and replaced in the squad by Amine Sbaï.
+- _Lineup:_ Marwane Saadane expected to be part of the central-defence rotation in place of the injured Nayef Aguerd for World Cup matches. (confirmed)
+- _Lineup:_ With Abde Ezzalzouli unavailable, Soufiane Rahimi expected to play more frequently on the left side to provide attacking width. (likely)
+- Sources: Reuters, 2026-06-11: Morocco forced into two injury changes ahead of World Cup opener vs Brazil., BBC Sport, World Cup 2026 squad article: Injuries force Ezzalzouli & Aguerd out of World Cup., Arab News/Facebook repost: Morocco replaced two injured players in their World Cup squad ahead of opening game against Brazil.
 
 ## Netherlands
 _Next: Tunisia (2026-06-25)_
-- **OUT:** Jurriën Timber — Ruled out of the 2026 World Cup with an ongoing groin injury; left the pre-World Cup camp after the friendly against Uzbekistan and has been officially replaced in the squad.
-- **OUT:** Xavi Simons — Creative midfielder ruled out of the World Cup after rupturing his anterior cruciate ligament in April; not included in the final 26-man squad.
-- **OUT:** Jerdy Schouten — Suffered severe cruciate ligament damage in April and is missing from the World Cup squad, depriving the team of a midfield anchor.
-- **OUT:** Matthijs de Ligt — Veteran defender failed to recover from a long‑standing back issue and underwent further back surgery; ruled out of the World Cup and out until early in the 2026‑27 club season.
-- **OUT:** Stefan de Vrij — Experienced defender injured on the final day of the Italian league season and not available for the World Cup.
-- **Doubtful:** Bart Verbruggen — First‑choice goalkeeper and significant injury worry; did not participate in training and fell awkwardly on his hip versus Uzbekistan. Coaches are monitoring him day by day, believing he might be ready but not yet fully confirmed fit.
-- **Doubtful:** Memphis Depay — All‑time top goalscorer has barely played since a thigh muscle injury in March and is considered unlikely to start the opening match, indicating he is not at full fitness.
-- **Doubtful:** Frenkie de Jong — Returned from ankle problems and is yet to play a full match; wore strapping on his ankle in recent friendlies and reported some damage from a training collision, though he remains optimistic and is being monitored.
-- **Doubtful:** Virgil van Dijk — Captain experiencing discomfort after a strong blow to his hip in the 5‑1 win over Sweden, leading to numbness in his upper leg; he believes it is not serious but awaits further assessment.
-- _Lineup:_ Lutsharel Geertruida has been called up and added to the World Cup squad as a defensive replacement for the injured Jurriën Timber. (confirmed)
-- _Lineup:_ Memphis Depay is unlikely to start matches while he continues to recover from his thigh injury, increasing the chances of alternative centre‑forward options starting. (likely)
-- Sources: ESPN World Cup 2026 injuries tracker report on Timber and De Ligt, USA Today report on Netherlands injury issues and Bart Verbruggen fitness concern, Sports Illustrated article confirming Jurriën Timber ruled out and Geertruida replacement
+- **OUT:** Jurriën Timber — Ruled out of the 2026 World Cup with an ongoing groin injury; left pre-World Cup camp and has been officially replaced in the squad.
+- **OUT:** Xavi Simons — Misses the World Cup after rupturing his anterior cruciate ligament (ACL) in April; confirmed absence from the 26‑man World Cup squad.
+- **OUT:** Matthijs de Ligt — Underwent back surgery and has not recovered in time; ruled out of participating at the World Cup and targeting club return for 2026‑27 season.
+- **OUT:** Stefan de Vrij — Suffered an injury on the final day of the Italian league season and is unavailable for the World Cup.
+- **OUT:** Jerdy Schouten — Sustained severe cruciate ligament damage in April and is missing the World Cup, depriving Netherlands of a holding midfield option.
+- **Doubtful:** Bart Verbruggen — First‑choice goalkeeper fell awkwardly and came off against Uzbekistan with a hip problem; coach Koeman said he is being monitored day‑by‑day and might be ready but fitness remains a concern.
+- **Doubtful:** Frenkie de Jong — Returned from ankle issues and is yet to play a full match; had strapping on his ankle in warm‑up friendlies and reported a training knock before Sweden but said he felt fine and would be monitored.
+- **Doubtful:** Memphis Depay — Barely played since a thigh muscle injury in March and was described as unlikely to start the opening match against Japan, indicating limited readiness.
+- **Doubtful:** Virgil van Dijk — Captain reported hip and upper leg discomfort after a strong blow in the Sweden match; he believes it is not serious but said assessment is pending.
+- _Lineup:_ Lutsharel Geertruida added to the World Cup squad as replacement for injured defender Jurriën Timber, increasing his chances of featuring in the defensive rotation. (confirmed)
+- _Lineup:_ Memphis Depay considered unlikely to start at least the early World Cup matches due to limited minutes since a thigh injury, with alternative forwards likely to start instead. (likely)
+- Sources: ESPN World Cup 2026 injuries tracker for Netherlands (Timber, de Ligt, Schouten and other long‑term injuries)., USA Today report on Netherlands injury news before World Cup opener vs Japan, including Verbruggen, Timber and Simons updates., Sports Illustrated article confirming Jurriën Timber’s withdrawal from the World Cup and his replacement in the squad.
 
 ## New Zealand
-_Next: Egypt (2026-06-21)_
-- **OUT:** Matt Garbett — Ruled out of the 2026 World Cup with a hamstring injury suffered in training ahead of the 2-2 draw vs Iran; withdrawn from the squad and replaced by Logan Rogerson.
+- **OUT:** Matt Garbett — Ruled out of the World Cup after suffering a hamstring injury in training ahead of the 2-2 draw with Iran; withdrew from the squad and was replaced by Logan Rogerson.
 - **Doubtful:** Tyler Bindon — An older injury tracker noted calf/ankle issues, but no last-48-hours report confirms a current absence; treat as uncertain rather than active injury.
-- _Lineup:_ Logan Rogerson called up to replace injured Matt Garbett in the World Cup squad and available for selection in attacking positions. (confirmed)
-- Sources: Reuters report on Matt Garbett ruled out of World Cup and New Zealand’s next match vs Egypt, published June 16, 2026.[1], New Zealand Football social media post confirming Garbett’s hamstring injury and World Cup withdrawal.[2], 2026 FIFA World Cup squads listing noting Garbett’s withdrawal and replacement by Logan Rogerson on June 15, 2026.[6]
+- _Lineup:_ Matt Garbett withdrawn injured and replaced in the World Cup squad by forward Logan Rogerson, affecting midfield and attacking options. (confirmed)
+- Sources: Reuters report on Matt Garbett being ruled out of the World Cup with a hamstring injury and replaced by Logan Rogerson, including New Zealand Football's statement and note that the injury occurred before the 2-2 draw with Iran. [1], Social media and Instagram posts confirming that All Whites attacker Matt Garbett has been ruled out of the FIFA World Cup 2026 with a hamstring injury. [2][4], 2026 FIFA World Cup squads listing for New Zealand noting that Matthew Garbett withdrew injured with a hamstring injury and was replaced by Logan Rogerson on June 15. [8]
+
+## Norway
+- **OUT:** Julian Ryerson — Ruled out of the Round of 32 match vs Ivory Coast; Marcus Pedersen set to replace him at right-back.
+- _Lineup:_ Marcus Pedersen to start at right-back in place of the unavailable Julian Ryerson against Ivory Coast. (confirmed)
+- Sources: Standard.co.uk team news and predicted lineup for Norway vs Ivory Coast, including Ryerson absence and Pedersen starting at right-back., Wikipedia match record: Ivory Coast 1–2 Norway in the Round of 32 at the 2026 World Cup, confirming Norway’s progression to the last 16.
 
 ## Panama
 - **Doubtful:** Adalberto Carrasquilla — Missed all group-stage minutes at World Cup 2026 due to a thigh muscle injury; earlier reports mentioned an adductor/groin strain before the tournament, with uncertainty about full recovery.
-- Sources: BBC Sport analysis on Panama at World Cup 2026, noting Carrasquilla’s thigh muscle injury and his absence from all group-stage minutes., USA Today roster report for Panama’s 26-man World Cup 2026 squad, describing Carrasquilla’s pre-tournament groin/adductor injury and recovery uncertainty., YouTube match report indicating Panama’s elimination from World Cup 2026 after two 1-0 defeats.
+- Sources: YouTube: Panama ELIMINATED from 2026 World Cup – match report and tournament status.[3], FIFA.com team page for Panama – fixtures and results overview.[7], Transfermarkt Panama suspensions and injuries page – currently no listed injuries or suspensions.[4]
 
 ## Paraguay
 _Next: United States (2026-06-12)_
-- _Lineup:_ Coaching staff expected to adjust attacking plans around Enciso due to his recent injury, but latest reports confirm he will start and lead the attack, reducing the likelihood of major changes to the forward line for the opener. (confirmed)
-- Sources: BBC Sport report on Julio Enciso’s injury in the 4-0 friendly vs Nicaragua and Paraguay’s impending World Cup opener vs the United States.[1], YouTube analysis detailing Enciso’s double injury, expected 2–3 week recovery and initial expectation he would miss the opener and possibly second group match.[2], ESPN match preview/report confirming Enciso returned to full training, has made Paraguay’s starting lineup and will lead the attack against the USMNT in the World Cup opener.[5]
+- **Doubtful:** Julio Enciso — Sustained a double injury in the June 4–5 friendly vs Nicaragua: tight hamstring from impact plus a blow to the waist affecting the quadriceps; recovery estimated at 2–3 weeks, making him unlikely for the opener vs United States and possibly the second group match, with hope he returns for the final group game.
+- _Lineup:_ Adjust attacking lineup to start an alternative forward in place of Julio Enciso for the World Cup opener against the United States, and potentially for the second group match against Turkey, due to his 2–3 week recovery timeline. (likely)
+- Sources: The Athletic / New York Times report on Enciso’s injury and evaluation after the Nicaragua friendly, including coach Gustavo Alfaro’s description of the double injury and hope he might be ready later in the group stage.[1], BBC Sport article stating Enciso’s World Cup participation is in doubt after being injured and stretchered off in the 4–0 win over Nicaragua, Paraguay’s last warm-up match.[2], YouTube analysis video detailing Enciso’s hamstring and quadriceps injuries, giving a 2–3 week recovery estimate and explaining he is expected to miss the opener vs USMNT and possibly the second match vs Turkey, with hope for a return vs Australia.[3]
 
 ## Portugal
-_Next: Colombia (None)_
-- **Suspended:** Rúben Dias — Ruled out of Portugal's World Cup 2026 opening match vs DR Congo; status was a one-match absence and not reported as a continuing tournament-long ban.
 - **OUT:** Nuno Mendes — Set to miss the rest of the World Cup after suffering a thigh injury in the match against Uruguay, as announced by Portugal.
 - **OUT:** Rúben Dias — Confirmed to miss Portugal's 2026 World Cup Group K opener vs DR Congo due to injury after training separately from the main squad.
 - **OUT:** Cristiano Ronaldo — Confirmed he will not play at the 2026 World Cup due to an ACL injury, ruling him out of the tournament.
 - **Doubtful:** Bruno Fernandes — Reported hamstring injury suffered in training just hours before a crucial World Cup match, with fears his tournament could be in serious doubt and Portugal awaiting further assessment.
-- _Lineup:_ Portugal will need to replace Nuno Mendes at left-back for all remaining World Cup matches, likely bringing in an alternative full-back option in the starting XI. (confirmed)
-- Sources: Fox Sports World Cup Buzz report noting that Portugal closes out group stage play against Colombia at Miami Stadium on Saturday.[5], Facebook report stating that Nuno Mendes is set to miss the rest of the World Cup for Portugal after suffering a thigh injury against Uruguay.[10]
+- Sources: https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info, https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz, https://rg.org/en-ca/sportsbooks/world-cup-2026/portugal
 
 ## Qatar
-- **Suspended:** Assim Madibo — Likely suspension risk after the strong tackle that led to a serious injury in the match against Canada; the reports provided do not explicitly confirm a red card, so this cannot be stated as confirmed.
 - **Doubtful:** Assim Madibo — Reported in match coverage as having made the tackle that caused Ismael Koné's severe leg injury in Canada's 6-0 win over Qatar; the available reports do not confirm that Madibo himself was injured, so there is no current injury status to list beyond this match involvement.
-- Sources: 6, 3, 1
+- Sources: Fox Sports World Cup Buzz report on Canada vs Qatar, including reference to Alphonso Davies' availability and the match against Qatar.[4], The Athletic/NYTimes live blog for Canada vs Qatar World Cup 2026 group match in Vancouver, providing score and context of Canada routing Qatar.[8], FourFourTwo Qatar World Cup 2026 squad and pre-match predicted XI vs Canada.[6]
 
 ## Saudi Arabia
 - **OUT:** Hassan Al-Tambakti — Was stretchered off during the match against Cape Verde after collapsing with no contact; reports described it as a serious leg injury.
-- Sources: https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info, https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html, https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz
+- Sources: https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info, https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz, https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/saudi-arabia/squad
 
 ## Scotland
-_Next: Brazil (2026-07-08)_
-- **OUT:** Billy Gilmour — Ruled out of FIFA World Cup 2026 with a knee injury sustained in the warm-up win over Curaçao; officially withdrawn from the squad before the tournament.
+- **Suspended:** Billy Gilmour — Injury-related absence; no red-card or yellow-card suspension was reported in the provided news.
+- **OUT:** Billy Gilmour — Scottish FA said the knee injury he sustained in today's win over Curaçao will rule him out of participation in the FIFA World Cup.
 - **Doubtful:** Aaron Hickey — Right-back came off in the 1-0 win over Haiti and missed the subsequent 1-0 defeat to Morocco; absent from group training ahead of the Brazil match and doing individual work.
 - **Doubtful:** Scott McKenna — Managing a calf complaint; has yet to feature at the World Cup and was doing individual work away from main group training before the Brazil game.
 - **Doubtful:** Scott McTominay — Missed a training session at Scotland's World Cup base in North Carolina due to a stomach complaint; reports indicate he is expected to be fit for the opener against Haiti.
 - **Doubtful:** Lewis Ferguson — Midfielder missed group training ahead of the Brazil match, doing individual work, although he completed the full 90 minutes against Morocco.
 - **Doubtful:** Andy Robertson — Reports describe a 'horrific' World Cup injury and emergency surgery checks following Scotland’s 3-0 defeat to Brazil; awaiting formal confirmation from official team or federation sources.
-- _Lineup:_ Possible change at centre-back if Scott McKenna remains unavailable, maintaining the existing pairing rather than introducing him for Brazil. (likely)
-- Sources: FourFourTwo: Scotland injury news latest as Scott McTominay misses training before World Cup opener, ESPN: Scotland World Cup injury concerns as Aaron Hickey, Scott McKenna and Lewis Ferguson miss training ahead of Brazil game, Scottish FA: FIFA World Cup 2026 squad update confirming Billy Gilmour ruled out with knee injury
+- _Lineup:_ Billy Gilmour is unavailable for selection after being ruled out by injury. (confirmed)
+- Sources: 1, 5
 
 ## Senegal
-- **OUT:** Edouard Mendy — Left knee injury sustained in the 3–2 group-stage loss to Norway; ruled out of subsequent World Cup matches, including the Round of 32 clash with Belgium.
+_Next: Belgium (2026-07-08)_
+- **OUT:** Edouard Mendy — Left knee injury sustained in the group match against Norway; ruled out of the Round of 32 match against Belgium and missing a second consecutive World Cup game according to coach Pape Thiaw.
 - **Doubtful:** Sadio Mane — Named in World Cup squad despite ongoing injury concerns; training with team but not yet clearly confirmed fully fit for knockout match.
-- _Lineup:_ Backup goalkeeper expected to start in place of injured first-choice keeper Edouard Mendy for knockout matches. (confirmed)
-- Sources: Instagram post from Senegalese Football Federation confirming Edouard Mendy's left knee injury against Norway and ruling him out of at least the next match (2026-06-24)., Fox Sports World Cup 2026 report stating Edouard Mendy is out for Senegal's Round of 32 match against Belgium due to the same knee injury, his second consecutive World Cup match missed., Facebook post (SABC News) describing Senegal's heartbreaking elimination against Belgium after losing a 2–0 lead and conceding a 120th-minute penalty winner.
+- _Lineup:_ Backup goalkeeper expected to start in place of injured first-choice keeper Edouard Mendy for the Round of 32 match against Belgium. (confirmed)
+- Sources: Instagram post confirming Edouard Mendy’s left knee injury against Norway and ruling him out of Senegal’s subsequent World Cup match., Fox Sports World Cup Buzz report stating Edouard Mendy will miss the Round of 32 match against Belgium due to the knee injury from the Norway game., BBC Sport and FIFA tournament context for Senegal’s World Cup 2026 schedule and progression to knockout rounds.
 
 ## South Africa
-_Next: Korea Republic (2026-06-24)_
-- **Suspended:** Sithole — Straight red card vs Mexico in group opener; automatic suspension for next match
-- **Suspended:** Zwane — Straight red card vs Mexico after coming on as substitute; automatic suspension for next match
-- **Doubtful:** Aubrey Modiba — Hamstring injury suffered in the first leg of the CAF Champions League final; has only recently returned to full training and is listed as doubtful for the World Cup opener.
-- _Lineup:_ Coach must replace suspended players Sithole and Zwane after their red cards against Mexico, likely forcing changes in defensive and/or midfield roles depending on their usual positions. (confirmed)
-- Sources: https://www.cbssports.com/soccer/news/mexico-vs-south-africa-live-updates-world-cup-2026-score-result/live/, https://www.britannica.com/event/2026-FIFA-World-Cup
+_Next: Mexico (2026-06-12)_
+- **Doubtful:** Aubrey Modiba — Recovered enough to complete his first full training session at the team base after a hamstring injury; still described as likely to start if medical staff are satisfied he can handle 90 minutes.
+- _Lineup:_ Aubrey Modiba is expected to start at left-back if cleared medically. (likely)
+- Sources: https://www.flashscore.co.za/news/soccer-world-championship-south-africa-get-injury-boost-ahead-of-world-cup-opener-against-mexico/rgwoQul2/, https://www.sportsmole.co.uk/football/mexico/injury-news/team-news/mexico-vs-south-africa-injury-suspension-list-predicted-xis_598872.html
 
 ## South Korea
+_Next: South Africa (2026-07-09)_
 - **OUT:** Cho Yu-min — Ruled out of the World Cup after suffering a serious foot/plantar injury in a 5-0 friendly win over Trinidad and Tobago and subsequently withdrawn from the squad.
-- Sources: South Korea has been eliminated from the 2026 FIFA World Cup after DR Congo defeated Uzbekistan 3-1, ending their hopes of advancing as one of the tournament’s best third-placed teams.[7], South Korea's World Cup wreckage: From Son's 'absolute heartache' to coach Hong Myung-bo's resignation and criticism of his decision to bench Son in the decisive match against South Africa.[8]
+- _Lineup:_ Son Heung-min is expected to be dropped to the bench for the South Africa match. (confirmed)
+- _Lineup:_ Oh Hyeon-gyu is expected to start up front in place of Son Heung-min. (confirmed)
+- _Lineup:_ Lee Tae-seok is expected to come in at wingback for Kim Moon-hwan. (confirmed)
+- _Lineup:_ Hwang Hee-chan is expected to replace Lee Jae-sung in the attack. (confirmed)
+- Sources: https://en.sedaily.com/sports/2026/06/09/bae-jun-ho-still-sidelined-as-injury-alert-hits-korea, https://www.youtube.com/watch?v=D4u-X9YIO68, https://www.espn.com/soccer/story/_/id/49170133/south-korea-drop-captain-son-heung-min-world-cup-decider
 
 ## Spain
-_Next: Not confirmed in the provided results (null)_
-- **Doubtful:** Nico Williams — Suffered a right adductor muscle injury against Uruguay; recovery will determine availability.
-- **Doubtful:** Yeremy Pino — Picked up a shoulder injury against Uruguay; tests ruled out a fracture, but he is still not fully cleared.
+_Next: Runner-up of Group J (Austria or Algeria) (2026-07-02)_
+- **Doubtful:** Nico Williams — Sustained a muscle injury in his right adductor/groin area during the 1-0 win over Uruguay; RFEF described both his and Pino's injuries as moderate with recovery determining availability for the knockout stages.
+- **OUT:** Yeremy Pino — Suffered a shoulder sprain late in the win over Uruguay; tests ruled out fracture but coach Luis de la Fuente has said he might miss the rest of the World Cup.
+- **Doubtful:** Victor Muñoz — Arrived at the tournament with a leg muscle injury and is still waiting to make his World Cup debut, leaving Spain short of natural wingers.
 - **OUT:** Rodri — Will miss the World Cup after a high-grade right ankle sprain that requires surgery.
 - **OUT:** Fermín López — Set to miss the World Cup after fracturing a metatarsal in his right foot and undergoing surgery.
 - **Doubtful:** Mikel Merino — Has been out since early February with a stress fracture in his foot; return depended on late-season recovery.
 - **Doubtful:** Víctor Muñoz — Still waiting to make his tournament debut because of a leg muscle injury.
 - **Doubtful:** Gavi — A non-authoritative social post in the search results mentions ongoing fitness issues, but there is no high-confidence last-48-hours confirmation of his status in the supplied sources.
 - **Doubtful:** Dean Huijsen — A non-authoritative social post in the search results mentions a groin injury; no authoritative last-48-hours confirmation is provided in the supplied sources.
-- _Lineup:_ Spain may shift Mikel Oyarzabal to the left if wing options remain limited. (likely)
-- _Lineup:_ Ferran Torres or Borja Iglesias could start at centre forward if the front line is reshuffled. (likely)
-- _Lineup:_ Lamine Yamal is expected to return on the right wing if match fitness is confirmed. (likely)
-- Sources: ESPN injury tracker, Reuters June 27 report on Spain vs Uruguay
+- _Lineup:_ With Nico Williams and Yeremy Pino injured and Victor Muñoz not yet available, Spain are expected to adjust their wing options, including possibilities such as using Lamine Yamal on the right and shifting Mikel Oyarzabal to the left, with Ferran Torres or Borja Iglesias at centre forward. (likely)
+- Sources: Reuters report June 27, 2026 on Spain’s injuries to Nico Williams and Yeremy Pino and winger options, Sports Illustrated article on Spain’s injury blows and Pino’s likely absence for the rest of the World Cup
 
 ## Sweden
-_Next: France (None)_
-- **OUT:** Isak Hien — Left hamstring injury sustained in the 1-1 group-stage draw against Japan; national team doctor confirmed he will play no further part in the World Cup and has returned to his club.
+_Next: France (2026-06-30)_
+- **OUT:** Isak Hien — Left hamstring injury suffered in the 1-1 draw vs Japan; national team doctor confirmed he will play no further part in the World Cup and has returned to his club.
 - **OUT:** Gustav Lundgren — Ruptured Achilles tendon suffered in warm-up before Allsvenskan season; World Cup qualifying hero ruled out of the tournament.
 - **OUT:** Emil Krafth — Knee injury with expected return around 2026-08-01, so he will miss the current World Cup phase.
 - **Doubtful:** Victor Lindelöf — Listed with a strain and a possible return date of 2026-06-30; fitness for the France match is uncertain despite his role as captain.
 - **OUT:** Dejan Kulusevski — Missed selection for the World Cup squad due to ongoing knee issues and lack of full fitness.
-- _Lineup:_ Defensive lineup adjustment required to replace injured centre-back Isak Hien for the upcoming knockout match, likely involving a different central defender in the starting XI. (likely)
-- Sources: Reuters report confirming Isak Hien’s World Cup-ending hamstring injury and Sweden’s progression to face France in the round of 32., Radio Sweden report on Gustav Lundgren’s ruptured Achilles tendon ruling him out of the World Cup., FIFA’s official Sweden squad and fixtures page for current tournament context.
+- _Lineup:_ Center-back Isak Hien to be replaced in the starting XI for knockout matches due to tournament-ending hamstring injury against Japan. (confirmed)
+- Sources: Reuters: "Sweden's Hien out of World Cup after suffering hamstring injury against Japan" (2026-06-26), UEFA.com: "Sweden at the World Cup 2026: Squad, fixtures, group and history" (fixtures and knockout opponent France)
 
 ## Switzerland
-- **Doubtful:** Silvan Widmer — Hip problem; listed as doubtful for Switzerland’s World Cup round of 32 match vs Algeria, with no players reported fully out.
-- Sources: Sports Mole team news and predicted XIs for Switzerland vs. Algeria, listing no players out and Silvan Widmer as doubtful with a hip issue.[3], Wikipedia match log for Switzerland at the 2026 World Cup, confirming group-stage results and the 2–0 win over Algeria on 2 July 2026.[6]
+_Next: Algeria (2026-07-03)_
+- **Doubtful:** Silvan Widmer — Reported as doubtful with a hip issue ahead of the round-of-16 match against Algeria; Sports Mole listed him as the only Swiss injury concern in its team news.
+- _Lineup:_ Silvan Widmer may miss out, with Luca Jaquez or another defensive option likely to cover on the right side if he is not fit. (likely)
+- _Lineup:_ Swiss reported predicted XI for the Algeria match features Kobel; Jaquez, Elvedi, Akanji, Rodriguez; Freuler, Xhaka; Sow, Manzambi, Vargas; Embolo. (likely)
+- Sources: Reuters report on Canada injury news and Switzerland matchup context, ESPN report on Switzerland squad and captaincy, Sports Mole Switzerland vs Algeria injury/suspension list and predicted XI
 
 ## Tunisia
-- **Suspended:** N/A — No current suspension was identified in the provided results.
 - **Doubtful:** Hannibal — BBC notes that Tunisia's attacking options would be further limited if Hannibal's pre-tournament friendly injury remains an issue; the current status is not fully specified in the available results.
 - **OUT:** Hannibal Mejbri — Pre-tournament injury picked up in a friendly against Austria was reported to further limit Tunisia’s already scarce attacking flair and has continued to be referenced as affecting his World Cup participation.
-- _Lineup:_ Possible attacking reshuffle if Hannibal is unavailable. (likely)
-- Sources: ESPN injuries tracker, BBC World Cup Tunisia preview, Yahoo Sports Tunisia team page
+- Sources: 7, 5
 
 ## Turkey
+_Next: USA (2026-06-25)_
 - **Doubtful:** Arda Güler — Carrying a muscle/hamstring injury sustained with Real Madrid; was expected to recover in time for the World Cup, but is still listed with a muscle injury for Türkiye as of late May 2026, so his full fitness for the next match remains uncertain.
 - **Doubtful:** Hakan Çalhanoğlu — Has had multiple muscle issues this season and suffered a calf muscle tear in May 2026; reports before the tournament suggested he might miss the remainder of Inter’s season but hope remained for World Cup participation. Listed with a calf tear in May, so his condition is still monitored even though he is expected to feature.
-- Sources: Reuters World Cup coverage and elimination context for Turkey[3], FIFA team page for Türkiye – fixtures and results showing group-stage elimination and no upcoming knockout matches[8], Social media match reaction: Mert Mulder in tears after back-to-back defeats leading to Turkey’s elimination[6]
+- _Lineup:_ Turkey expected to start a 4-2-3-1 with Çakir; Müldür, Demiral, Kabak, Kadioglu; Özcan, Çalhanoğlu; Arda Güler, Yilmaz, Aktürkoğlu; Kenan Yıldız vs USA, with no new forced changes reported from injuries or suspensions in the last 48 hours. (likely)
+- Sources: ESPN World Cup injuries tracker – Arda Güler hamstring, targeting World Cup and expected to recover in time.[1], The Athletic via New York Times – Turkey’s Arda Güler (hamstring) and Hakan Çalhanoğlu (muscle strain) expected to recover for the World Cup, with concerns largely about club-season absences rather than in-tournament unavailability.[2], Reuters – Pre-tournament piece noting lingering worries over Arda Güler’s fitness after his hamstring injury for Real Madrid, but framed around his leading Turkey at the World Cup rather than ruling him out.[3]
 
 ## United States
 _Next: Bosnia and Herzegovina (2026-07-01)_
-- **Doubtful:** Auston Trusty — Recovering from an ankle injury sustained against Turkey; has returned to training faster than expected and may be available for selection but requires a final assessment.
-- **OUT:** Mark McKenzie — Dealing with foot irritation and has not returned to full training; described as unlikely to be available for the Bosnia and Herzegovina match pending late assessment.
-- **OUT:** Cristian Roldan — Quad injury suffered on June 20; has not trained with the team since and is considered very unlikely to be available for Bosnia and Herzegovina pending late assessment.
+- **OUT:** Patrick Agyemang — Torn Achilles tendon sustained in club play in April; ruled out of the 2026 World Cup by his club and listed by tournament injury tracker as missing the World Cup.
+- **Doubtful:** Auston Trusty — Ankle injury picked up against Turkey; has returned to training and coach Mauricio Pochettino hopes he can be on the bench vs Bosnia and Herzegovina, but final assessment still pending and availability uncertain.
+- **Doubtful:** Mark McKenzie — Foot irritation following the Turkey match; has been out of training and is considered a long shot to be available for Bosnia and Herzegovina, with status to be reassessed before the game.
+- **Doubtful:** Cristian Roldan — Quad injury sustained on June 20; has not trained with the team since and is described as unlikely to be available for Bosnia and Herzegovina pending further evaluation.
 - **Doubtful:** Christian Pulisic — Described as day-to-day and a game-time decision for the upcoming World Cup match after missing the previous game with a leg injury (reported as calf/hamstring in recent coverage).
-- **OUT:** Patrick Agyemang — Forward ruled out of the 2026 World Cup after suffering a serious Achilles/ACL-type injury approximately two months before the tournament.
 - **OUT:** Johnny Cardoso — Reported to have a high-grade right ankle sprain that required surgery and was said to miss the World Cup.
 - **Doubtful:** Tim Weah — Reported on a recent discussion as out for the rest of the year with a muscle strain, but no official current-match fitness update was provided in the search results.
-- _Lineup:_ Christian Pulisic expected to return to the starting XI and be available to play 90 minutes after previously being limited by a calf issue. (confirmed)
-- _Lineup:_ Auston Trusty could return to the matchday squad, likely starting on the bench, after resuming training following his ankle injury against Turkey. (likely)
-- _Lineup:_ Defensive rotation or alternative options expected at center back/right back if Mark McKenzie is not passed fit due to ongoing foot irritation. (likely)
-- _Lineup:_ Midfield options beyond the usual rotation may be adjusted due to Cristian Roldan’s expected absence with a quad injury. (likely)
-- Sources: USA Today – USMNT injury updates ahead of Bosnia and Herzegovina round-of-32 match, including Trusty, McKenzie, Roldan, and Pulisic (2026-06-30)., Fox Sports – World Cup Buzz roundup with Pochettino’s injury comments on Trusty, Roldan, McKenzie, and Pulisic before Bosnia and Herzegovina (late June 2026).
+- _Lineup:_ Increased likelihood that defender Auston Trusty is included in the matchday squad (potentially on the bench) for the round-of-32 match against Bosnia and Herzegovina after returning to training earlier than expected from an ankle injury. (likely)
+- _Lineup:_ Mark McKenzie and Cristian Roldan expected to miss out on the matchday squad or start the Bosnia and Herzegovina game due to ongoing foot and quad issues respectively and lack of full training. (likely)
+- _Lineup:_ Christian Pulisic expected to be available to start and play close to 90 minutes in the knockout match against Bosnia and Herzegovina after reporting he feels ready and training fully following his calf issue earlier in the tournament. (confirmed)
+- Sources: Fox Sports report confirming Patrick Agyemang will miss the 2026 World Cup with a serious Achilles injury.[1], ESPN World Cup injuries tracker listing Patrick Agyemang as out of the World Cup with a torn Achilles tendon.[2], USA Today injury update from Santa Clara detailing Auston Trusty’s improved ankle status, and ongoing issues for Mark McKenzie (foot) and Cristian Roldan (quad) ahead of USA vs Bosnia and Herzegovina.[3]
 
 ## Uruguay
-- **OUT:** Manuel Ugarte — Suffered a serious knee ligament injury during Uruguay's 1-0 World Cup defeat to Spain on June 26 and was carried off on a stretcher; recovery timeline was still being assessed.
+- **Suspended:** Unnamed Uruguay player (red card vs Spain) — Received a red card late in the match against Spain after an altercation with the referee, incurring an automatic suspension for the following fixture.
+- **OUT:** Ronald Araújo — Suffered a muscle tear during Uruguay training shortly before the World Cup, with Bielsa confirming he joined Giménez and de Arrascaeta on the injury list; no subsequent report in the last 48 hours indicates a return.
+- **Doubtful:** Giorgian de Arrascaeta — Was on Uruguay’s pre-World Cup injury list recovering from a calf problem; Bielsa referenced him alongside Giménez as injured, but there is no clear, recent confirmation that he is fully fit for selection.
+- **OUT:** Manuel Ugarte — Sustained a severe left leg injury against Spain and was stretchered off after his knee was placed in a dangerous position; subsequent reports have described it as a horrific injury, ruling him out for the remainder of Uruguay’s World Cup campaign.
 - **Doubtful:** José Giménez — Recent injury-tracker reporting described him as recovering from a severe ankle sprain and expected to be available at some point during the World Cup, but not yet confirmed fit for immediate selection.
-- **OUT:** Ronald Araújo — Suffered a muscle tear in training during World Cup preparations and was listed as injured ahead of the group stage.
 - **Doubtful:** Giorgian De Arrascaeta — Carried a muscle injury into camp and was on the injury list ahead of the World Cup; no clear confirmation in the last 48 hours that he is fully fit.
 - **Doubtful:** Jose Gimenez — Nearing a return from the severe ankle sprain that had sidelined him late in the club season; listed as questionable for the World Cup group stage but expected to be available at some point in the tournament.
-- **Doubtful:** Giorgian de Arrascaeta — Grade 2 right calf injury sustained in training; AUF confirmed he will stay with the squad and is expected to be available from the knockout phase, implying absence for the group stage.
-- _Lineup:_ Nicolás de la Cruz to continue filling the midfield role after Manuel Ugarte's injury. (likely)
-- _Lineup:_ Extra responsibility at center back for Ronald Araújo if José Giménez is not fully available. (likely)
-- Sources: Reuters June 28, 2026 report on Manuel Ugarte's knee injury, ESPN World Cup injuries tracker dated 2026-07-03, FIFA Uruguay squad page
+- _Lineup:_ Midfield reshuffle required to replace Manuel Ugarte, with Bielsa likely to turn to alternative central midfield options and adjust the balance in front of Valverde. (likely)
+- _Lineup:_ Back line selection affected by Ronald Araújo’s muscle tear, increasing the chances of Santiago Bueno and other centre-backs featuring more prominently. (likely)
+- _Lineup:_ Goalkeeper position under review after Fernando Muslera requested to be substituted at halftime against Spain, with Sergio Rochet now a strong candidate to start any subsequent competitive match. (likely)
+- Sources: Covers.com World Cup 2026 injury report for Uruguay, including José Giménez group-stage status and recovery progress., ESPN 2026 World Cup injuries tracker detailing José Giménez’s severe ankle sprain in May and its impact on Uruguay’s defensive plans., Reuters report (2026-06-15) quoting Marcelo Bielsa on injuries to Ronald Araújo, José Giménez and Giorgian de Arrascaeta and affirming Giménez’s full recovery ahead of the World Cup.
 
 ## Uzbekistan
-- **OUT:** Eldor Shomurodov — Reportedly ruled out of the squad before the tournament because of a leg injury.
-- **OUT:** Jaloliddin Masharipov — Withdrew from the World Cup squad due to a back injury and was replaced by Ruslanbek Jiyanov.
-- Sources: 5, 7, 4
+- **OUT:** Eldor Shomurodov — Ruled out of the 2026 World Cup prior to the tournament after sustaining a leg injury; not included in the World Cup squad and remains unavailable.
+- **OUT:** Jaloliddin Masharipov — Withdrew from the World Cup squad due to a back injury and was replaced by Ruslanbek Jiyanov on June 15; no report of return since, so still considered unavailable.
+- Sources: Wikipedia: Uzbekistan national football team – World Cup 2026 section, including notes on Shomurodov’s leg injury and Masharipov’s back injury and withdrawal from the squad.[4], Transfermarkt: Uzbekistan – Suspensions and injuries overview for current status of injuries and suspensions.[9], Instagram/Onesoccer post stating Uzbekistan have been eliminated from the World Cup after losing all three group matches.[7]

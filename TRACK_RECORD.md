@@ -37,8 +37,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 ### 2026-07-03
 - Score so far: 72 matches, 61% correct, RPS 0.1591
 - Newly decided: Portugal 2-1 Croatia [?]; Spain 3-0 Austria [?]; Switzerland 2-0 Algeria [?]
-- News ingested: 48 teams scanned, 90 out / 88 doubtful, 5 suspensions
-  - Suspensions: Assim Madibo (Qatar); Sithole (South Africa); Zwane (South Africa); N/A (Tunisia); Rúben Dias (Portugal)
+- News ingested: 48 teams scanned, 99 out / 99 doubtful, 2 suspensions
+  - Suspensions: Billy Gilmour (Scotland); Unnamed Uruguay player (red card vs Spain) (Uruguay)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-02
