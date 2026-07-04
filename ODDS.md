@@ -4,21 +4,21 @@ _Auto-generated 2026-07-04. Bookmaker consensus (median across EU/UK books) to w
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
-| 1 | France | 2.98 | 33.2% |
-| 2 | Argentina | 5.8 | 17.1% |
-| 3 | Spain | 7.4 | 13.4% |
-| 4 | England | 12.5 | 7.9% |
-| 5 | Brazil | 14.5 | 6.8% |
-| 6 | Portugal | 17 | 5.8% |
+| 1 | France | 3 | 32.8% |
+| 2 | Argentina | 5.9 | 16.7% |
+| 3 | Spain | 7.2 | 13.7% |
+| 4 | England | 13 | 7.6% |
+| 5 | Brazil | 14 | 7.0% |
+| 6 | Portugal | 16.5 | 6.0% |
 | 7 | Colombia | 30 | 3.3% |
-| 8 | Mexico | 34 | 2.9% |
-| 9 | United States | 40 | 2.5% |
-| 10 | Morocco | 42 | 2.4% |
+| 8 | Mexico | 30 | 3.3% |
+| 9 | Morocco | 38 | 2.6% |
+| 10 | United States | 42 | 2.3% |
 | 11 | Norway | 55 | 1.8% |
-| 12 | Belgium | 75 | 1.3% |
+| 12 | Belgium | 70 | 1.4% |
 | 13 | Switzerland | 100 | 1.0% |
-| 14 | Canada | 460 | 0.2% |
-| 15 | Egypt | 490 | 0.2% |
-| 16 | Paraguay | 580 | 0.2% |
+| 14 | Canada | 380 | 0.3% |
+| 15 | Egypt | 480 | 0.2% |
+| 16 | Paraguay | 520 | 0.2% |
 
 _Source: The Odds API (the-odds-api.com), `soccer_fifa_world_cup_winner` market, regions eu,uk. Odds are the median bookmaker consensus; implied % is normalised to remove the overround._

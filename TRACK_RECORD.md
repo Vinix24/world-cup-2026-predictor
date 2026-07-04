@@ -38,8 +38,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 ### 2026-07-04
 - Score so far: 72 matches, 61% correct, RPS 0.1591
 - Newly decided: Argentina 3-2 Cape Verde [?]; Australia 1-1 Egypt [?]; Colombia 1-0 Ghana [?]
-- News ingested: 48 teams scanned, 98 out / 89 doubtful, 5 suspensions
-  - Suspensions: Assim Madibo (Qatar); Homam Al Amin (Qatar); Sidny Lopes Cabral (Cape Verde); Ryan Mendes (Cape Verde); Mohanad Lashin (Egypt)
+- News ingested: 48 teams scanned, 98 out / 95 doubtful, 2 suspensions
+  - Suspensions: Miguel Almirón (Paraguay); Nathan Ngoy (Belgium)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-03
