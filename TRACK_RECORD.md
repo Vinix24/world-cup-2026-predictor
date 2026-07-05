@@ -39,8 +39,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 ### 2026-07-05
 - Score so far: 72 matches, 61% correct, RPS 0.1591
 - Newly decided: Canada 0-3 Morocco [?]; Paraguay 0-1 France [?]
-- News ingested: 48 teams scanned, 99 out / 90 doubtful, 4 suspensions
-  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Assim Madibo (Canada); Homam El Amin (Canada)
+- News ingested: 48 teams scanned, 105 out / 92 doubtful, 3 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Manuel Ugarte (Uruguay)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-04
