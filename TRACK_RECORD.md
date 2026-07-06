@@ -39,9 +39,9 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-07-06
 - Score so far: 72 matches, 61% correct, RPS 0.1591
-- Newly decided: Brazil 1-2 Norway [?]; Mexico 2-3 England [?]
-- News ingested: 48 teams scanned, 105 out / 86 doubtful, 5 suspensions
-  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Mohamed Hany (Egypt); Assim Madibo (Canada); none (United States)
+- Newly decided: Brazil 0-2 Norway [?]; Mexico 2-3 England [?]
+- News ingested: 48 teams scanned, 108 out / 87 doubtful, 1 suspensions
+  - Suspensions: Unnamed Uruguay player (Uruguay)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-05
