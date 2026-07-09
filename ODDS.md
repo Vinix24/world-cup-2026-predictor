@@ -1,15 +1,15 @@
 # WK 2026 — market odds
 
-_Auto-generated 2026-07-08. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
+_Auto-generated 2026-07-09. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
-| 1 | France | 3.05 | 32.3% |
-| 2 | Spain | 5.2 | 19.0% |
-| 3 | Argentina | 5.3 | 18.6% |
-| 4 | England | 6 | 16.4% |
-| 5 | Norway | 17 | 5.8% |
-| 6 | Morocco | 34 | 2.9% |
+| 1 | France | 3.1 | 31.8% |
+| 2 | Argentina | 5.1 | 19.3% |
+| 3 | Spain | 5.2 | 18.9% |
+| 4 | England | 5.9 | 16.7% |
+| 5 | Norway | 17.5 | 5.6% |
+| 6 | Morocco | 36 | 2.7% |
 | 7 | Belgium | 38 | 2.6% |
 | 8 | Switzerland | 42 | 2.3% |
 
