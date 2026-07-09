@@ -4,12 +4,12 @@ _Auto-generated 2026-07-09. Bookmaker consensus (median across EU/UK books) to w
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
-| 1 | France | 3.1 | 31.8% |
+| 1 | France | 3.1 | 31.7% |
 | 2 | Argentina | 5.1 | 19.3% |
 | 3 | Spain | 5.2 | 18.9% |
-| 4 | England | 5.9 | 16.7% |
-| 5 | Norway | 17.5 | 5.6% |
-| 6 | Morocco | 36 | 2.7% |
+| 4 | England | 5.8 | 17.0% |
+| 5 | Norway | 18.5 | 5.3% |
+| 6 | Morocco | 34 | 2.9% |
 | 7 | Belgium | 38 | 2.6% |
 | 8 | Switzerland | 42 | 2.3% |
 
