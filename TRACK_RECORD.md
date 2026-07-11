@@ -38,8 +38,16 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-07-08 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-09 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-10 | 72 | 44 | 61% | 0.1591 |
+| 2026-07-11 | 72 | 44 | 61% | 0.1591 |
 
 ## Daily recalibration log
+
+### 2026-07-11
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: Spain 2-1 Belgium [?]
+- News ingested: 48 teams scanned, 104 out / 62 doubtful, 4 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Jarell Quansah (England); Mohanad Lashin (Egypt)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-10
 - Score so far: 72 matches, 61% correct, RPS 0.1591
