@@ -39,8 +39,16 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-07-09 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-10 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-11 | 72 | 44 | 61% | 0.1591 |
+| 2026-07-12 | 72 | 44 | 61% | 0.1591 |
 
 ## Daily recalibration log
+
+### 2026-07-12
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: Norway 1-2 England [?]; Argentina 3-1 Switzerland [?]
+- News ingested: 48 teams scanned, 103 out / 68 doubtful, 4 suspensions
+  - Suspensions: Jarell Quansah (England); Mohanad Lasheen (Egypt); Assim Madibo (Canada); Tarik Muharemovic (Bosnia and Herzegovina)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-11
 - Score so far: 72 matches, 61% correct, RPS 0.1591
