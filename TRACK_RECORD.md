@@ -47,8 +47,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-07-14
 - Score so far: 72 matches, 61% correct, RPS 0.1591
-- News ingested: 48 teams scanned, 116 out / 85 doubtful, 7 suspensions
-  - Suspensions: Assim Madibo (Qatar); Riechedly Bazoer (Curaçao); Themba Zwane (South Africa); Johan Mojica (Colombia); Mohanad Lashin (Egypt); Tarik Muharemović (Bosnia and Herzegovina); Emmanuel Agbadou (Ivory Coast)
+- News ingested: 48 teams scanned, 119 out / 100 doubtful, 8 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Riechedly Bazoer (Curaçao); Themba Zwane (South Africa); Mohanad Lashin (Egypt); Jonathan Osorio (Canada); Tarik Muharemović (Bosnia and Herzegovina); Emmanuel Agbadou (Ivory Coast)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-13
