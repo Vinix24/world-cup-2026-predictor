@@ -42,8 +42,16 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-07-12 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-13 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-14 | 72 | 44 | 61% | 0.1591 |
+| 2026-07-15 | 72 | 44 | 61% | 0.1591 |
 
 ## Daily recalibration log
+
+### 2026-07-15
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: France 0-2 Spain [?]
+- News ingested: 48 teams scanned, 131 out / 109 doubtful, 9 suspensions
+  - Suspensions: Assim Madibo (Qatar); Ahmed Fathy (Qatar); Jarell Quansah (England); Riechedly Bazoer (Curaçao); Themba Zwane (South Africa); Mohanad Lashin (Egypt); Jonathan Osorio (Canada); Emmanuel Agbadou (Ivory Coast)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-14
 - Score so far: 72 matches, 61% correct, RPS 0.1591
