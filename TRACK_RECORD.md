@@ -43,8 +43,16 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-07-13 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-14 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-15 | 72 | 44 | 61% | 0.1591 |
+| 2026-07-16 | 72 | 44 | 61% | 0.1591 |
 
 ## Daily recalibration log
+
+### 2026-07-16
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- Newly decided: England 1-2 Argentina [?]
+- News ingested: 48 teams scanned, 121 out / 130 doubtful, 12 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam El Amin (Qatar); Ahmed Fathy (Qatar); Jarell Quansah (England); None reported (Australia); Riechedly Bazoer (Curaçao); Themba Zwane (South Africa); Unnamed Uruguay player (Uruguay)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-15
 - Score so far: 72 matches, 61% correct, RPS 0.1591
