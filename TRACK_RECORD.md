@@ -50,8 +50,8 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 
 ### 2026-07-17
 - Score so far: 72 matches, 61% correct, RPS 0.1591
-- News ingested: 48 teams scanned, 122 out / 117 doubtful, 11 suspensions
-  - Suspensions: Ahmed Fathy (Qatar); Assim Madibo (Qatar); Jarell Quansah (England); No confirmed suspensions (Australia); Riechedly Bazoer (Curaçao); Themba Zwane (South Africa); Saeid Ezatolahi (Iran); Johan Mojica (Colombia)
+- News ingested: 48 teams scanned, 125 out / 120 doubtful, 11 suspensions
+  - Suspensions: Assim Madibo (Qatar); Ahmed Fathy (Qatar); Jarell Quansah (England); Riechedly Bazoer (Curaçao); Unnamed Uruguay player (Uruguay); Sidny Lopes (Cape Verde); Johan Mojica (Colombia); Mohanad Lashin (Egypt)
 - Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-16
