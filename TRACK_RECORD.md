@@ -45,8 +45,15 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-07-15 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-16 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-17 | 72 | 44 | 61% | 0.1591 |
+| 2026-07-18 | 72 | 44 | 61% | 0.1591 |
 
 ## Daily recalibration log
+
+### 2026-07-18
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- News ingested: 48 teams scanned, 129 out / 104 doubtful, 10 suspensions
+  - Suspensions: Assim Madibo (Qatar); Homam Al-Amin (Qatar); Ahmed Fathi (Qatar); Jarell Quansah (England); Themba Zwane (South Africa); Sidny Lopes (Cape Verde); Mohanad Lasheen (Egypt); Tarik Muharemović (Bosnia and Herzegovina)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-17
 - Score so far: 72 matches, 61% correct, RPS 0.1591
