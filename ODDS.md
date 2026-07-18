@@ -4,7 +4,7 @@ _Auto-generated 2026-07-18. Bookmaker consensus (median across EU/UK books) to w
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
-| 1 | Spain | 1.68 | 59.2% |
-| 2 | Argentina | 2.44 | 40.8% |
+| 1 | Spain | 1.69 | 59.1% |
+| 2 | Argentina | 2.44 | 40.9% |
 
 _Source: The Odds API (the-odds-api.com), `soccer_fifa_world_cup_winner` market, regions eu,uk. Odds are the median bookmaker consensus; implied % is normalised to remove the overround._
