@@ -1,6 +1,6 @@
 # WK 2026 — market odds
 
-_Auto-generated 2026-07-20. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
+_Auto-generated 2026-07-21. Bookmaker consensus (median across EU/UK books) to win the tournament. Decimal odds and the implied champion probability, normalised to strip the bookmaker margin._
 
 | # | Team | Decimal odds | Implied champion % |
 |---|---|---|---|
