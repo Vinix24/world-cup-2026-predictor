@@ -1,6 +1,6 @@
 # WK 2026 — Predictions
 
-_Generated 2026-07-21 15:22 by [wkpool](https://github.com/Vinix24/world-cup-2026-predictor). Probabilities are isotonic-calibrated. The model runs on the maintainer's own weights; the repo defaults give a different baseline._
+_Generated 2026-07-22 09:23 by [wkpool](https://github.com/Vinix24/world-cup-2026-predictor). Probabilities are isotonic-calibrated. The model runs on the maintainer's own weights; the repo defaults give a different baseline._
 
 Model holdout (since 2024-06-01): **59.4% accuracy**, RPS 0.1754 on 2333 matches.
 
@@ -10,18 +10,18 @@ Tournament so far: **61%** of 72 scored matches correct, RPS 0.1591.
 
 | Team | Group | P(R16) | P(QF) | P(SF) | P(final) | P(champion) |
 |---|---|---|---|---|---|---|
-| Spain | H | 90.6% | 74.6% | 63.8% | 50.3% | **34.0%** |
-| Argentina | J | 95.0% | 83.0% | 60.0% | 39.7% | **22.3%** |
-| England | L | 88.3% | 57.0% | 39.9% | 21.2% | **10.8%** |
-| France | I | 83.9% | 59.3% | 39.2% | 16.6% | **7.8%** |
-| Colombia | K | 90.7% | 60.2% | 24.4% | 11.9% | **4.9%** |
-| Mexico | A | 65.2% | 29.3% | 17.4% | 7.7% | **3.1%** |
-| Brazil | C | 63.3% | 39.0% | 16.9% | 6.8% | **2.7%** |
-| Belgium | G | 71.2% | 48.4% | 13.1% | 6.3% | **2.2%** |
-| Netherlands | F | 52.2% | 35.2% | 17.0% | 5.7% | **2.0%** |
-| Portugal | K | 64.5% | 16.2% | 10.1% | 5.2% | **1.9%** |
-| Morocco | C | 47.8% | 31.2% | 14.6% | 4.4% | **1.5%** |
-| Norway | I | 71.7% | 35.5% | 13.1% | 4.5% | **1.4%** |
+| Spain | H | 90.7% | 74.0% | 63.6% | 50.2% | **34.3%** |
+| Argentina | J | 95.9% | 83.5% | 62.2% | 40.9% | **23.2%** |
+| England | L | 87.7% | 57.1% | 39.9% | 21.4% | **10.9%** |
+| France | I | 85.7% | 61.3% | 40.8% | 17.3% | **8.3%** |
+| Colombia | K | 89.4% | 57.4% | 21.6% | 10.2% | **3.8%** |
+| Mexico | A | 64.1% | 29.1% | 17.2% | 7.4% | **3.0%** |
+| Brazil | C | 62.9% | 38.7% | 16.8% | 6.8% | **2.6%** |
+| Portugal | K | 65.1% | 17.2% | 10.6% | 5.6% | **2.1%** |
+| Belgium | G | 70.7% | 48.0% | 13.3% | 6.3% | **2.1%** |
+| Netherlands | F | 51.7% | 35.5% | 16.9% | 5.5% | **1.9%** |
+| Norway | I | 71.5% | 35.1% | 13.1% | 4.5% | **1.4%** |
+| Morocco | C | 48.3% | 31.9% | 14.4% | 4.3% | **1.4%** |
 
 ## Upcoming group matches
 

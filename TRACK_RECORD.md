@@ -49,8 +49,15 @@ curve cannot be cherry-picked afterwards. Hits and misses both.
 | 2026-07-19 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-20 | 72 | 44 | 61% | 0.1591 |
 | 2026-07-21 | 72 | 44 | 61% | 0.1591 |
+| 2026-07-22 | 72 | 44 | 61% | 0.1591 |
 
 ## Daily recalibration log
+
+### 2026-07-22
+- Score so far: 72 matches, 61% correct, RPS 0.1591
+- News ingested: 48 teams scanned, 124 out / 108 doubtful, 8 suspensions
+  - Suspensions: Assim Madibo (Qatar); Ahmed Fathy (Qatar); Jarell Quansah (England); Sidny Lopes (Cape Verde); Saeid Ezatolahi (Iran); Johan Mojica (Colombia); Mohanad Lashin (Egypt); Tarik Muharemović (Bosnia and Herzegovina)
+- Active weights: injuries ×1.0 (12/out, 6/doubtful), climate ×0.0, form half-life 365d, K_wc=60, sims=20000
 
 ### 2026-07-21
 - Score so far: 72 matches, 61% correct, RPS 0.1591
